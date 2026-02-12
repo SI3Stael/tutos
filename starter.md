@@ -31,7 +31,7 @@ Bienvenue ! Ce guide vous accompagne dans vos **premiers pas** avec le projet de
   - [Étape 5 : Planifier votre projet](#étape-5--planifier-votre-projet)
     - [Réfléchissez à vos scènes](#réfléchissez-à-vos-scènes)
     - [Définissez le rôle du compagnon](#définissez-le-rôle-du-compagnon)
-    - [📝 Exercice de planification](#-exercice-de-planification)
+    - [Exercice de planification](#-exercice-de-planification)
   - [Étape 6 : Modifier les scènes existantes](#étape-6--modifier-les-scènes-existantes)
     - [Pourquoi commencer par modifier ?](#pourquoi-commencer-par-modifier-)
     - [Première modification : Changer le titre](#première-modification--changer-le-titre)
