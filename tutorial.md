@@ -1,11 +1,12 @@
 <p>
-<a href="https://oc-informatique.github.io/SI/starter">Démarrage</a> |
-<a href="https://oc-informatique.github.io/SI/tutorial">Tutoriel complet</a> |
-<a href="https://oc-informatique.github.io/SI/tutojava">Web Front-End</a> |
-<a href="https://oc-informatique.github.io/SI/api">L’API ChatGPT</a>
+<a href="https://si3stael.github.io/tutos/starter">Démarrage</a> |
+<a href="https://si3stael.github.io/tutos/tutorial">Tutoriel complet</a> |
+<a href="https://si3stael.github.io/tutos/tutojava">Web Front-End</a> |
+<a href="https://si3stael.github.io/tutos/api">L’API ChatGPT</a>
 </p>
 
 <hr>
+
 
 # Tutoriel complet : Personnaliser votre galerie interactive avec IA
 
