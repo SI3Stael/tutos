@@ -420,12 +420,12 @@ Maintenant que vous avez pris en main le projet, vous pouvez :
 ## Ressources
 
 **Documents essentiels :**
-- 📘 [Tutoriel complet](https://oc-informatique.github.io/SI/tutorial) — Guide détaillé de tous les fichiers
+- 📘 [Tutoriel complet](https://si3stael.github.io/tutos/tutorial) — Guide détaillé de tous les fichiers
 - 📗 [Tutoriel Web Front-End](tutojava) — Bases de HTML, CSS, JavaScript
 
 **En cas de problème :**
-- 🔧 [Section Débogage](https://oc-informatique.github.io/SI/tutorial#débogage-courant) — Solutions aux problèmes courants
-- ❓ [FAQ](https://oc-informatique.github.io/SI/tutorial#questions-fréquentes) — Questions fréquentes
+- 🔧 [Section Débogage](https://si3stael.github.io/tutos/tutorial#débogage-courant) — Solutions aux problèmes courants
+- ❓ [FAQ](https://si3stael.github.io/tutos/tutorial#questions-fréquentes) — Questions fréquentes
 
 ---
 
@@ -433,12 +433,12 @@ Maintenant que vous avez pris en main le projet, vous pouvez :
 
 **Problème technique :**
 1. Vérifiez la console (F12)
-2. Consultez la [section Débogage](https://oc-informatique.github.io/SI/tutorial#débogage-courant)
+2. Consultez la [section Débogage](https://si3stael.github.io/tutos/tutorial#débogage-courant)
 3. Demandez à votre enseignant avec un exemple précis
 
 **Question sur le projet :**
 1. Relisez ce guide
-2. Consultez le [tutoriel complet](https://oc-informatique.github.io/SI/tutorial)
+2. Consultez le [tutoriel complet](https://si3stael.github.io/tutos/tutorial)
 3. Discutez avec votre groupe
 
 ---
