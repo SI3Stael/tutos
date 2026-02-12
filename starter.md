@@ -7,6 +7,7 @@
 
 <hr>
 
+
 # Guide de démarrage rapide : Galerie interactive avec IA
 
 Bienvenue ! Ce guide vous accompagne dans vos **premiers pas** avec le projet de galerie interactive. Pour des explications détaillées, consultez le [tutoriel complet](tutorial).
