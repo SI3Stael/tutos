@@ -1,9 +1,4 @@
 
----
-layout: default
-title: Ma Page Vidéo
----
-
 # Bienvenue sur ma page
 
 Découvrez cette vidéo intéressante ci-dessous :
