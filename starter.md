@@ -95,7 +95,7 @@ galerie-interactive/
 const password = "g07XXXXXX";  // Si votre groupe est le 7
 ```
 
-> 🔒 **Sécurité** : Ne partagez jamais votre mot de passe en dehors de votre groupe !
+>  **Sécurité** : Ne partagez jamais votre mot de passe en dehors de votre groupe !
 
 ---
 
@@ -234,7 +234,7 @@ systemPrompt: `
 3. **Comment guide-t-il** l'utilisateur ?
    - Méthode socratique ? Storytelling ? Analyse technique ?
 
-### 📝 Exercice de planification
+###  Exercice de planification
 
 **Créez un document** (Word, Google Docs, etc.) avec ce tableau :
 
@@ -244,7 +244,7 @@ systemPrompt: `
 | 2 | ... | ... | ... | ... |
 | 3 | ... | ... | ... | ... |
 
-> 💡 **Conseil** : Gardez ce document à côté de vous pendant que vous codez !
+>  **Conseil** : Gardez ce document à côté de vous pendant que vous codez !
 
 ---
 
@@ -293,7 +293,7 @@ systemPrompt: `
 ```javascript
 systemPrompt: `
   Tu es un guide très enthousiaste et plein d'énergie, spécialiste de l'histoire de l'art.
-  Tu utilises beaucoup d'émojis et d'exclamations pour rendre l'art passionnant ! 🎨
+  Tu utilises beaucoup d'émojis et d'exclamations pour rendre l'art passionnant ! 
   // ...
 `
 ```
@@ -420,8 +420,8 @@ Maintenant que vous avez pris en main le projet, vous pouvez :
 ## Ressources
 
 **Documents essentiels :**
-- 📘 [Tutoriel complet](https://si3stael.github.io/tutos/tutorial) — Guide détaillé de tous les fichiers
-- 📗 [Tutoriel Web Front-End](tutojava) — Bases de HTML, CSS, JavaScript
+-  [Tutoriel complet](https://si3stael.github.io/tutos/tutorial) — Guide détaillé de tous les fichiers
+-  [Tutoriel Web Front-End](tutojava) — Bases de HTML, CSS, JavaScript
 
 **En cas de problème :**
 - 🔧 [Section Débogage](https://si3stael.github.io/tutos/tutorial#débogage-courant) — Solutions aux problèmes courants
@@ -443,6 +443,6 @@ Maintenant que vous avez pris en main le projet, vous pouvez :
 
 ---
 
-**Bon courage et amusez-vous bien ! 🎨**
+**Bon courage et amusez-vous bien ! **
 
 N'oubliez pas : ce projet est autant une exploration artistique que technique. Prenez le temps d'expérimenter et de créer quelque chose qui vous plaît !
