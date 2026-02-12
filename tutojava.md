@@ -26,7 +26,7 @@ Bienvenue dans ce guide qui vous explique les bases du développement web front-
       - [1. JavaScript dans la balise `<script>` (dans le HTML)](#1-javascript-dans-la-balise-script-dans-le-html)
       - [2. JavaScript dans un fichier externe (recommandé)](#2-javascript-dans-un-fichier-externe-recommandé)
     - [Ordre de chargement important](#ordre-de-chargement-important)
-    - [📌 Dans votre projet](#-dans-votre-projet)
+    - [ Dans votre projet](#-dans-votre-projet)
   - [Partie 4 : JavaScript — Les bases du langage](#partie-4--javascript--les-bases-du-langage)
     - [Les variables](#les-variables)
       - [Déclaration de variables](#déclaration-de-variables)
@@ -40,7 +40,7 @@ Bienvenue dans ce guide qui vous explique les bases du développement web front-
       - [Déclaration de fonction classique](#déclaration-de-fonction-classique)
       - [Fonction avec paramètres](#fonction-avec-paramètres)
       - [Fonction avec valeur de retour](#fonction-avec-valeur-de-retour)
-    - [📌 Dans votre projet](#-dans-votre-projet-1)
+    - [ Dans votre projet](#-dans-votre-projet-1)
       - [Exemple concret du projet](#exemple-concret-du-projet)
   - [Partie 5 : Déboguer avec la console — Les bases](#partie-5--déboguer-avec-la-console--les-bases)
     - [Ouvrir les outils de développement](#ouvrir-les-outils-de-développement)
@@ -257,7 +257,7 @@ Ce petit code affichera une alerte "Bonjour !" lorsque l'utilisateur cliquera su
 </body>
 ```
 
-### 📌 Dans votre projet
+### Dans votre projet
 
 Vous allez principalement travailler dans les fichiers JavaScript :
 
@@ -481,7 +481,7 @@ if (estMajeur(20)) {
 }
 ```
 
-### 📌 Dans votre projet
+### Dans votre projet
 
 Vous utiliserez souvent :
 - **Variables** : `promptVars.userName`, `scenes`, `chatHistory`
