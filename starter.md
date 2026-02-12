@@ -198,7 +198,7 @@ systemPrompt: `
    - Les **questions** qu'il pose
    - Comment il vous amène vers l'**objectif pédagogique**
 
-> 📖 **Pour aller plus loin** : Consultez la section [Structure d'un bon systemPrompt](https://oc-informatique.github.io/SI/tutorial#structure-dun-bon-systemprompt) du tutoriel complet.
+> 📖 **Pour aller plus loin** : Consultez la section [Structure d'un bon systemPrompt](https://si3stael.github.io/tutos/tutorial#structure-dun-bon-systemprompt) du tutoriel complet.
 
 ---
 
@@ -310,7 +310,7 @@ systemPrompt: `
 - [ ] La conversation fonctionne toujours
 - [ ] Pas d'erreur dans la console (F12)
 
-> 📖 **Pour aller plus loin** : Consultez la section [Champs à personnaliser](https://oc-informatique.github.io/SI/tutorial#champs-à-personnaliser) du tutoriel complet.
+> 📖 **Pour aller plus loin** : Consultez la section [Champs à personnaliser](https://si3stael.github.io/tutos/tutorial#champs-à-personnaliser) du tutoriel complet.
 
 ---
 
@@ -403,10 +403,10 @@ Uncaught ReferenceError: promptVars is not defined
 
 Maintenant que vous avez pris en main le projet, vous pouvez :
 
-1. ✅ **Créer vos propres scènes** → [Ajouter une nouvelle scène](https://oc-informatique.github.io/SI/tutorial#ajouter-une-nouvelle-scène)
-2. ✅ **Personnaliser les commandes** → [Fichier manip.js](https://oc-informatique.github.io/SI/tutorial#fichier-2--manipjs--gérer-les-commandes-prédéterminées)
-3. ✅ **Gérer les variables** → [Fichier promptVars.js](https://oc-informatique.github.io/SI/tutorial#fichier-4--promptvarsjs--gérer-les-variables-globales-pour-les-prompts)
-4. ✅ **Affiner les transitions** → [Système de transitions](https://oc-informatique.github.io/SI/tutorial#système-de-transitions-entre-scènes)
+1. ✅ **Créer vos propres scènes** → [Ajouter une nouvelle scène](https://si3stael.github.io/tutos/tutorial#ajouter-une-nouvelle-scène)
+2. ✅ **Personnaliser les commandes** → [Fichier manip.js](https://si3stael.github.io/tutos/tutorial#fichier-2--manipjs--gérer-les-commandes-prédéterminées)
+3. ✅ **Gérer les variables** → [Fichier promptVars.js](https://si3stael.github.io/tutos/tutorial#fichier-4--promptvarsjs--gérer-les-variables-globales-pour-les-prompts)
+4. ✅ **Affiner les transitions** → [Système de transitions](https://si3stael.github.io/tutos/tutorial#système-de-transitions-entre-scènes)
 
 **Workflow recommandé :**
 1. Planifiez d'abord (Étape 5)
