@@ -64,8 +64,6 @@ Il est également pratique pour partager votre travail avec votre professeur, af
 
 ### 1. Accéder au menu citation
 
-
-
 Pour commencer à citer vos sources dans Google Docs, vous devez d'abord accéder au menu de citations :
 
 1. Ouvrez votre document Google Docs
@@ -75,7 +73,9 @@ Pour commencer à citer vos sources dans Google Docs, vous devez d'abord accéde
 
 Une fois le panneau ouvert, assurez-vous de sélectionner **"APA"** dans le menu déroulant en haut du panneau pour que toutes vos citations suivent automatiquement les normes APA.
 
-![Capture d'écran du menu Outils dans Google Docs](images/menu-outils.png)
+<div style="text-align: center;">
+  <img src="images/menu-outils.png" style="width: 60%; max-width: 700px;">
+</div>
 
 ---
 
@@ -84,28 +84,36 @@ Une fois le panneau ouvert, assurez-vous de sélectionner **"APA"** dans le menu
 Pour ajouter un livre à votre bibliothèque de citations :
 
 1. Dans le panneau de citations à droite, cliquez sur le bouton **Ajouter une source de citation**
-![Capture d'écran du bouton Ajouter une source](images/ajouter-source.png)
-3. Dans la fenêtre qui s'ouvre, sélectionnez **"Livre"** dans le menu déroulant "Type de source". Puis sélectionnez base de **Base de données en ligne** puis **"Citer manuellement"** pour remplir les champs vous-même.
-4. Remplissez les champs suivants :
+
+<div style="text-align: center;">
+  <img src="images/ajouter-source.png" style="width: 20%; max-width: 700px;">
+</div>
+
+1. Dans la fenêtre qui s'ouvre, sélectionnez **Livre** dans le menu déroulant "Type de source". Puis sélectionnez **Base de données en ligne** dans le menu déroulant "Type d'accès" puis **Citer manuellement** pour remplir les champs vous-même.
+2. Remplissez les champs suivants :
    - **Auteur(s)** : Nom, Prénom de l'auteur (exemple : Dupont, Jean)
    - **Titre** : Le titre complet du livre en italique
    - **Éditeur** : La maison d'édition
    - **Date de publication** : L'année de publication
+   - **Traducteur** : Si le livre a été traduit, indiquez le nom du traducteur
 
 **Astuce pratique** : Si vous avez l'ISBN du livre (trouvé au dos du livre ou sur des sites comme Amazon.fr), vous pouvez le saisir dans le champ où l'on arrive après avoir sélectionné **Base de donnée en ligne**. Google Docs remplira alors automatiquement la plupart des champs.
 
-![Capture d'écran du bouton Ajouter une source](images/ISBN.png)
+<div style="text-align: center;">
+  <img src="images/ISBN.png" style="width: 30%; max-width: 700px;">
+</div>
 
- **Attention** : vérifiez toujours que les informations sont correctes et complètes (vous pouvez les modifier en cliquant sur **citer manuellement**), car le remplissage automatique peut parfois contenir des erreurs ou des informations superflues (notamment dans le champ "Auteur" où le nom du site web peut apparaître).
+ **Attention** : vérifiez toujours que les informations sont correctes et complètes (vous pouvez les modifier en cliquant sur **Citer manuellement**), car le remplissage automatique peut parfois contenir des erreurs ou des informations superflues (notamment dans le champ "Auteur" où le nom du site web peut apparaître).
 
-1. Une fois tous les champs remplis, cliquez sur **Ajouter la source de citation**
+4. Une fois tous les champs remplis, cliquez sur **Ajouter la source de citation**
+
+<div style="text-align: center;">
+  <img src="images/rempli.png" style="width: 30%; max-width: 700px;">
+</div>
 
 Le livre est maintenant enregistré dans votre bibliothèque de citations et prêt à être inséré dans votre document.
 
-![Capture d'écran du formulaire de citation pour un livre rempli](images/rempli.png)
-
-**Exemple de résultat** : Dans le texte, la citation apparaîtra comme suit : (Gould, 1998, #)
-. Dans la bibliographie : Gould, S. J. (1998). La vie est belle: les surprises de l'évolution (M. Blanc, Trans.). Ed. du Seuil.
+**Exemple de résultat** : Dans le texte, la citation apparaîtra comme suit : (Gould, 1998, #). Dans la bibliographie : Gould, S. J. (1998). La vie est belle: les surprises de l'évolution (M. Blanc, Trans.). Ed. du Seuil.
 
 ---
 
@@ -122,7 +130,7 @@ Pour citer un site web dans votre document :
    - **Titre** : Le titre de la page web ou de l'article
    - **Auteur(s)** : Le nom de l'auteur si disponible (sinon, laissez vide ou indiquez le nom de l'organisation)
    - **Date de publication** : La date de publication ou de dernière mise à jour (si disponible)
-   - **Date de consultation** : La date à laquelle vous avez consulté le site (important pour les sources en ligne qui peuvent changer)
+   - **Date de consultation** : La date à laquelle vous avez consulté le site (important pour les sources en ligne qui peuvent changer).
 
 **Astuce pratique** : Lorsque vous saisissez l'URL, Google Docs peut automatiquement récupérer le titre et la date de publication. Cependant, il est **crucial** de vérifier ces informations, car elles sont souvent incomplètes ou incorrectes. En particulier :
 
