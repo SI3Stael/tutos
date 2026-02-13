@@ -48,7 +48,7 @@ Dernier point, mais pas le moindre, Google Docs permet une collaboration en temp
 8. Pour insérer une citation dans votre document, placez le curseur à l'endroit où vous souhaitez insérer la citation. Sélectionnez la source que vous souhaitez citer dans la liste de votre bibliothèque de citations, puis cliquez sur "Insérer la citation" dans le panneau de citations.
 9. Google Docs insérera automatiquement la citation dans le format APA approprié dans votre document.
 10. Pour générer une bibliographie à la fin de votre document, placez le curseur à l'endroit où vous souhaitez insérer la bibliographie, puis cliquez sur "Insérer la bibliographie" dans le panneau de citations. Google Docs générera automatiquement une bibliographie formatée selon les normes APA avec toutes les sources que vous avez citées dans votre document.
-11. Pour les images, nous vous recommandons de ne pas utiliser les normes APA, mais plutôt de les citer dans une légende sous l'image (par exemple, "source : [nom du site web ou de la source]"), ou alors si c'est une œuvre d'art, vous pouvez citer l'artiste et la date de production.
+11. Pour les images, nous vous recommandons de ne pas utiliser les normes APA, mais plutôt de les citer dans une légende sous l'image (par exemple, "source : [nom du site web ou de la source]"), ou alors si c'est une œuvre d'art, vous pouvez citer l'artiste et la date de production, vous pouvez vérifier avec votre maître accompagnant si cette méthode lui convient.
 
 ---
 
