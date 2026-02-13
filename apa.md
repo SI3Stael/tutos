@@ -16,7 +16,7 @@ Regardez cette vidéo pour comprendre les normes APA (Source : Sem/DIP):
 
 Pour résumer, les normes APA sont un ensemble de règles pour citer des sources dans les travaux académiques. Elles sont utilisées pour donner crédit aux auteurs des sources que vous utilisez dans votre travail et pour permettre à vos lecteurs de trouver ces sources s'ils souhaitent en savoir plus.
 
-Les normes APA couvrent la manière de formater les citations dans le texte, ainsi que la manière de créer une bibliographie à la fin de votre document. Dans les normes APA, les citations dans le texte incluent généralement le nom de l'auteur et l'année de publication de la source, tandis que la bibliographie à la fin du document fournit des informations plus détaillées sur chaque source citée, telles que le titre de l'œuvre, le nom de l'éditeur, et d'autres détails pertinents. 
+Les normes APA couvrent la manière de formater les citations dans le texte, ainsi que la manière de créer une bibliographie à la fin de votre document. Dans les normes APA, les citations dans le texte incluent généralement le nom de l'auteur et l'année de publication de la source, tandis que la bibliographie à la fin du document fournit des informations plus détaillées sur chaque source citée, telles que le titre de l'œuvre, le nom de l'éditeur, et d'autres détails pertinents.
 
 Il faut dont éviter d'utiliser les notes de bas de page pour citer vos sources, car les normes APA privilégient les citations dans le texte et une bibliographie à la fin du document.
 
@@ -24,13 +24,13 @@ Il faut dont éviter d'utiliser les notes de bas de page pour citer vos sources,
 
 ## Pourquoi Google docs ?
 
-Google Docs incorpore un outil de citation qui facilite la création de bibliographies et de citations dans différents styles, y compris les normes APA. C'est donc le logiciel qui se chargera de garantir que vos citations et votre bibliographie suivent la norme. En utilisant Google Docs, vous pouvez facilement insérer des citations dans votre travail et générer automatiquement une bibliographie à la fin de votre document.
+Google Docs incorpore un outil de citation qui facilite la création de bibliographies et de citations dans différents styles, y compris les normes APA. C'est donc le logiciel qui se chargera de garantir que vos citations et votre bibliographie suivent la norme. En utilisant Google docs, vous pouvez facilement insérer des citations dans votre travail et générer automatiquement une bibliographie à la fin de votre document.
 
 De plus Google docs est gratuit et accessible à tous, ce qui en fait un choix populaire pour les étudiants et les professionnels qui ont besoin de créer des documents avec des citations, sans avoir à investir dans des logiciels coûteux.
 
 Dernier point, mais pas le moindre, Google Docs permet une collaboration en temps réel, ce qui est particulièrement utile pour les projets de groupe où plusieurs personnes doivent contribuer à un document et ajouter des citations. Ou alors pour partager votre travail avec votre professeur pour qu'il puisse suivre votre progression et vous donner des conseils en temps réel.
 
---- 
+---
 
 ## Résumé : comment citer en suivant les normes APA dans Google docs ?
 
@@ -52,14 +52,14 @@ Dernier point, mais pas le moindre, Google Docs permet une collaboration en temp
 
 **Table des matières :**
 
-1. [Accéder au menu citation](#1-accéder-au-menu-citation)
-2. [Citer un livre](#2-citer-un-livre)
-3. [Citer un site web](#3-citer-un-site-web)
-4. [Citer un article de journal](#4-citer-un-article-de-journal-académique-ou-presse)
-5. [Insérer une citation dans votre texte](#5-insérer-une-citation-dans-votre-texte)
-6. [Insérer la bibliographie finale](#6-insérer-la-bibliographie-finale)
-7. [Conseils supplémentaires et erreurs courantes](#7-conseils-supplémentaires-et-erreurs-courantes-à-éviter)
-8. [Cas particulier : citer les images](#8-cas-particulier--citer-les-images-et-illustrations)
+    - [1. Accéder au menu citation](#1-accéder-au-menu-citation)
+    - [2. Citer un livre](#2-citer-un-livre)
+    - [3. Citer un site web](#3-citer-un-site-web)
+    - [4. Citer un article de journal (académique ou presse)](#4-citer-un-article-de-journal-académique-ou-presse)
+    - [5. Insérer une citation dans votre texte](#5-insérer-une-citation-dans-votre-texte)
+    - [6. Insérer la bibliographie finale](#6-insérer-la-bibliographie-finale)
+    - [7. Conseils supplémentaires et erreurs courantes à éviter](#7-conseils-supplémentaires-et-erreurs-courantes-à-éviter)
+    - [8. Cas particulier : citer les images et illustrations](#8-cas-particulier--citer-les-images-et-illustrations)
 
 ---
 
@@ -123,9 +123,10 @@ Pour citer un site web dans votre document :
    - **Date de consultation** : La date à laquelle vous avez consulté le site (important pour les sources en ligne qui peuvent changer)
 
 **Astuce pratique** : Lorsque vous saisissez l'URL, Google Docs peut automatiquement récupérer le titre et la date de publication. Cependant, il est **crucial** de vérifier ces informations, car elles sont souvent incomplètes ou incorrectes. En particulier :
+
 - Supprimez le nom du site web dans le champ "Auteur" si ce n'est pas pertinent
 - Vérifiez que le titre correspond bien au contenu de la page
-- Ajoutez la date de consultation si elle n'est pas automatiquement remplie
+- Ajoutez la date de consultation si elle n'est pas automatiquement remplie.
 
 4. Cliquez sur **"Ajouter la source de citation"**
 
@@ -234,12 +235,14 @@ La dernière étape consiste à générer automatiquement votre bibliographie à
 ### 7. Conseils supplémentaires et erreurs courantes à éviter
 
 **✓ À faire :**
+
 - Vérifiez toujours les informations auto-remplies par Google Docs (surtout pour les ISBN et URL)
 - Citez au fur et à mesure de votre rédaction plutôt qu'à la fin
 - Gardez vos sources organisées dans le panneau de citations
 - Relisez votre bibliographie finale pour détecter d'éventuelles erreurs de formatage
 
 **✗ À éviter :**
+
 - N'utilisez pas les notes de bas de page pour vos citations (les normes APA ne les utilisent pas)
 - Ne copiez pas manuellement les citations (utilisez toujours l'outil Google Docs pour garantir le bon format)
 - N'oubliez pas de citer **toutes** les sources que vous utilisez, même pour les images (voir point suivant)
@@ -282,6 +285,7 @@ Pour les images, illustrations, graphiques ou photographies, les normes APA trad
 ## Récapitulatif final
 
 En suivant ces instructions détaillées, vous devriez être en mesure de :
+
 - ✓ Accéder et configurer le menu de citations en format APA
 - ✓ Ajouter différents types de sources (livres, sites web, articles)
 - ✓ Insérer des citations dans votre texte au bon format
@@ -289,10 +293,11 @@ En suivant ces instructions détaillées, vous devriez être en mesure de :
 - ✓ Citer les images de manière appropriée
 
 N'oubliez pas que Google Docs fait la majorité du travail de formatage pour vous, mais il est de votre responsabilité de :
+
 1. Vérifier que les informations des sources sont correctes et complètes
 2. Citer **toutes** les sources que vous utilisez
 3. Relire votre bibliographie finale
 
 Pour toute question sur les normes APA ou sur l'utilisation de Google Docs, n'hésitez pas à consulter votre professeur ou les ressources en ligne officielles de l'APA.
 
-Bon courage pour votre TPC/TM ! 
+Bon courage pour votre TPC/TM !
