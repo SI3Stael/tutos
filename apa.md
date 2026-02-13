@@ -51,16 +51,14 @@ Il est également pratique pour partager votre travail avec votre professeur, af
 
 ## Instructions détaillées pour citer en suivant les normes APA dans Google Docs
 
-**Table des matières :**
-
-    - [1. Accéder au menu citation](#1-accéder-au-menu-citation)
-    - [2. Citer un livre](#2-citer-un-livre)
-    - [3. Citer un site web](#3-citer-un-site-web)
-    - [4. Citer un article de journal (académique ou presse)](#4-citer-un-article-de-journal-académique-ou-presse)
-    - [5. Insérer une citation dans votre texte](#5-insérer-une-citation-dans-votre-texte)
-    - [6. Insérer la bibliographie finale](#6-insérer-la-bibliographie-finale)
-    - [7. Conseils supplémentaires et erreurs courantes à éviter](#7-conseils-supplémentaires-et-erreurs-courantes-à-éviter)
-    - [8. Cas particulier : citer les images et illustrations](#8-cas-particulier--citer-les-images-et-illustrations)
+- [1. Accéder au menu citation](#1-accéder-au-menu-citation)
+- [2. Citer un livre](#2-citer-un-livre)
+- [3. Citer un site web](#3-citer-un-site-web)
+- [4. Citer un article de journal (académique ou presse)](#4-citer-un-article-de-journal-académique-ou-presse)
+- [5. Insérer une citation dans votre texte](#5-insérer-une-citation-dans-votre-texte)
+- [6. Insérer la bibliographie finale](#6-insérer-la-bibliographie-finale)
+- [7. Conseils supplémentaires et erreurs courantes à éviter](#7-conseils-supplémentaires-et-erreurs-courantes-à-éviter)
+- [8. Cas particulier : citer les images et illustrations](#8-cas-particulier--citer-les-images-et-illustrations)
 
 ---
 
