@@ -1,7 +1,7 @@
 <p>
 <a href="https://si3stael.github.io/tutos/starter">Démarrage</a> |
 <a href="https://si3stael.github.io/tutos/tutorial">Tutoriel complet</a> |
-<a href="https://si3stael.github.io/tutos/tutojava">Web Front-End</a> |
+<a href="https://si3stael.github.io/tutos/tutojs">Web Front-End</a> |
 <a href="https://si3stael.github.io/tutos/api">L’API ChatGPT</a>
 </p>
 
@@ -44,9 +44,9 @@ Une API (Application Programming Interface) est une interface qui permet à des 
 
 **Une API définit :**
 
-- ce que tu peux demander (ex : “la météo étant donné une position gps”)
+- ce que l'on peut demander (ex : la météo étant donné une position gps)
 - comment le demander (format, URL, paramètres)
-- ce que tu reçois en retour (souvent du JSON)
+- ce que l'on reçoit en retour (souvent du JSON)
 - les règles d’utilisation (limites, coûts, etc.)
 
 **Exemples d’API :**
@@ -70,7 +70,7 @@ Cela signifie :
 - aucun état conservé entre deux requêtes
 - chaque appel est évalué indépendamment
 
-👉 Toute information non envoyée dans la requête **n’existe pas** pour le modèle.
+ Toute information non envoyée dans la requête **n’existe pas** pour le modèle.
 
 ---
 
@@ -117,7 +117,7 @@ Chaque entrée du tableau contient :
 - content : contenu textuel
 
 ⚠️ L’ordre des entrées est critique.
-💡 Si ce n’est pas dans `input`, ça n’existe pas.
+Si ce n’est pas dans `input`, ça n’existe pas.
 ChatGPT n’a pas de mémoire.
 C’est ton JSON qui se souvient.
 
@@ -151,9 +151,9 @@ Réponses précédentes du modèle, à renvoyer pour maintenir le contexte.
 
 ### Le contexte : règle absolue
 
-- ❌ Le modèle ne se souvient de rien.
-- ❌ Il n’existe aucune mémoire implicite.
-- ✅ Le contexte = l’intégralité du tableau `input` envoyé.
+-  Le modèle ne se souvient de rien.
+-  Il n’existe aucune mémoire implicite.
+- Le contexte = l’intégralité du tableau `input` envoyé.
 
 ---
 
@@ -262,8 +262,7 @@ Un fichier JSON est un document texte structuré. C'est un format d'échange de 
 
 ## 8. Implémentation en javascript
 
-⚠️ Sécurité
-Ne pas publier l'ensemble de votre code sur internet. La clé de connexion avec l'API n'est pas sécurisée de manière satisfaisante. Si vous la publiez, des tiers pourraient l'utiliser à votre place et nous facturer des coûts importants.
+⚠️ Ne publiez pas l'ensemble de votre code sur internet. La clé de connexion avec l'API n'est pas sécurisée de manière satisfaisante. Si vous la publiez, des tiers pourraient l'utiliser à votre place et nous facturer des coûts importants.
 
 Si vous êtes intéressé l'implémentation de la conversation avec chatgpt se trouve dans le fichier app.js (**nous vous conseillons de ne pas modifier ce fichier**).
 
@@ -292,24 +291,24 @@ Un token est une unité de texte utilisée par le modèle pour lire et produire 
 
 ## 10. Erreurs courantes
 
--  ❌ Oublier de renvoyer les entrées assistant
--  ❌ Changer l’ordre des entrées
--  ❌ Croire que ChatGPT “se souvient”
--  ❌ Envoyer seulement la dernière question
+-   Oublier de renvoyer les entrées assistant
+-   Changer l’ordre des entrées
+-   Croire que ChatGPT “se souvient”
+-   Envoyer seulement la dernière question
 
 ## 11. Résumé
 
 Le modèle ne raisonne qu’avec le contexte explicitement fourni.
 Toute information absente n’existe pas.
 
-- API ChatGPT = stateless
+- L'API ChatGPT est stateless
 
-- contexte = tableau `input`
+- Le contexte correspond au tableau `input`
 
-- historique = responsabilité du développeur
+- L'historique est de la responsabilité du développeur
 
 ChatGPT ne lit pas une conversation.
 Il lit un tableau d'entrées à chaque appel.
   
-👉 Pour chaque appel API, pose-toi toujours la question :
+ Pour chaque appel API, posez-vous toujours la question :
 « Ai-je envoyé tout ce que le modèle doit savoir pour répondre correctement ? »
