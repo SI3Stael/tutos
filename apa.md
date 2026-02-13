@@ -15,16 +15,18 @@ Regardez cette vidéo pour comprendre les normes APA (Source : Sem/DIP):
   </iframe>
 </div>
 
-<p style="text-align: justify;">
+
 Pour résumer, les normes APA sont un ensemble de règles pour citer des sources dans les travaux académiques. Elles sont utilisées pour donner crédit aux auteurs des sources que vous utilisez dans votre travail et pour permettre à vos lecteurs de trouver ces sources s'ils souhaitent en savoir plus.
 
 Les normes APA couvrent la manière de formater les citations dans le texte, ainsi que la manière de créer une bibliographie à la fin de votre document. Dans les normes APA, les citations dans le texte incluent généralement le nom de l'auteur et l'année de publication de la source, tandis que la bibliographie à la fin du document fournit des informations plus détaillées sur chaque source citée, telles que le titre de l'œuvre, le nom de l'éditeur, et d'autres détails pertinents. 
 
 Il faut dont éviter d'utiliser les notes de bas de page pour citer vos sources, car les normes APA privilégient les citations dans le texte et une bibliographie à la fin du document.
-<p>
+
+
 ---
 
 ## Pourquoi Google docs ?
+
 
 Google Docs incorpore un outil de citation qui facilite la création de bibliographies et de citations dans différents styles, y compris les normes APA. C'est donc le logiciel qui se chargera de garantir que vos citations et votre bibliographie suivent la norme. En utilisant Google Docs, vous pouvez facilement insérer des citations dans votre travail et générer automatiquement une bibliographie à la fin de votre document.
 
