@@ -20,11 +20,9 @@ Les normes APA couvrent la manière de formater les citations dans le texte, ain
 
 Il faut dont éviter d'utiliser les notes de bas de page pour citer vos sources, car les normes APA privilégient les citations dans le texte et une bibliographie à la fin du document.
 
-
 ---
 
 ## Pourquoi Google docs ?
-
 
 Google Docs incorpore un outil de citation qui facilite la création de bibliographies et de citations dans différents styles, y compris les normes APA. C'est donc le logiciel qui se chargera de garantir que vos citations et votre bibliographie suivent la norme. En utilisant Google Docs, vous pouvez facilement insérer des citations dans votre travail et générer automatiquement une bibliographie à la fin de votre document.
 
@@ -46,11 +44,24 @@ Dernier point, mais pas le moindre, Google Docs permet une collaboration en temp
 8. Pour insérer une citation dans votre document, placez le curseur à l'endroit où vous souhaitez insérer la citation. Sélectionnez la source que vous souhaitez citer dans la liste de votre bibliothèque de citations, puis cliquez sur "Insérer la citation" dans le panneau de citations.
 9. Google Docs insérera automatiquement la citation dans le format APA approprié dans votre document.
 10. Pour générer une bibliographie à la fin de votre document, placez le curseur à l'endroit où vous souhaitez insérer la bibliographie, puis cliquez sur "Insérer la bibliographie" dans le panneau de citations. Google Docs générera automatiquement une bibliographie formatée selon les normes APA avec toutes les sources que vous avez citées dans votre document.
-11. Pour les images, nous vous recommandons de ne pas utiliser les normes APA, mais plutôt de les citer dans une légende sous l'image (par exemple, "source : [nom du site web ou de la source]"), ou alors si c'est une œuvre d'art, vous pouvez citer l'artiste et la date de production, vous pouvez vérifier avec votre maître accompagnant si cette méthode lui convient.
+11. Pour les images, nous vous recommandons de ne pas utiliser les normes APA, mais plutôt de les citer dans une légende sous l'image (par exemple, "source : [nom du site web ou de la source]"), ou alors si c'est une œuvre d'art, vous pouvez citer l'artiste et la date de production.
 
 ---
 
 ## Instructions détaillées pour citer en suivant les normes APA dans Google docs
+
+**Table des matières :**
+
+1. [Accéder au menu citation](#1-accéder-au-menu-citation)
+2. [Citer un livre](#2-citer-un-livre)
+3. [Citer un site web](#3-citer-un-site-web)
+4. [Citer un article de journal](#4-citer-un-article-de-journal-académique-ou-presse)
+5. [Insérer une citation dans votre texte](#5-insérer-une-citation-dans-votre-texte)
+6. [Insérer la bibliographie finale](#6-insérer-la-bibliographie-finale)
+7. [Conseils supplémentaires et erreurs courantes](#7-conseils-supplémentaires-et-erreurs-courantes-à-éviter)
+8. [Cas particulier : citer les images](#8-cas-particulier--citer-les-images-et-illustrations)
+
+---
 
 ### 1. Accéder au menu citation
 
@@ -160,7 +171,6 @@ Pour citer un article de journal académique ou de presse :
 
 ![Capture d'écran montrant comment insérer une citation](images/inserer-citation.png)
 
-
 Une fois que vous avez ajouté vos sources à votre bibliothèque de citations, vous pouvez les insérer dans votre document :
 
 1. **Placez votre curseur** à l'endroit exact où vous souhaitez insérer la citation dans votre texte
@@ -179,7 +189,6 @@ Une fois que vous avez ajouté vos sources à votre bibliothèque de citations, 
 
 **Important** : Si vous citez plusieurs fois la même source dans votre document, répétez simplement cette procédure. Google Docs gardera la trace de toutes vos citations pour la bibliographie finale.
 
-
 ![Capture d'écran d'une citation insérée dans le texte](images/citation-dans-texte.png)
 
 **Exemple dans le texte** : 
@@ -190,7 +199,6 @@ Une fois que vous avez ajouté vos sources à votre bibliothèque de citations, 
 ### 6. Insérer la bibliographie finale
 
 ![Capture d'écran du bouton Insérer la bibliographie](images/inserer-bibliographie.png)
-
 
 La dernière étape consiste à générer automatiquement votre bibliographie à la fin de votre document :
 
@@ -209,7 +217,6 @@ La dernière étape consiste à générer automatiquement votre bibliographie à
 
 **Mise à jour automatique** : Si vous ajoutez de nouvelles citations à votre document, la bibliographie se mettra automatiquement à jour. Si elle ne se met pas à jour, cliquez sur la bibliographie et sélectionnez "Actualiser" dans le menu contextuel qui apparaît.
 
-
 ![Capture d'écran d'une bibliographie formatée APA](images/bibliographie-finale.png)
 
 **Exemple de bibliographie** :
@@ -226,8 +233,6 @@ La dernière étape consiste à générer automatiquement votre bibliographie à
 
 ### 7. Conseils supplémentaires et erreurs courantes à éviter
 
-
-
 **✓ À faire :**
 - Vérifiez toujours les informations auto-remplies par Google Docs (surtout pour les ISBN et URL)
 - Citez au fur et à mesure de votre rédaction plutôt qu'à la fin
@@ -240,15 +245,11 @@ La dernière étape consiste à générer automatiquement votre bibliographie à
 - N'oubliez pas de citer **toutes** les sources que vous utilisez, même pour les images (voir point suivant)
 - Ne modifiez pas manuellement votre bibliographie une fois générée (faites les changements dans les sources du panneau de citations)
 
-
-
 ---
 
 ### 8. Cas particulier : citer les images et illustrations
 
 ![Capture d'écran d'une image avec légende](images/citation-image.png)
-
-
 
 Pour les images, illustrations, graphiques ou photographies, les normes APA traditionnelles peuvent être complexes. Nous vous recommandons une approche simplifiée adaptée aux TPC/TM :
 
@@ -276,13 +277,9 @@ Pour les images, illustrations, graphiques ou photographies, les normes APA trad
 
 **Important** : Si une image est essentielle à votre argumentation et provient d'une source académique, vous devriez la citer de manière plus formelle en ajoutant la source complète dans votre bibliographie.
 
-
-
 ---
 
 ## Récapitulatif final
-
-
 
 En suivant ces instructions détaillées, vous devriez être en mesure de :
 - ✓ Accéder et configurer le menu de citations en format APA
