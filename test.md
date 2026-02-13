@@ -14,25 +14,29 @@ Regardez cette vidéo pour comprendre les normes APA (Source : Sem/DIP):
   </iframe>
 </div>
 
-<p style="text-align: justify;">
+<div style="text-align: justify;">
+
 Pour résumer, les normes APA sont un ensemble de règles pour citer des sources dans les travaux académiques. Elles sont utilisées pour donner crédit aux auteurs des sources que vous utilisez dans votre travail et pour permettre à vos lecteurs de trouver ces sources s'ils souhaitent en savoir plus.
 
 Les normes APA couvrent la manière de formater les citations dans le texte, ainsi que la manière de créer une bibliographie à la fin de votre document. Dans les normes APA, les citations dans le texte incluent généralement le nom de l'auteur et l'année de publication de la source, tandis que la bibliographie à la fin du document fournit des informations plus détaillées sur chaque source citée, telles que le titre de l'œuvre, le nom de l'éditeur, et d'autres détails pertinents. 
 
 Il faut dont éviter d'utiliser les notes de bas de page pour citer vos sources, car les normes APA privilégient les citations dans le texte et une bibliographie à la fin du document.
-<p>
+
+</div>
 
 ---
 
 ## Pourquoi Google docs ?
 
-<p style="text-align: justify;">
+<div style="text-align: justify;">
+
 Google Docs incorpore un outil de citation qui facilite la création de bibliographies et de citations dans différents styles, y compris les normes APA. C'est donc le logiciel qui se chargera de garantir que vos citations et votre bibliographie suivent la norme. En utilisant Google Docs, vous pouvez facilement insérer des citations dans votre travail et générer automatiquement une bibliographie à la fin de votre document.
 
 De plus Google docs est gratuit et accessible à tous, ce qui en fait un choix populaire pour les étudiants et les professionnels qui ont besoin de créer des documents avec des citations, sans avoir à investir dans des logiciels coûteux.
 
 Dernier point, mais pas le moindre, Google Docs permet une collaboration en temps réel, ce qui est particulièrement utile pour les projets de groupe où plusieurs personnes doivent contribuer à un document et ajouter des citations. Ou alors pour partager votre travail avec votre professeur pour qu'il puisse suivre votre progression et vous donner des conseils en temps réel.
-<p>
+
+</div>
 
 --- 
 
@@ -58,7 +62,8 @@ Dernier point, mais pas le moindre, Google Docs permet une collaboration en temp
 
 ![Capture d'écran du menu Outils dans Google Docs](images/menu-outils.png)
 
-<p style="text-align: justify;">
+<div style="text-align: justify;">
+
 Pour commencer à citer vos sources dans Google Docs, vous devez d'abord accéder au menu de citations :
 
 1. Ouvrez votre document Google Docs
@@ -67,7 +72,8 @@ Pour commencer à citer vos sources dans Google Docs, vous devez d'abord accéde
 4. Un panneau s'ouvrira sur le côté droit de votre document
 
 Une fois le panneau ouvert, assurez-vous de sélectionner **"APA"** dans le menu déroulant en haut du panneau pour que toutes vos citations suivent automatiquement les normes APA.
-</p>
+
+</div>
 
 ![Capture d'écran du panneau de citations avec le style APA sélectionné](images/panneau-citations-apa.png)
 
@@ -77,7 +83,8 @@ Une fois le panneau ouvert, assurez-vous de sélectionner **"APA"** dans le menu
 
 ![Capture d'écran du bouton Ajouter une source](images/ajouter-source.png)
 
-<p style="text-align: justify;">
+<div style="text-align: justify;">
+
 Pour ajouter un livre à votre bibliothèque de citations :
 
 1. Dans le panneau de citations à droite, cliquez sur le bouton **"+ Ajouter une source de citation"**
@@ -94,7 +101,8 @@ Pour ajouter un livre à votre bibliothèque de citations :
 4. Une fois tous les champs remplis, cliquez sur **"Ajouter la source de citation"**
 
 Le livre est maintenant enregistré dans votre bibliothèque de citations et prêt à être inséré dans votre document.
-</p>
+
+</div>
 
 ![Capture d'écran du formulaire de citation pour un livre rempli](images/formulaire-livre.png)
 
@@ -106,7 +114,8 @@ Le livre est maintenant enregistré dans votre bibliothèque de citations et pr�
 
 ![Capture d'écran de la sélection du type de source Site web](images/type-source-siteweb.png)
 
-<p style="text-align: justify;">
+<div style="text-align: justify;">
+
 Pour citer un site web dans votre document :
 
 1. Dans le panneau de citations, cliquez sur **"+ Ajouter une source de citation"**
@@ -124,7 +133,8 @@ Pour citer un site web dans votre document :
 - Ajoutez la date de consultation si elle n'est pas automatiquement remplie
 
 4. Cliquez sur **"Ajouter la source de citation"**
-</p>
+
+</div>
 
 ![Capture d'écran du formulaire de citation pour un site web](images/formulaire-siteweb.png)
 
@@ -136,7 +146,8 @@ Pour citer un site web dans votre document :
 
 ![Capture d'écran de la sélection article de journal](images/type-source-article.png)
 
-<p style="text-align: justify;">
+<div style="text-align: justify;">
+
 Pour citer un article de journal académique ou de presse :
 
 1. Dans le panneau de citations, cliquez sur **"+ Ajouter une source de citation"**
@@ -156,7 +167,8 @@ Pour citer un article de journal académique ou de presse :
 **Pour un article de presse** : Indiquez l'URL de l'article et la date de consultation.
 
 4. Cliquez sur **"Ajouter la source de citation"**
-</p>
+
+</div>
 
 ![Capture d'écran du formulaire pour un article](images/formulaire-article.png)
 
@@ -170,7 +182,8 @@ Pour citer un article de journal académique ou de presse :
 
 ![Capture d'écran montrant comment insérer une citation](images/inserer-citation.png)
 
-<p style="text-align: justify;">
+<div style="text-align: justify;">
+
 Une fois que vous avez ajouté vos sources à votre bibliothèque de citations, vous pouvez les insérer dans votre document :
 
 1. **Placez votre curseur** à l'endroit exact où vous souhaitez insérer la citation dans votre texte
@@ -188,7 +201,8 @@ Une fois que vous avez ajouté vos sources à votre bibliothèque de citations, 
 5. Google Docs insère automatiquement la citation au format APA : **(Nom de l'auteur, année)**
 
 **Important** : Si vous citez plusieurs fois la même source dans votre document, répétez simplement cette procédure. Google Docs gardera la trace de toutes vos citations pour la bibliographie finale.
-</p>
+
+</div>
 
 ![Capture d'écran d'une citation insérée dans le texte](images/citation-dans-texte.png)
 
@@ -201,7 +215,8 @@ Une fois que vous avez ajouté vos sources à votre bibliothèque de citations, 
 
 ![Capture d'écran du bouton Insérer la bibliographie](images/inserer-bibliographie.png)
 
-<p style="text-align: justify;">
+<div style="text-align: justify;">
+
 La dernière étape consiste à générer automatiquement votre bibliographie à la fin de votre document :
 
 1. **Allez à la fin de votre document** ou à l'endroit où vous souhaitez insérer la bibliographie
@@ -218,7 +233,8 @@ La dernière étape consiste à générer automatiquement votre bibliographie à
    - Seules les sources effectivement citées dans le texte apparaissent dans la bibliographie
 
 **Mise à jour automatique** : Si vous ajoutez de nouvelles citations à votre document, la bibliographie se mettra automatiquement à jour. Si elle ne se met pas à jour, cliquez sur la bibliographie et sélectionnez "Actualiser" dans le menu contextuel qui apparaît.
-</p>
+
+</div>
 
 ![Capture d'écran d'une bibliographie formatée APA](images/bibliographie-finale.png)
 
@@ -236,7 +252,7 @@ La dernière étape consiste à générer automatiquement votre bibliographie à
 
 ### 7. Conseils supplémentaires et erreurs courantes à éviter
 
-<p style="text-align: justify;">
+<div style="text-align: justify;">
 
 **✓ À faire :**
 - Vérifiez toujours les informations auto-remplies par Google Docs (surtout pour les ISBN et URL)
@@ -250,7 +266,7 @@ La dernière étape consiste à générer automatiquement votre bibliographie à
 - N'oubliez pas de citer **toutes** les sources que vous utilisez, même pour les images (voir point suivant)
 - Ne modifiez pas manuellement votre bibliographie une fois générée (faites les changements dans les sources du panneau de citations)
 
-</p>
+</div>
 
 ---
 
@@ -258,7 +274,7 @@ La dernière étape consiste à générer automatiquement votre bibliographie à
 
 ![Capture d'écran d'une image avec légende](images/citation-image.png)
 
-<p style="text-align: justify;">
+<div style="text-align: justify;">
 
 Pour les images, illustrations, graphiques ou photographies, les normes APA traditionnelles peuvent être complexes. Nous vous recommandons une approche simplifiée adaptée aux TPC/TM :
 
@@ -286,13 +302,13 @@ Pour les images, illustrations, graphiques ou photographies, les normes APA trad
 
 **Important** : Si une image est essentielle à votre argumentation et provient d'une source académique, vous devriez la citer de manière plus formelle en ajoutant la source complète dans votre bibliographie.
 
-</p>
+</div>
 
 ---
 
 ## Récapitulatif final
 
-<p style="text-align: justify;">
+<div style="text-align: justify;">
 
 En suivant ces instructions détaillées, vous devriez être en mesure de :
 - ✓ Accéder et configurer le menu de citations en format APA
@@ -310,4 +326,4 @@ Pour toute question sur les normes APA ou sur l'utilisation de Google Docs, n'h�
 
 Bon courage pour votre TPC/TM ! 📚
 
-</p>
+</div>
