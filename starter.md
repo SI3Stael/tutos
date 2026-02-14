@@ -305,10 +305,10 @@ systemPrompt: `
 ### Testez vos modifications
 
 **Checklist de test :**
-- [ ] Le titre s'affiche correctement
-- [ ] Le compagnon répond avec le nouveau ton
-- [ ] La conversation fonctionne toujours
-- [ ] Pas d'erreur dans la console (F12)
+- Le titre s'affiche-t-il correctement ?
+- Le compagnon répond-t-il avec le nouveau ton attendu ?
+- La conversation fonctionne-t-elle toujours comme prévu ?
+- Y a-t-il des erreurs dans la console (F12) ?
 
 > **Pour aller plus loin** : Consultez la section [Champs à personnaliser](https://si3stael.github.io/tutos/tutorial#champs-à-personnaliser) du tutoriel complet.
 
