@@ -96,7 +96,7 @@ Votre projet se compose de plusieurs fichiers JavaScript. Vous allez principalem
 | `prompt.js` | Construit le prompt système | Personnaliser la manière dont le contexte est envoyé à l'IA |
 | `promptVars.js` | Gère les variables globales pour les prompts | Définir des variables à utiliser dans les prompts |
 
-> [!WARNING] **Important** : Vous ne devez **PAS** modifier `app.js` qui gère la communication avec l'API et l'interface.
+> ⚠️ **Important** : Vous ne devez **PAS** modifier `app.js` qui gère la communication avec l'API et l'interface.
 
 ---
 
