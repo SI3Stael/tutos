@@ -509,7 +509,7 @@ function buildSystemPromptForScene(scene){
 
   // Option pratique : si tu veux injecter une liste des scènes dans le prompt
   // en écrivant {{SCENES_LIST}} dans systemPrompt
-  if (p.includes("{{SCENES_LIST}}")) {
+  if (p.includes("`{{`SCENES_LIST`}}`")) {
     const list = scenes.map(s => `- ${s.id} — ${s.title}`).join("\n");
     p = p.replaceAll("{{SCENES_LIST}}", list);
   }
