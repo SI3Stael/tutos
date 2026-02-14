@@ -1,7 +1,7 @@
 <p>
 <a href="https://si3stael.github.io/tutos/starter">Démarrage</a> |
 <a href="https://si3stael.github.io/tutos/tutorial">Tutoriel complet</a> |
-<a href="https://si3stael.github.io/tutos/tutojs">Web Front-End</a> |
+<a href="https://si3stael.github.io/tutos/tutojava">Web Front-End</a> |
 <a href="https://si3stael.github.io/tutos/api">L’API ChatGPT</a>
 </p>
 
@@ -75,7 +75,7 @@ Bienvenue dans ce guide qui vous explique **pas à pas** comment personnaliser v
     - [Style ludique et engageant](#style-ludique-et-engageant)
     - [Style mystérieux et immersif](#style-mystérieux-et-immersif)
     - [Style scientifique et analytique](#style-scientifique-et-analytique)
-  - [Checklist avant de soumettre votre projet](#-checklist-avant-de-soumettre-votre-projet)
+  - [✅ Checklist avant de soumettre votre projet](#-checklist-avant-de-soumettre-votre-projet)
   - [Conseils finaux](#conseils-finaux)
     - [Pour de bons `systemPrompt`](#pour-de-bons-systemprompt)
     - [Pour de bonnes commandes](#pour-de-bonnes-commandes)
@@ -176,16 +176,16 @@ temperature: 0.3
 
 ```javascript
 temperature: 0.0   // Réponses très prévisibles, toujours similaires
-                   // Bon pour : questions factuelles, définitions
+                   // → Bon pour : questions factuelles, définitions
 
 temperature: 0.3   // Légèrement créatif tout en restant cohérent
-                   // Bon pour : guides pédagogiques (RECOMMANDÉ)
+                   // → Bon pour : guides pédagogiques (RECOMMANDÉ)
 
 temperature: 0.7   // Plus de variété dans les réponses
-                   // Bon pour : discussions créatives
+                   // → Bon pour : discussions créatives
 
 temperature: 1.0   // Maximum de créativité, parfois surprenant
-                   // Bon pour : poésie, histoires, brainstorming
+                   // → Bon pour : poésie, histoires, brainstorming
 ```
 
 **Pour votre projet :** Gardez `0.3` sauf si vous voulez un guide très poétique (0.5-0.7).
@@ -329,10 +329,10 @@ const scenes = [
 
 **Étape 3** : Mettez à jour le marqueur `GOTO` de la scène précédente pour pointer vers votre nouvelle scène
 
-### Utiliser `{{SCENES_LIST}}` (optionnel)
+### Utiliser `{% raw %}{{SCENES_LIST}}{% endraw %}` (optionnel)
 
 Si vous voulez que l'IA connaisse **toutes les scènes disponibles**, vous pouvez écrire dans votre `systemPrompt` :
-
+{% raw %}
 ```javascript
 systemPrompt: `
   Voici les scènes disponibles dans cette galerie :
@@ -341,8 +341,8 @@ systemPrompt: `
   Tu peux mentionner ces œuvres dans tes explications...
 `
 ```
-
-La fonction `buildSystemPromptForScene()` remplacera automatiquement `{{SCENES_LIST}}` par :
+{% endraw %}
+La fonction `buildSystemPromptForScene()` remplacera automatiquement `{% raw %}{{SCENES_LIST}}{% endraw %}` par :
 
 ```
 - scene-art-02 — Impression, soleil levant
@@ -397,7 +397,7 @@ if(userText.toLowerCase() === "aide"){
 Écris "nom" pour que je te rappelle ton nom.\n
 Écris "reset" pour revenir à la première scène.`
     addMessageToUI("assistant", msg);
-    laisseAIdecider = false;  // Pas besoin de l'IA
+    laisseAIdecider = false;  // ← Pas besoin de l'IA
 }
 ```
 
@@ -479,13 +479,13 @@ mais cela ne diminue en rien son génie artistique.`;
 
 ### Bonnes pratiques
 
-**À faire :**
+✅ **À faire :**
 
 - Utilisez `.toLowerCase()` pour ignorer la casse
 - Retournez `false` quand vous gérez complètement la commande
 - Utilisez `else if` pour éviter de vérifier toutes les conditions
 
- **À éviter :**
+❌ **À éviter :**
 
 - Ne gérez pas tout avec des commandes (laissez l'IA faire son travail)
 - N'oubliez pas le `return` à la fin
@@ -501,7 +501,7 @@ mais cela ne diminue en rien son génie artistique.`;
 
 ### Fonction actuelle
 
-
+{% raw %}
 ```javascript
 function buildSystemPromptForScene(scene){
   let p = (scene.systemPrompt || "").trim();
@@ -509,7 +509,7 @@ function buildSystemPromptForScene(scene){
 
   // Option pratique : si tu veux injecter une liste des scènes dans le prompt
   // en écrivant {{SCENES_LIST}} dans systemPrompt
-  if (p.includes("`{{`SCENES_LIST`}}`")) {
+  if (p.includes("{{SCENES_LIST}}")) {
     const list = scenes.map(s => `- ${s.id} — ${s.title}`).join("\n");
     p = p.replaceAll("{{SCENES_LIST}}", list);
   }
@@ -517,29 +517,29 @@ function buildSystemPromptForScene(scene){
   return p;
 }
 ```
-
+{% endraw %}
 
 **Comment ça fonctionne :**
 
 1. **Ligne 2** : Récupère le `systemPrompt` de la scène
 2. **Ligne 3** : `replaceTemplates(p)` remplace automatiquement **toutes les variables** de `promptVars.js`
-   - Par exemple : `{{userName}}` devient `"Alice"` et `{{age}}` devient `15`
-3. **Lignes 5-9** : Si le prompt contient `{{SCENES_LIST}}`, il est remplacé par la liste de toutes les scènes
+   - Par exemple : `{% raw %}{{userName}}{% endraw %}` devient `"Alice"` et `{% raw %}{{age}}{% endraw %}` devient `15`
+3. **Lignes 5-9** : Si le prompt contient `{% raw %}{{SCENES_LIST}}{% endraw %}`, il est remplacé par la liste de toutes les scènes
 4. **Ligne 11** : Retourne le prompt transformé
 
 **Différence entre `promptVars` et `{{SCENES_LIST}}` :**
 
 | Type | Défini dans | Exemple | Usage |
 |------|-------------|---------|-------|
-| **Variables promptVars** | `promptVars.js` | `{{userName}}`, `{{age}}` | Informations utilisateur réutilisables partout |
-| **Variables spéciales** | `prompt.js` | `{{SCENES_LIST}}` | Informations calculées dynamiquement |
+| **Variables promptVars** | `promptVars.js` | `{% raw %}{{userName}}{% endraw %}`, `{% raw %}{{age}}{% endraw %}` | Informations utilisateur réutilisables partout |
+| **Variables spéciales** | `prompt.js` | `{% raw %}{{SCENES_LIST}}{% endraw %}` | Informations calculées dynamiquement |
 
 
 ### Ajouter vos propres transformations
 
 #### Exemple 1 : Injecter la date actuelle
 
-
+{% raw %}
 ```javascript
 function buildSystemPromptForScene(scene){
   let p = (scene.systemPrompt || "").trim();
@@ -559,7 +559,7 @@ function buildSystemPromptForScene(scene){
   return p;
 }
 ```
-
+{% endraw %}
 
 **Utilisation dans `data.js` :**
 ```javascript
@@ -578,7 +578,7 @@ Tu accompagnes Alice (15 ans) dans l'observation de cette œuvre...
 
 #### Exemple 2 : Contexte selon le numéro de scène
 
-
+{% raw %}
 ```javascript
 function buildSystemPromptForScene(scene){
   let p = (scene.systemPrompt || "").trim();
@@ -600,11 +600,11 @@ function buildSystemPromptForScene(scene){
   return p;
 }
 ```
+{% endraw %}
 
+**Note importante :** Les variables de `promptVars.js` (`{% raw %}{{userName}}{% endraw %}`, `{% raw %}{{age}}{% endraw %}`, etc.) sont **automatiquement** remplacées par `replaceTemplates(p)` à la ligne 3. Vous n'avez **pas besoin** de les gérer manuellement dans cette fonction.
 
-**Note importante :** Les variables de `promptVars.js` (`{{userName}}`, `{{age}}`, etc.) sont **automatiquement** remplacées par `replaceTemplates(p)` à la ligne 3. Vous n'avez **pas besoin** de les gérer manuellement dans cette fonction.
-
-> **Pour en savoir plus** : Consultez la section [Fichier 4 : `promptVars.js`](#fichier-4--promptvarsjs--gérer-les-variables-globales-pour-les-prompts) pour apprendre à définir vos propres variables.
+> 📖 **Pour en savoir plus** : Consultez la section [Fichier 4 : `promptVars.js`](#fichier-4--promptvarsjs--gérer-les-variables-globales-pour-les-prompts) pour apprendre à définir vos propres variables.
 
 ---
 
@@ -627,18 +627,18 @@ window.promptVars = {
 
 **Étape 1** : Vous définissez vos variables dans `promptVars.js`
 
-**Étape 2** : Vous les utilisez dans vos prompts avec la syntaxe `{{nomVariable}}`
+**Étape 2** : Vous les utilisez dans vos prompts avec la syntaxe `{% raw %}{{nomVariable}}{% endraw %}`
 
-
+{% raw %}
 ```javascript
 systemPrompt: `
   Tu accompagnes l'utilisateur nommé {{userName}}, âgé de {age}} ans...
 `
 ```
+{% endraw %}
 
 
-
-**Étape 3** : La fonction `replaceTemplates()` (dans `utils.js`) remplace automatiquement `{{userName}}` par `"Alice"` et `{{age}}` par `15` avant d'envoyer le prompt à l'IA.
+**Étape 3** : La fonction `replaceTemplates()` (dans `utils.js`) remplace automatiquement `{% raw %}{{userName}}{% endraw %}` par `"Alice"` et `{% raw %}{{age}}{% endraw %}` par `15` avant d'envoyer le prompt à l'IA.
 
 ### Ajouter vos propres variables
 
@@ -654,7 +654,7 @@ window.promptVars = {
 
 **Utilisation dans `data.js` :**
 
-
+{% raw %}
 ```javascript
 systemPrompt: `
   Tu t'adresses à {{userName}}, un visiteur {{niveau}} de {{age}} ans, 
@@ -662,7 +662,7 @@ systemPrompt: `
   Tu t'exprimes en {{langue}}.
 `
 ```
-
+{% endraw %}
 
 ### Modifier les variables dynamiquement
 
@@ -680,13 +680,13 @@ else if(userText.toLowerCase().startsWith("mon age est ")){
 
 ### Bonnes pratiques
 
-**À faire :**
+✅ **À faire :**
 
 - Utilisez des noms de variables clairs (`userName` plutôt que `n`)
 - Regroupez les variables liées (informations utilisateur ensemble)
 - Documentez chaque variable avec un commentaire
 
- **À éviter :**
+❌ **À éviter :**
 
 - Ne mettez pas de données sensibles dans ce fichier
 - N'utilisez pas d'espaces dans les noms de variables
@@ -772,7 +772,7 @@ Dans `manip.js`, ajoutez par exemple :
 
 ```javascript
 else if(userText.toLowerCase() === "dali" && scene.id === "scene-art-05"){
-    msg = ` Salvador Dalí (1904-1989) était connu pour sa moustache 
+    msg = `🎨 Salvador Dalí (1904-1989) était connu pour sa moustache 
 extravagante et son excentricité, autant que pour son génie artistique !`;
     addMessageToUI("assistant", msg);
     laisseAIdecider = false;
@@ -848,7 +848,7 @@ systemPrompt: `
   Tu utilises des métaphores, des comparaisons et des anecdotes 
   pour rendre l'art accessible et amusant.
   
-  Tu n'hésites pas à utiliser des émojis pour dynamiser tes réponses. 
+  Tu n'hésites pas à utiliser des émojis pour dynamiser tes réponses. 🎨
 `
 ```
 
@@ -909,17 +909,17 @@ systemPrompt: `
 ---
 -->
 
-## Checklist avant de soumettre votre projet
+## ✅ Checklist avant de soumettre votre projet
 
-- Toutes mes scènes ont un `id` unique
-- Toutes mes images sont présentes dans `assets/img/`
-- Chaque `systemPrompt` définit clairement l'objectif pédagogique
-- Les transitions entre scènes fonctionnent (marqueurs `GOTO`)
-- J'ai testé toutes mes commandes personnalisées dans `manip.js`
-- Mon code est indenté et lisible
-- J'ai commenté les parties complexes de mon code
-- J'ai vérifié qu'il n'y a pas d'erreurs dans la console (F12)
-- L'expérience utilisateur est fluide et agréable
+- [ ] Toutes mes scènes ont un `id` unique
+- [ ] Toutes mes images sont présentes dans `assets/img/`
+- [ ] Chaque `systemPrompt` définit clairement l'objectif pédagogique
+- [ ] Les transitions entre scènes fonctionnent (marqueurs `GOTO`)
+- [ ] J'ai testé toutes mes commandes personnalisées dans `manip.js`
+- [ ] Mon code est indenté et lisible
+- [ ] J'ai commenté les parties complexes de mon code
+- [ ] J'ai vérifié qu'il n'y a pas d'erreurs dans la console (F12)
+- [ ] L'expérience utilisateur est fluide et agréable
 
 ---
 
@@ -971,24 +971,24 @@ Si vous rencontrez un problème :
 ## Questions fréquentes
 
 **Q : Le mot de passe ne fonctionne pas, que faire ?**
-Vérifiez que vous avez bien copié le mot de passe complet depuis Moodle, avec les guillemets. Si le problème persiste, contactez votre enseignant.
+→ Vérifiez que vous avez bien copié le mot de passe complet depuis Moodle, avec les guillemets. Si le problème persiste, contactez votre enseignant.
 
 **Q : L'IA ne répond plus, que se passe-t-il ?**
-Vérifiez la console (F12) pour voir s'il y a des erreurs. Cela peut être dû à un quota dépassé ou à une erreur dans votre code.
+→ Vérifiez la console (F12) pour voir s'il y a des erreurs. Cela peut être dû à un quota dépassé ou à une erreur dans votre code.
 
 <!--
 **Q : Comment savoir combien de crédits mon groupe a utilisés ?**
-Consultez le tableau de suivi sur Moodle qui est mis à jour régulièrement.
+→ Consultez le tableau de suivi sur Moodle qui est mis à jour régulièrement.
 
 **Q : Puis-je tester mon code sans utiliser de crédits ?**
-Oui ! Vous pouvez tester toutes les commandes dans `manip.js` (aide, nom, reset, etc.) sans appeler l'IA. Seules les réponses générées par l'IA consomment des crédits.
+→ Oui ! Vous pouvez tester toutes les commandes dans `manip.js` (aide, nom, reset, etc.) sans appeler l'IA. Seules les réponses générées par l'IA consomment des crédits.
 --->
 
 **Q : La transition ne se déclenche pas, pourquoi ?**
-Vérifiez que l'IA inclut bien `<!-- GOTO:scene-XXX -->` dans sa réponse. Vous pouvez le voir dans la console ou dans le panneau de debug.
+→ Vérifiez que l'IA inclut bien `<!-- GOTO:scene-XXX -->` dans sa réponse. Vous pouvez le voir dans la console ou dans le panneau de debug.
 
 **Q : Comment voir ce qui est envoyé à l'IA ?**
-Cliquez sur le bouton "Debug" dans l'interface pour voir le JSON envoyé et reçu.
+→ Cliquez sur le bouton "Debug" dans l'interface pour voir le JSON envoyé et reçu.
 
 ---
 
