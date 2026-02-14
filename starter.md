@@ -84,7 +84,7 @@ galerie-interactive/
 1. Ouvrez le fichier `data.js` avec un éditeur de texte (Notepad++, VS Code, etc.)
 2. Trouvez la ligne 3 :
    ```javascript
-   const password = "g01123456";
+   const password = "g01XXXXXX";
    ```
 3. Remplacez `"g01XXXXXX"` par **votre mot de passe de groupe** (disponible sur Moodle)
 4. **Sauvegardez** le fichier
