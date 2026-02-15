@@ -74,7 +74,7 @@ Pour commencer à citer vos sources dans Google Docs, vous devez d'abord accéde
 Une fois le panneau ouvert, assurez-vous de sélectionner **"APA"** dans le menu déroulant en haut du panneau pour que toutes vos citations suivent automatiquement les normes APA.
 
 <div style="text-align: center;">
-  <img src="images/menu-outils.png" style="width: 60%; max-width: 700px;">
+  <img src="images/menu-outils.png" style="width: 70%; max-width: 700px;">
 </div>
 
 ---
@@ -86,7 +86,7 @@ Pour ajouter un livre à votre bibliothèque de citations :
 1. Dans le panneau de citations à droite, cliquez sur le bouton **Ajouter une source de citation**
 
 <div style="text-align: center;">
-  <img src="images/ajouter-source.png" style="width: 20%; max-width: 700px;">
+  <img src="images/ajouter-source.png" style="width: 70%; max-width: 500px;">
 </div>
 
 1. Dans la fenêtre qui s'ouvre, sélectionnez **Livre** dans le menu déroulant "Type de source". Puis sélectionnez **Base de données en ligne** dans le menu déroulant "Type d'accès" puis **Citer manuellement** pour remplir les champs vous-même.
@@ -100,7 +100,7 @@ Pour ajouter un livre à votre bibliothèque de citations :
 **Astuce pratique** : Si vous avez l'ISBN du livre (trouvé au dos du livre ou sur des sites comme Amazon.fr), vous pouvez le saisir dans le champ où l'on arrive après avoir sélectionné **Base de donnée en ligne**. Google Docs remplira alors automatiquement la plupart des champs.
 
 <div style="text-align: center;">
-  <img src="images/ISBN.png" style="width: 30%; max-width: 700px;">
+  <img src="images/ISBN.png" style="width: 70%; max-width: 500px;">
 </div>
 
  **Attention** : vérifiez toujours que les informations sont correctes et complètes (vous pouvez les modifier en cliquant sur **Citer manuellement**), car le remplissage automatique peut parfois contenir des erreurs ou des informations superflues (notamment dans le champ "Auteur" où le nom du site web peut apparaître).
@@ -108,7 +108,7 @@ Pour ajouter un livre à votre bibliothèque de citations :
 4. Une fois tous les champs remplis, cliquez sur **Ajouter la source de citation**
 
 <div style="text-align: center;">
-  <img src="images/rempli.png" style="width: 30%; max-width: 700px;">
+  <img src="images/rempli.png" style="width: 70%; max-width: 400px;">
 </div>
 
 Le livre est maintenant enregistré dans votre bibliothèque de citations et prêt à être inséré dans votre document.
