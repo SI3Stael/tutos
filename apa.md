@@ -52,7 +52,7 @@ Il est également pratique pour partager votre travail avec votre professeur, af
 ## Instructions détaillées pour citer en suivant les normes APA dans Google Docs
 
 - [1. Accéder au menu citation](#1-accéder-au-menu-citation)
-- [2. Citer un livre](#2-citer-un-livre)
+- [2. Citer un livre](#2-ajouter-un-livre-à-votre-bibliothèque-de-citations)
 - [3. Citer un site web](#3-citer-un-site-web)
 - [4. Citer un article de journal (académique ou presse)](#4-citer-un-article-de-journal-académique-ou-presse)
 - [5. Insérer une citation dans votre texte](#5-insérer-une-citation-dans-votre-texte)
@@ -251,11 +251,10 @@ Ici, nous avons cité un livre de Gould (1998), un site web sérieux et un artic
 
 ### 8. Cas particulier : citer les images et illustrations
 
-![Capture d'écran d'une image avec légende](images/citation-image.png)
 
 Pour les images, illustrations, graphiques ou photographies, les règles APA concernant les images peuvent être plus complexes à appliquer. Nous vous recommandons une approche simplifiée adaptée aux TPC/TM :
 
-**Méthode recommandée** : Ajoutez une légende directement sous l'image avec la source. Pour ce faire générer un tableu de deux lignes et une colonne, insérez votre image dans la première ligne, puis dans la seconde ligne, ajoutez la légende avec la source. Formatez la légende en petit texte (taille 10 par exemple) pour la différencier du reste du texte. Vous pourrez aussi changer la couleur du cadre du tableau pour qu'il soit invisible (clic droit ).
+**Méthode recommandée** : Ajoutez une légende directement sous l'image avec la source. Pour ce faire générer un tableau de deux lignes et une colonne, insérez votre image dans la première ligne, puis dans la seconde ligne, ajoutez la légende avec la source. Formatez la légende en petit texte (taille 10 par exemple) pour la différencier du reste du texte. Vous pourrez aussi changer la couleur du cadre du tableau pour qu'il soit invisible.
 
 **Comment procéder :**
 
@@ -263,7 +262,12 @@ Pour les images, illustrations, graphiques ou photographies, les règles APA con
 2. Insérez votre image dans le document (Insertion > Image)
 3. Cliquez sur l'image, puis allez dans les options d'image
 4. Dans la deuxième ligne du tableau, ajoutez une zone de texte ou un paragraphe avec la légende.
-6. Formatez la légende en petit texte (taille 10 par exemple)
+5. Formatez la légende en petit texte (taille 10 par exemple)
+
+<div style="text-align: center;">
+  <img src="images/gould.png" style="width: 90%; max-width: 650px;">
+</div>
+
 
 **Exemples de légendes selon le type de source :**
 
