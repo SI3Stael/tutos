@@ -1,7 +1,7 @@
 <p>
 <a href="https://si3stael.github.io/tutos/starter">Démarrage</a> |
 <a href="https://si3stael.github.io/tutos/tutorial">Tutoriel complet</a> |
-<a href="https://si3stael.github.io/tutos/tutojava">Web Front-End</a> |
+<a href="https://si3stael.github.io/tutos/tutojs">Web Front-End</a> |
 <a href="https://si3stael.github.io/tutos/api">L’API ChatGPT</a>
 </p>
 
@@ -75,7 +75,7 @@ Bienvenue dans ce guide qui vous explique **pas à pas** comment personnaliser v
     - [Style ludique et engageant](#style-ludique-et-engageant)
     - [Style mystérieux et immersif](#style-mystérieux-et-immersif)
     - [Style scientifique et analytique](#style-scientifique-et-analytique)
-  - [✅ Checklist avant de soumettre votre projet](#-checklist-avant-de-soumettre-votre-projet)
+  - [Checklist avant de soumettre votre projet](#-checklist-avant-de-soumettre-votre-projet)
   - [Conseils finaux](#conseils-finaux)
     - [Pour de bons `systemPrompt`](#pour-de-bons-systemprompt)
     - [Pour de bonnes commandes](#pour-de-bonnes-commandes)
@@ -176,16 +176,16 @@ temperature: 0.3
 
 ```javascript
 temperature: 0.0   // Réponses très prévisibles, toujours similaires
-                   // → Bon pour : questions factuelles, définitions
+                   // Bon pour : questions factuelles, définitions
 
 temperature: 0.3   // Légèrement créatif tout en restant cohérent
-                   // → Bon pour : guides pédagogiques (RECOMMANDÉ)
+                   // Bon pour : guides pédagogiques (RECOMMANDÉ)
 
 temperature: 0.7   // Plus de variété dans les réponses
-                   // → Bon pour : discussions créatives
+                   // Bon pour : discussions créatives
 
 temperature: 1.0   // Maximum de créativité, parfois surprenant
-                   // → Bon pour : poésie, histoires, brainstorming
+                   // Bon pour : poésie, histoires, brainstorming
 ```
 
 **Pour votre projet :** Gardez `0.3` sauf si vous voulez un guide très poétique (0.5-0.7).
@@ -397,7 +397,7 @@ if(userText.toLowerCase() === "aide"){
 Écris "nom" pour que je te rappelle ton nom.\n
 Écris "reset" pour revenir à la première scène.`
     addMessageToUI("assistant", msg);
-    laisseAIdecider = false;  // ← Pas besoin de l'IA
+    laisseAIdecider = false;  // Pas besoin de l'IA
 }
 ```
 
@@ -479,13 +479,13 @@ mais cela ne diminue en rien son génie artistique.`;
 
 ### Bonnes pratiques
 
-✅ **À faire :**
+**À faire :**
 
 - Utilisez `.toLowerCase()` pour ignorer la casse
 - Retournez `false` quand vous gérez complètement la commande
 - Utilisez `else if` pour éviter de vérifier toutes les conditions
 
-❌ **À éviter :**
+ **À éviter :**
 
 - Ne gérez pas tout avec des commandes (laissez l'IA faire son travail)
 - N'oubliez pas le `return` à la fin
@@ -604,7 +604,7 @@ function buildSystemPromptForScene(scene){
 
 **Note importante :** Les variables de `promptVars.js` (`{% raw %}{{userName}}{% endraw %}`, `{% raw %}{{age}}{% endraw %}`, etc.) sont **automatiquement** remplacées par `replaceTemplates(p)` à la ligne 3. Vous n'avez **pas besoin** de les gérer manuellement dans cette fonction.
 
-> 📖 **Pour en savoir plus** : Consultez la section [Fichier 4 : `promptVars.js`](#fichier-4--promptvarsjs--gérer-les-variables-globales-pour-les-prompts) pour apprendre à définir vos propres variables.
+> **Pour en savoir plus** : Consultez la section [Fichier 4 : `promptVars.js`](#fichier-4--promptvarsjs--gérer-les-variables-globales-pour-les-prompts) pour apprendre à définir vos propres variables.
 
 ---
 
@@ -680,13 +680,13 @@ else if(userText.toLowerCase().startsWith("mon age est ")){
 
 ### Bonnes pratiques
 
-✅ **À faire :**
+**À faire :**
 
 - Utilisez des noms de variables clairs (`userName` plutôt que `n`)
 - Regroupez les variables liées (informations utilisateur ensemble)
 - Documentez chaque variable avec un commentaire
 
-❌ **À éviter :**
+ **À éviter :**
 
 - Ne mettez pas de données sensibles dans ce fichier
 - N'utilisez pas d'espaces dans les noms de variables
@@ -772,7 +772,7 @@ Dans `manip.js`, ajoutez par exemple :
 
 ```javascript
 else if(userText.toLowerCase() === "dali" && scene.id === "scene-art-05"){
-    msg = `🎨 Salvador Dalí (1904-1989) était connu pour sa moustache 
+    msg = ` Salvador Dalí (1904-1989) était connu pour sa moustache 
 extravagante et son excentricité, autant que pour son génie artistique !`;
     addMessageToUI("assistant", msg);
     laisseAIdecider = false;
@@ -909,17 +909,17 @@ systemPrompt: `
 ---
 -->
 
-## ✅ Checklist avant de soumettre votre projet
+## Checklist avant de soumettre votre projet
 
-- [ ] Toutes mes scènes ont un `id` unique
-- [ ] Toutes mes images sont présentes dans `assets/img/`
-- [ ] Chaque `systemPrompt` définit clairement l'objectif pédagogique
-- [ ] Les transitions entre scènes fonctionnent (marqueurs `GOTO`)
-- [ ] J'ai testé toutes mes commandes personnalisées dans `manip.js`
-- [ ] Mon code est indenté et lisible
-- [ ] J'ai commenté les parties complexes de mon code
-- [ ] J'ai vérifié qu'il n'y a pas d'erreurs dans la console (F12)
-- [ ] L'expérience utilisateur est fluide et agréable
+- Toutes mes scènes ont un `id` unique
+- Toutes mes images sont présentes dans `assets/img/`
+- Chaque `systemPrompt` définit clairement l'objectif pédagogique
+- Les transitions entre scènes fonctionnent (marqueurs `GOTO`)
+- J'ai testé toutes mes commandes personnalisées dans `manip.js`
+- Mon code est indenté et lisible
+- J'ai commenté les parties complexes de mon code
+- J'ai vérifié qu'il n'y a pas d'erreurs dans la console (F12)
+- L'expérience utilisateur est fluide et agréable
 
 ---
 
@@ -971,24 +971,24 @@ Si vous rencontrez un problème :
 ## Questions fréquentes
 
 **Q : Le mot de passe ne fonctionne pas, que faire ?**
-→ Vérifiez que vous avez bien copié le mot de passe complet depuis Moodle, avec les guillemets. Si le problème persiste, contactez votre enseignant.
+Vérifiez que vous avez bien copié le mot de passe complet depuis Moodle, avec les guillemets. Si le problème persiste, contactez votre enseignant.
 
 **Q : L'IA ne répond plus, que se passe-t-il ?**
-→ Vérifiez la console (F12) pour voir s'il y a des erreurs. Cela peut être dû à un quota dépassé ou à une erreur dans votre code.
+Vérifiez la console (F12) pour voir s'il y a des erreurs. Cela peut être dû à un quota dépassé ou à une erreur dans votre code.
 
 <!--
 **Q : Comment savoir combien de crédits mon groupe a utilisés ?**
-→ Consultez le tableau de suivi sur Moodle qui est mis à jour régulièrement.
+Consultez le tableau de suivi sur Moodle qui est mis à jour régulièrement.
 
 **Q : Puis-je tester mon code sans utiliser de crédits ?**
-→ Oui ! Vous pouvez tester toutes les commandes dans `manip.js` (aide, nom, reset, etc.) sans appeler l'IA. Seules les réponses générées par l'IA consomment des crédits.
+Oui ! Vous pouvez tester toutes les commandes dans `manip.js` (aide, nom, reset, etc.) sans appeler l'IA. Seules les réponses générées par l'IA consomment des crédits.
 --->
 
 **Q : La transition ne se déclenche pas, pourquoi ?**
-→ Vérifiez que l'IA inclut bien `<!-- GOTO:scene-XXX -->` dans sa réponse. Vous pouvez le voir dans la console ou dans le panneau de debug.
+Vérifiez que l'IA inclut bien `<!-- GOTO:scene-XXX -->` dans sa réponse. Vous pouvez le voir dans la console ou dans le panneau de debug.
 
 **Q : Comment voir ce qui est envoyé à l'IA ?**
-→ Cliquez sur le bouton "Debug" dans l'interface pour voir le JSON envoyé et reçu.
+Cliquez sur le bouton "Debug" dans l'interface pour voir le JSON envoyé et reçu.
 
 ---
 

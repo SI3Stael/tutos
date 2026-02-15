@@ -1,7 +1,7 @@
 <p>
 <a href="https://si3stael.github.io/tutos/starter">Démarrage</a> |
 <a href="https://si3stael.github.io/tutos/tutorial">Tutoriel complet</a> |
-<a href="https://si3stael.github.io/tutos/tutojava">Web Front-End</a> |
+<a href="https://si3stael.github.io/tutos/tutojs">Web Front-End</a> |
 <a href="https://si3stael.github.io/tutos/api">L’API ChatGPT</a>
 </p>
 
@@ -84,7 +84,7 @@ galerie-interactive/
 1. Ouvrez le fichier `data.js` avec un éditeur de texte (Notepad++, VS Code, etc.)
 2. Trouvez la ligne 3 :
    ```javascript
-   const password = "g01123456";
+   const password = "g01XXXXXX";
    ```
 3. Remplacez `"g01XXXXXX"` par **votre mot de passe de groupe** (disponible sur Moodle)
 4. **Sauvegardez** le fichier
@@ -148,7 +148,7 @@ Le bouton **"Debug"** vous permet de voir exactement ce qui est envoyé à l'API
 - **Effacer** : Vide le panneau
 - **Fermer** : Masque le panneau
 
-> 💡 **Astuce** : Laissez le panneau Debug ouvert pendant vos tests pour voir en temps réel ce qui se passe !
+> **Astuce** : Laissez le panneau Debug ouvert pendant vos tests pour voir en temps réel ce qui se passe !
 
 ---
 
@@ -198,7 +198,7 @@ systemPrompt: `
    - Les **questions** qu'il pose
    - Comment il vous amène vers l'**objectif pédagogique**
 
-> 📖 **Pour aller plus loin** : Consultez la section [Structure d'un bon systemPrompt](https://si3stael.github.io/tutos/tutorial#structure-dun-bon-systemprompt) du tutoriel complet.
+> **Pour aller plus loin** : Consultez la section [Structure d'un bon systemPrompt](https://si3stael.github.io/tutos/tutorial#structure-dun-bon-systemprompt) du tutoriel complet.
 
 ---
 
@@ -253,10 +253,10 @@ systemPrompt: `
 ### Pourquoi commencer par modifier ?
 
 Modifier les scènes existantes avant d'en créer de nouvelles vous permet de :
-- ✅ Comprendre la structure du code
-- ✅ Voir immédiatement l'effet de vos changements
-- ✅ Vous familiariser avec le `systemPrompt`
-- ✅ Éviter les erreurs de débutant
+- Comprendre la structure du code
+- Voir immédiatement l'effet de vos changements
+- Vous familiariser avec le `systemPrompt`
+- Éviter les erreurs de débutant
 
 ### Première modification : Changer le titre
 
@@ -274,7 +274,7 @@ Modifier les scènes existantes avant d'en créer de nouvelles vous permet de :
    title: "Mon premier test",
    ```
 4. **Sauvegardez** et **rechargez** la page dans le navigateur
-5. ✅ Le titre devrait avoir changé !
+5. Le titre devrait avoir changé !
 
 ### Deuxième modification : Adapter le systemPrompt
 
@@ -300,17 +300,17 @@ systemPrompt: `
 
 3. **Sauvegardez** et **rechargez** la page
 4. Cliquez sur **Reset** pour redémarrer la scène
-5. ✅ Observez comment le ton du compagnon a changé !
+5. Observez comment le ton du compagnon a changé !
 
 ### Testez vos modifications
 
 **Checklist de test :**
-- [ ] Le titre s'affiche correctement
-- [ ] Le compagnon répond avec le nouveau ton
-- [ ] La conversation fonctionne toujours
-- [ ] Pas d'erreur dans la console (F12)
+- Le titre s'affiche-t-il correctement ?
+- Le compagnon répond-t-il avec le nouveau ton attendu ?
+- La conversation fonctionne-t-elle toujours comme prévu ?
+- Y a-t-il des erreurs dans la console (F12) ?
 
-> 📖 **Pour aller plus loin** : Consultez la section [Champs à personnaliser](https://si3stael.github.io/tutos/tutorial#champs-à-personnaliser) du tutoriel complet.
+> **Pour aller plus loin** : Consultez la section [Champs à personnaliser](https://si3stael.github.io/tutos/tutorial#champs-à-personnaliser) du tutoriel complet.
 
 ---
 
@@ -356,13 +356,13 @@ Pour déboguer, ajoutez des `console.log()` dans vos fichiers JavaScript :
 **Exemple dans `manip.js` :**
 ```javascript
 function beforeAI(userText, scene){
-    console.log("Message reçu :", userText);  // ← Ajoutez ceci
-    console.log("Scène actuelle :", scene.id); // ← Et ceci
+    console.log("Message reçu :", userText);  // Ajoutez ceci
+    console.log("Scène actuelle :", scene.id); // Et ceci
     
     let laisseAIdecider = true;
     
     if(userText.toLowerCase() === "aide"){
-        console.log("Commande 'aide' détectée"); // ← Et ceci
+        console.log("Commande 'aide' détectée"); // Et ceci
         // ... reste du code
     }
     
@@ -395,7 +395,7 @@ Uncaught ReferenceError: promptVars is not defined
 2. Vérifiez que vous avez bien écrit `promptVars` (orthographe)
 3. Vérifiez que `promptVars.js` est bien chargé dans `index.html`
 
-> 💡 **Astuce** : Gardez **toujours** la console ouverte pendant vos tests !
+> **Astuce** : Gardez **toujours** la console ouverte pendant vos tests !
 
 ---
 
@@ -403,10 +403,10 @@ Uncaught ReferenceError: promptVars is not defined
 
 Maintenant que vous avez pris en main le projet, vous pouvez :
 
-1. ✅ **Créer vos propres scènes** → [Ajouter une nouvelle scène](https://si3stael.github.io/tutos/tutorial#ajouter-une-nouvelle-scène)
-2. ✅ **Personnaliser les commandes** → [Fichier manip.js](https://si3stael.github.io/tutos/tutorial#fichier-2--manipjs--gérer-les-commandes-prédéterminées)
-3. ✅ **Gérer les variables** → [Fichier promptVars.js](https://si3stael.github.io/tutos/tutorial#fichier-4--promptvarsjs--gérer-les-variables-globales-pour-les-prompts)
-4. ✅ **Affiner les transitions** → [Système de transitions](https://si3stael.github.io/tutos/tutorial#système-de-transitions-entre-scènes)
+1. **Créer vos propres scènes** → [Ajouter une nouvelle scène](https://si3stael.github.io/tutos/tutorial#ajouter-une-nouvelle-scène)
+2. **Personnaliser les commandes** → [Fichier manip.js](https://si3stael.github.io/tutos/tutorial#fichier-2--manipjs--gérer-les-commandes-prédéterminées)
+3. **Gérer les variables** → [Fichier promptVars.js](https://si3stael.github.io/tutos/tutorial#fichier-4--promptvarsjs--gérer-les-variables-globales-pour-les-prompts)
+4. **Affiner les transitions** → [Système de transitions](https://si3stael.github.io/tutos/tutorial#système-de-transitions-entre-scènes)
 
 **Workflow recommandé :**
 1. Planifiez d'abord (Étape 5)
@@ -421,11 +421,11 @@ Maintenant que vous avez pris en main le projet, vous pouvez :
 
 **Documents essentiels :**
 -  [Tutoriel complet](https://si3stael.github.io/tutos/tutorial) — Guide détaillé de tous les fichiers
--  [Tutoriel Web Front-End](tutojava) — Bases de HTML, CSS, JavaScript
+-  [Tutoriel Web Front-End](tutojs) — Bases de HTML, CSS, JavaScript
 
 **En cas de problème :**
-- 🔧 [Section Débogage](https://si3stael.github.io/tutos/tutorial#débogage-courant) — Solutions aux problèmes courants
-- ❓ [FAQ](https://si3stael.github.io/tutos/tutorial#questions-fréquentes) — Questions fréquentes
+- [Section Débogage](https://si3stael.github.io/tutos/tutorial#débogage-courant) — Solutions aux problèmes courants
+- [FAQ](https://si3stael.github.io/tutos/tutorial#questions-fréquentes) — Questions fréquentes
 
 ---
 
@@ -443,6 +443,6 @@ Maintenant que vous avez pris en main le projet, vous pouvez :
 
 ---
 
-**Bon courage et amusez-vous bien ! **
+**Bon courage et amusez-vous bien !**
 
 N'oubliez pas : ce projet est autant une exploration artistique que technique. Prenez le temps d'expérimenter et de créer quelque chose qui vous plaît !

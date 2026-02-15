@@ -1,7 +1,7 @@
 <p>
 <a href="https://si3stael.github.io/tutos/starter">Démarrage</a> |
 <a href="https://si3stael.github.io/tutos/tutorial">Tutoriel complet</a> |
-<a href="https://si3stael.github.io/tutos/tutojava">Web Front-End</a> |
+<a href="https://si3stael.github.io/tutos/tutojs">Web Front-End</a> |
 <a href="https://si3stael.github.io/tutos/api">L’API ChatGPT</a>
 </p>
 
@@ -210,7 +210,7 @@ Il existe deux façons principales d'inclure du code JavaScript dans une page HT
 </body>
 ```
 
-⚠️ **Acceptable** pour de petits scripts
+**Acceptable** pour de petits scripts uniquement
 
 #### 2. JavaScript dans un fichier externe (recommandé)
 
@@ -235,14 +235,14 @@ document.getElementById('monBouton').onclick = function() {
 
 Ce petit code affichera une alerte "Bonjour !" lorsque l'utilisateur cliquera sur le bouton. Le code JavaScript est placé dans un fichier séparé `script.js` et lié à la page HTML via la balise `<script>`. Le bouton est créé dans le HTML avec un identifiant `monBouton`, ce qui permet au script de le sélectionner et d'ajouter un gestionnaire d'événement pour le clic.
 
-✅ **Recommandé** : code organisé et réutilisable
+**Recommandé** : code organisé et réutilisable
 
 ### Ordre de chargement important
 
 ⚠️ **Le JavaScript doit être chargé APRÈS les éléments HTML qu'il manipule !**
 
 ```html
-<!-- ❌ MAUVAIS : le bouton n'existe pas encore -->
+<!--  MAUVAIS : le bouton n'existe pas encore -->
 <head>
   <script src="script.js"></script>
 </head>
@@ -250,7 +250,7 @@ Ce petit code affichera une alerte "Bonjour !" lorsque l'utilisateur cliquera su
   <button id="monBouton">Cliquez-moi</button>
 </body>
 
-<!-- ✅ BON : le bouton existe déjà -->
+<!-- BON : le bouton existe déjà -->
 <body>
   <button id="monBouton">Cliquez-moi</button>
   <script src="script.js"></script>
@@ -282,7 +282,7 @@ age = 26;  // OK
 
 // const : variable qui ne peut PAS changer (constante)
 const nom = "Alice";
-// nom = "Bob";  // ❌ ERREUR !
+// nom = "Bob";  //  ERREUR !
 ```
 
 **Règle d'or :** Utilisez `const` par défaut, `let` si la valeur doit changer.
@@ -591,7 +591,7 @@ Pour déboguer efficacement votre code :
 3. **Lisez les messages d'erreur** pour trouver les bugs
 4. **Testez régulièrement** votre code au fur et à mesure
 
-💡 **Astuce :** Prenez l'habitude d'ouvrir la console dès que vous travaillez sur votre projet !
+**Astuce :** Prenez l'habitude d'ouvrir la console dès que vous travaillez sur votre projet !
 
 ---
 
@@ -625,12 +625,12 @@ Pour déboguer efficacement votre code :
 Vous avez maintenant les bases du développement web front-end !
 
 **Ce que vous savez faire :**
-- ✅ Créer la structure d'une page avec HTML
-- ✅ Styliser une page avec CSS
-- ✅ Ajouter de l'interactivité avec JavaScript
-- ✅ Manipuler le DOM (Document Object Model)
-- ✅ Déboguer votre code avec F12 et la console
-- ✅ Créer un projet complet fonctionnel
+- Créer la structure d'une page avec HTML
+- Styliser une page avec CSS
+- Ajouter de l'interactivité avec JavaScript
+- Manipuler le DOM (Document Object Model)
+- Déboguer votre code avec F12 et la console
+- Créer un projet complet fonctionnel
 
 **Prochaines étapes :**
 1. **Pratiquez** : créez vos propres projets
@@ -645,10 +645,10 @@ Vous avez maintenant les connaissances de base pour comprendre et modifier votre
 
 **Ce que vous maîtrisez :**
 
-- ✅ La structure HTML de base
-- ✅ Le rôle du JavaScript dans l'interactivité
-- ✅ Les variables, conditions et fonctions
-- ✅ L'utilisation de la console pour déboguer
+- La structure HTML de base
+- Le rôle du JavaScript dans l'interactivité
+- Les variables, conditions et fonctions
+- L'utilisation de la console pour déboguer
 
 **Pour votre projet spécifique :**
 
@@ -676,6 +676,6 @@ Vous avez maintenant les connaissances de base pour comprendre et modifier votre
 → Consultez le tutoriel de personnalisation de la galerie qui explique `data.js`, `manip.js` et `prompt.js`.
 
 
-**Bon développement ! 🚀**
+**Bon développement !**
 
 
