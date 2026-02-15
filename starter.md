@@ -55,7 +55,7 @@ Bienvenue ! Ce guide vous accompagne dans vos **premiers pas** avec le projet de
 3. **Vérifiez** que vous avez cette structure de fichiers :
 
 ```
-galerie-interactive/
+projet/
 │
 ├── index.html          ← Page principale
 ├── styles.css          ← Styles visuels
@@ -95,7 +95,7 @@ galerie-interactive/
 const password = "g07XXXXXX";  // Si votre groupe est le 7
 ```
 
->  **Sécurité** : Ne partagez jamais votre mot de passe en dehors de votre groupe !
+> **Sécurité** : Ne partagez jamais votre mot de passe en dehors de votre groupe !
 
 ---
 
@@ -253,6 +253,7 @@ systemPrompt: `
 ### Pourquoi commencer par modifier ?
 
 Modifier les scènes existantes avant d'en créer de nouvelles vous permet de :
+
 - Comprendre la structure du code
 - Voir immédiatement l'effet de vos changements
 - Vous familiariser avec le `systemPrompt`
@@ -262,6 +263,7 @@ Modifier les scènes existantes avant d'en créer de nouvelles vous permet de :
 
 1. Ouvrez `data.js`
 2. Trouvez la première scène (ligne ~6) :
+
    ```javascript
    {
      id: "scene-art-02",
@@ -269,10 +271,13 @@ Modifier les scènes existantes avant d'en créer de nouvelles vous permet de :
      // ...
    }
    ```
+
 3. Changez le titre :
+
    ```javascript
    title: "Mon premier test",
    ```
+
 4. **Sauvegardez** et **rechargez** la page dans le navigateur
 5. Le titre devrait avoir changé !
 
@@ -282,6 +287,7 @@ Modifier les scènes existantes avant d'en créer de nouvelles vous permet de :
 2. Changez le ton du compagnon :
 
 **Avant :**
+
 ```javascript
 systemPrompt: `
   Tu es un guide calme et attentif, spécialiste de l'histoire de l'art.
@@ -290,6 +296,7 @@ systemPrompt: `
 ```
 
 **Après :**
+
 ```javascript
 systemPrompt: `
   Tu es un guide très enthousiaste et plein d'énergie, spécialiste de l'histoire de l'art.
@@ -305,6 +312,7 @@ systemPrompt: `
 ### Testez vos modifications
 
 **Checklist de test :**
+
 - Le titre s'affiche-t-il correctement ?
 - Le compagnon répond-t-il avec le nouveau ton attendu ?
 - La conversation fonctionne-t-elle toujours comme prévu ?
@@ -319,10 +327,12 @@ systemPrompt: `
 ### Ouvrir la console
 
 **Raccourcis clavier :**
+
 - **Windows/Linux** : Appuyez sur `F12`
 - **Mac** : Appuyez sur `Cmd + Option + I`
 
 **Onglets importants :**
+
 - **Console** : Messages de débogage et erreurs
 - **Elements** : Voir le HTML de la page
 - **Network** : Voir les appels à l'API
@@ -330,23 +340,29 @@ systemPrompt: `
 ### Que voir dans la console ?
 
 **Messages normaux** (en noir ou bleu) :
+
 ```
 Application to-do list chargée
 Ajout de la tâche : Acheter du pain
 ```
+
 Ces messages indiquent que tout fonctionne.
 
 **Avertissements** (en jaune) :
-```
+
+``` javascript
 Warning: La variable 'userName' n'est pas définie
 ```
+
 Pas critique mais à surveiller.
 
 **Erreurs** (en rouge) :
-```
+
+``` javascript
 Uncaught ReferenceError: maVariable is not defined
     at script.js:15
 ```
+
 ⚠️ **Attention** : Votre code a un problème !
 
 ### Utiliser console.log() dans votre code
@@ -354,6 +370,7 @@ Uncaught ReferenceError: maVariable is not defined
 Pour déboguer, ajoutez des `console.log()` dans vos fichiers JavaScript :
 
 **Exemple dans `manip.js` :**
+
 ```javascript
 function beforeAI(userText, scene){
     console.log("Message reçu :", userText);  // Ajoutez ceci
@@ -371,6 +388,7 @@ function beforeAI(userText, scene){
 ```
 
 **Dans la console, vous verrez :**
+
 ```
 Message reçu : aide
 Scène actuelle : scene-art-02
@@ -380,17 +398,20 @@ Commande 'aide' détectée
 ### Comprendre les erreurs
 
 **Erreur typique :**
+
 ```
 Uncaught ReferenceError: promptVars is not defined
     at data.js:25
 ```
 
 **Comment la lire :**
+
 1. **Type d'erreur** : `ReferenceError` (variable non trouvée)
 2. **Message** : `promptVars is not defined` (promptVars n'existe pas)
 3. **Fichier et ligne** : `data.js:25` (ligne 25 de data.js)
 
 **Comment la corriger :**
+
 1. Cliquez sur `data.js:25` pour aller directement à la ligne
 2. Vérifiez que vous avez bien écrit `promptVars` (orthographe)
 3. Vérifiez que `promptVars.js` est bien chargé dans `index.html`
@@ -409,6 +430,7 @@ Maintenant que vous avez pris en main le projet, vous pouvez :
 4. **Affiner les transitions** → [Système de transitions](https://si3stael.github.io/tutos/tutorial#système-de-transitions-entre-scènes)
 
 **Workflow recommandé :**
+
 1. Planifiez d'abord (Étape 5)
 2. Modifiez les scènes existantes (Étape 6)
 3. Créez une nouvelle scène simple
@@ -420,10 +442,12 @@ Maintenant que vous avez pris en main le projet, vous pouvez :
 ## Ressources
 
 **Documents essentiels :**
+
 -  [Tutoriel complet](https://si3stael.github.io/tutos/tutorial) — Guide détaillé de tous les fichiers
 -  [Tutoriel Web Front-End](tutojs) — Bases de HTML, CSS, JavaScript
 
 **En cas de problème :**
+
 - [Section Débogage](https://si3stael.github.io/tutos/tutorial#débogage-courant) — Solutions aux problèmes courants
 - [FAQ](https://si3stael.github.io/tutos/tutorial#questions-fréquentes) — Questions fréquentes
 
@@ -432,11 +456,13 @@ Maintenant que vous avez pris en main le projet, vous pouvez :
 ## Besoin d'aide ?
 
 **Problème technique :**
+
 1. Vérifiez la console (F12)
 2. Consultez la [section Débogage](https://si3stael.github.io/tutos/tutorial#débogage-courant)
 3. Demandez à votre enseignant avec un exemple précis
 
 **Question sur le projet :**
+
 1. Relisez ce guide
 2. Consultez le [tutoriel complet](https://si3stael.github.io/tutos/tutorial)
 3. Discutez avec votre groupe
