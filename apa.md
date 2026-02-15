@@ -6,9 +6,9 @@ Regardez cette vidéo pour comprendre les normes APA (Source : Sem/DIP):
 
 <div style="text-align: center; margin: 2rem 0;">
   <iframe width="560" height="315" 
-    src="https://www.youtube.com/embed/3iG9YkeuIVU" 
-    title="YouTube video player" 
-    frameborder="0" 
+    src="https://www.youtube.com/embed/3iG9YkeuIVU"
+    title="YouTube video player"
+    frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
     allowfullscreen>
   </iframe>
@@ -79,7 +79,7 @@ Une fois le panneau ouvert, assurez-vous de sélectionner **"APA"** dans le menu
 
 ---
 
-### 2. Citer un livre
+### 2. Ajouter un livre à votre bibliothèque de citations
 
 Pour ajouter un livre à votre bibliothèque de citations :
 
@@ -117,7 +117,7 @@ Le livre est maintenant enregistré dans votre bibliothèque de citations et pr�
 
 ---
 
-### 3. Citer un site web
+### 3. Ajouter un site web à votre bibliothèque de citations
 
 ![Capture d'écran de la sélection du type de source Site web](images/type-source-siteweb.png)
 
@@ -146,7 +146,7 @@ Pour citer un site web dans votre document :
 
 ---
 
-### 4. Citer un article de journal (académique ou presse)
+### 4. Ajouter un article de journal à votre bibliothèque de citations
 
 ![Capture d'écran de la sélection article de journal](images/type-source-article.png)
 
@@ -182,7 +182,7 @@ Pour citer un article de journal académique ou de presse :
 
 ![Capture d'écran montrant comment insérer une citation](images/inserer-citation.png)
 
-Une fois que vous avez ajouté vos sources à votre bibliothèque de citations, vous pouvez les insérer dans votre document :
+Une fois que vous avez ajouté vos sources à votre bibliothèque de citations, vous pouvez les utiliser quand vous insérer une citation dans votre document :
 
 1. **Placez votre curseur** à l'endroit exact où vous souhaitez insérer la citation dans votre texte
    - Généralement, la citation se place juste après l'information que vous souhaitez référencer
@@ -201,6 +201,7 @@ Une fois que vous avez ajouté vos sources à votre bibliothèque de citations, 
 **Important** : Si vous citez plusieurs fois la même source dans votre document, répétez simplement cette procédure. Google Docs gardera la trace de toutes vos citations pour la bibliographie finale.
 
 ![Capture d'écran d'une citation insérée dans le texte](images/citation-dans-texte.png)
+
 
 **Exemple dans le texte** : 
 > Selon les recherches récentes (Dupont, 2020), l'utilisation des normes APA facilite la lecture académique.
@@ -266,22 +267,23 @@ La dernière étape consiste à générer automatiquement votre bibliographie à
 
 Pour les images, illustrations, graphiques ou photographies, les règles APA concernant les images peuvent être plus complexes à appliquer. Nous vous recommandons une approche simplifiée adaptée aux TPC/TM :
 
-**Méthode recommandée** : Ajoutez une légende directement sous l'image avec la source
+**Méthode recommandée** : Ajoutez une légende directement sous l'image avec la source. Pour ce faire générer un tableu de deux lignes et une colonne, insérez votre image dans la première ligne, puis dans la seconde ligne, ajoutez la légende avec la source. Formatez la légende en petit texte (taille 10 par exemple) pour la différencier du reste du texte. Vous pourrez aussi changer la couleur du cadre du tableau pour qu'il soit invisible (clic droit ).
 
 **Comment procéder :**
 
-1. Insérez votre image dans le document (Insertion > Image)
-2. Cliquez sur l'image, puis allez dans les options d'image
-3. Sous l'image, ajoutez une zone de texte ou un paragraphe avec la légende
-4. Formatez la légende en petit texte (taille 10 par exemple)
+1. Créer un tableau de 2 lignes et 1 colonne (Insertion > Tableau > 2x1)
+2. Insérez votre image dans le document (Insertion > Image)
+3. Cliquez sur l'image, puis allez dans les options d'image
+4. Dans la deuxième ligne du tableau, ajoutez une zone de texte ou un paragraphe avec la légende.
+6. Formatez la légende en petit texte (taille 10 par exemple)
 
 **Exemples de légendes selon le type de source :**
 
 - **Pour une image trouvée sur un site web** :
-  > Source : [Nom du site web ou de l'organisation], consulté le [date]
+  > Source : [Adresse du site web ou de l'organisation], consulté le [date]
 
 - **Pour une œuvre d'art** :
-  > [Nom de l'artiste], *[Titre de l'œuvre]*, [année de création]
+  > [Nom de l'artiste], *[Titre de l'œuvre]*, [année de création]. Source : [Nom du site ou de la publication]
 
 - **Pour une photographie ou image avec auteur connu** :
   > Photo : [Nom du photographe], [année]. Source : [Nom du site ou de la publication]
