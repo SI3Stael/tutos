@@ -180,13 +180,10 @@ Pour citer un article de journal académique ou de presse :
 
 ### 5. Insérer une citation dans votre texte
 
-![Capture d'écran montrant comment insérer une citation](images/inserer-citation.png)
-
-La règle est la suivante : si la sitation est courte (moins de 40 mots), elle doit être intégrée dans le texte entre guillemets. Si la citation est longue (40 mots ou plus), elle doit être mise en retrait et formatée différemment (sans guillemets, avec un retrait de 1,27 cm (1/2 pouce), et en taille de police plus petite). 
-
-
+La règle est la suivante : si la citation est courte (moins de 40 mots), elle doit être intégrée dans le texte entre guillemets. Si la citation est longue (40 mots ou plus), elle doit être mise en retrait et formatée différemment (sans guillemets, avec un retrait de 1,27 cm (1/2 pouce), et en taille de police plus petite).
 
 Une fois que vous avez ajouté vos sources à votre bibliothèque de citations, vous pouvez les utiliser quand vous insérer une citation dans votre document :
+
 1. **Placez votre curseur** à l'endroit exact où vous souhaitez insérer la citation dans votre texte
    - Généralement, la citation se place juste après l'information que vous souhaitez référencer
    - Elle doit être placée **avant** le point final de la phrase
@@ -194,54 +191,43 @@ Une fois que vous avez ajouté vos sources à votre bibliothèque de citations, 
 2. Dans le panneau de citations à droite, **recherchez la source** que vous souhaitez citer
    - Vous pouvez utiliser la barre de recherche si vous avez beaucoup de sources
    - Ou faire défiler la liste de vos sources
+  
 
 3. **Cliquez sur la source** que vous souhaitez citer
 
-4. Cliquez sur le bouton **"Insérer"** (ou "Citer") à côté de la source
+4. Cliquez sur le bouton **Citer** à côté de la source
 
 5. Google Docs insère automatiquement la citation au format APA : **(Nom de l'auteur, année)**
 
-**Important** : Si vous citez plusieurs fois la même source dans votre document, répétez simplement cette procédure. Google Docs gardera la trace de toutes vos citations pour la bibliographie finale.
+<div style="text-align: center;">
+  <img src="images/citlivre.png" style="width: 90%; max-width: 800px;">
+</div>
 
-![Capture d'écran d'une citation insérée dans le texte](images/citation-dans-texte.png)
-
-**Exemple dans le texte** : 
-> Selon les recherches récentes (Dupont, 2020), l'utilisation des normes APA facilite la lecture académique.
 
 ---
 
 ### 6. Insérer la bibliographie finale
 
-![Capture d'écran du bouton Insérer la bibliographie](images/inserer-bibliographie.png)
-
 La dernière étape consiste à générer automatiquement votre bibliographie à la fin de votre document :
 
 1. **Allez à la fin de votre document** ou à l'endroit où vous souhaitez insérer la bibliographie
    - Créez une nouvelle page si nécessaire (Insertion > Saut > Saut de page)
-   - Ajoutez un titre **"Bibliographie"** ou **"Références"** (centré ou aligné à gauche selon vos préférences)
+   - Ajoutez un titre **Bibliographie**  (centré ou aligné à gauche selon vos préférences)
 
 2. **Placez votre curseur** sous le titre de la bibliographie (sur une nouvelle ligne)
 
-3. Dans le panneau de citations à droite, cliquez sur le bouton **"Insérer la bibliographie"** (généralement situé en bas du panneau)
+3. Dans le panneau de citations à droite, cliquez sur le bouton **"Insérer les oeuvres citées"** (généralement situé en bas du panneau)
 
 4. Google Docs génère automatiquement une bibliographie complète de toutes les sources que vous avez citées dans votre document
    - Les sources sont automatiquement classées par ordre alphabétique
    - Le formatage APA est appliqué automatiquement (retraits, italiques, etc.)
-   - Seules les sources effectivement citées dans le texte apparaissent dans la bibliographie
-
-**Mise à jour automatique** : Si vous ajoutez de nouvelles citations à votre document, la bibliographie se mettra automatiquement à jour. Si elle ne se met pas à jour, cliquez (droit) sur la bibliographie, puis sélectionnez « Actualiser ».
-
-![Capture d'écran d'une bibliographie formatée APA](images/bibliographie-finale.png)
 
 **Exemple de bibliographie** :
+Ici, nous avons cité un livre de Gould (1998), un site web sérieux et un article du journal Le Temps. 
 
-> **Bibliographie**
->
-> Bernard, M. (2022, 15 mars). Titre de l'article. *Le Monde*. https://www.lemonde.fr/article
->
-> Dupont, J. (2020). *Titre du livre*. Maison d'édition.
->
-> Martin, P., & Lefèvre, S. (2019). Titre de l'article. *Nom de la Revue*, *32*(4), 45-67. https://doi.org/10.xxxx/xxxxx
+<div style="text-align: center;">
+  <img src="images/biblio.png" style="width: 90%; max-width: 800px;">
+</div>
 
 ---
 
