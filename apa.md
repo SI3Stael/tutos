@@ -5,11 +5,11 @@
 Regardez cette vidéo pour comprendre les normes APA (Source : Sem/DIP):
 
 <div style="text-align: center; margin: 2rem 0;">
-  <iframe width="560" height="315" 
+  <iframe width="560" height="315"
     src="https://www.youtube.com/embed/3iG9YkeuIVU"
     title="YouTube video player"
     frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowfullscreen>
   </iframe>
 </div>
@@ -89,8 +89,8 @@ Pour ajouter un livre à votre bibliothèque de citations :
   <img src="images/ajouter-source.png" style="width: 70%; max-width: 500px;">
 </div>
 
-1. Dans la fenêtre qui s'ouvre, sélectionnez **Livre** dans le menu déroulant "Type de source". Puis sélectionnez **Base de données en ligne** dans le menu déroulant "Type d'accès" puis **Citer manuellement** pour remplir les champs vous-même.
-2. Remplissez les champs suivants :
+2. Dans la fenêtre qui s'ouvre, sélectionnez **Livre** dans le menu déroulant "Type de source". Puis sélectionnez **Base de données en ligne** dans le menu déroulant "Type d'accès" puis **Citer manuellement** pour remplir les champs vous-même.
+3. Remplissez les champs suivants :
    - **Auteur(s)** : Nom, Prénom de l'auteur (exemple : Dupont, Jean)
    - **Titre** : Le titre complet du livre en italique
    - **Éditeur** : La maison d'édition
@@ -182,8 +182,11 @@ Pour citer un article de journal académique ou de presse :
 
 ![Capture d'écran montrant comment insérer une citation](images/inserer-citation.png)
 
-Une fois que vous avez ajouté vos sources à votre bibliothèque de citations, vous pouvez les utiliser quand vous insérer une citation dans votre document :
+La règle est la suivante : si la sitation est courte (moins de 40 mots), elle doit être intégrée dans le texte entre guillemets. Si la citation est longue (40 mots ou plus), elle doit être mise en retrait et formatée différemment (sans guillemets, avec un retrait de 1,27 cm (1/2 pouce), et en taille de police plus petite). 
 
+
+
+Une fois que vous avez ajouté vos sources à votre bibliothèque de citations, vous pouvez les utiliser quand vous insérer une citation dans votre document :
 1. **Placez votre curseur** à l'endroit exact où vous souhaitez insérer la citation dans votre texte
    - Généralement, la citation se place juste après l'information que vous souhaitez référencer
    - Elle doit être placée **avant** le point final de la phrase
@@ -201,7 +204,6 @@ Une fois que vous avez ajouté vos sources à votre bibliothèque de citations, 
 **Important** : Si vous citez plusieurs fois la même source dans votre document, répétez simplement cette procédure. Google Docs gardera la trace de toutes vos citations pour la bibliographie finale.
 
 ![Capture d'écran d'une citation insérée dans le texte](images/citation-dans-texte.png)
-
 
 **Exemple dans le texte** : 
 > Selon les recherches récentes (Dupont, 2020), l'utilisation des normes APA facilite la lecture académique.
