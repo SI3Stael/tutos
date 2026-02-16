@@ -52,8 +52,8 @@ Il est également pratique pour partager votre travail avec votre professeur, af
 ## Instructions détaillées pour citer en suivant les normes APA dans Google Docs
 
 - [1. Accéder au menu citation](#1-accéder-au-menu-citation)
-- [2. Citer un livre](#2-ajouter-un-livre-à-votre-bibliothèque-de-citations)
-- [3. Citer un site web](#3-citer-un-site-web)
+- [2. Ajouter un livre à votre bibliothèque de citations](#2-ajouter-un-livre-à-votre-bibliothèque-de-citations)
+- [3. Ajouter un site web à votre bibliothèque de citations](#3-ajouter-un-site-web-à-votre-bibliothèque-de-citations)
 - [4. Citer un article de journal (académique ou presse)](#4-citer-un-article-de-journal-académique-ou-presse)
 - [5. Insérer une citation dans votre texte](#5-insérer-une-citation-dans-votre-texte)
 - [6. Insérer la bibliographie finale](#6-insérer-la-bibliographie-finale)
