@@ -17,7 +17,7 @@
 
 - `data.js` : définit les scènes (œuvres, images, prompts).
 - `manip.js` : gère les commandes prédéterminées via `beforeAI()`.
-- `promptVars.js` : variables globales injectables dans les prompts avec `{{nomVariable}}`.
+- `promptVars.js` : variables globales injectables dans les prompts avec `{% raw %}{{nomVariable}}{% endraw %}`.
 - `app.js` : ne pas modifier — gère les appels API.
 
 ## manip.js  (<a href="https://si3stael.github.io/tutos/tutorial">Tutoriel complet</a>)
@@ -30,7 +30,7 @@
 ## promptVars.js (<a href="https://si3stael.github.io/tutos/tutorial">Tutoriel complet</a>)
 
 - Contient les variables globales réutilisables dans tous les prompts.
-- Syntaxe dans le prompt : `{{userName}}`, `{{age}}`, etc.
+- Syntaxe dans le prompt : `{% raw %}{{userName}}{% endraw %}`, `{% raw %}{{age}}{% endraw %}`, etc.
 - On peut modifier les variables dynamiquement dans `manip.js`.
 
 ## data.js (<a href="https://si3stael.github.io/tutos/tutorial">Tutoriel complet</a>)
