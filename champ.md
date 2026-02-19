@@ -55,3 +55,6 @@
 
 - Connaître les 7 critères qui permettent d'évaluer la qualité d'une source.
 - Savoir comment une IA serait évaluée selon ces critères.
+- Savoir que les IA actuelles ne sont pas fiables pour fournir des sources de qualité (manque de transparence, biais, etc.).
+- Savoir que les IA ne peuvent pas être utilisées comme sources dans un travail académique selon les normes APA.
+- Savoir que les IA peuvent être utilisées pour aider à trouver des sources, mais que ces sources doivent être vérifiées et citées correctement.
