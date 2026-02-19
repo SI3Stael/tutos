@@ -1,60 +1,37 @@
 # À savoir pour le QCM
 
-## API ChatGPT (<a href="https://si3stael.github.io/tutos/api">L’API ChatGPT</a>)
+Note : Attention à bien avoir pris connaissance du contenu du guide de <a href="https://si3stael.github.io/tutos/starter">Démarrage</a>, à propos duquel des questions pourront être posées.
 
-- Savoir ce qu'est une API.
-- L'API ChatGPT est **stateless** : aucune mémoire entre deux requêtes.
-- Les champs **obligatoires** d'une requête : `model` et `input` seulement. Savoir à quoi ces champs correspondent.
-- Les champs **optionnels** : `temperature`, `max_tokens`.
-- Le rôle **system** : définit le comportement global de l'IA.
-- Le rôle **user** : messages de l'utilisateur.
-- Le rôle **assistant** : réponses précédentes de l'IA, à renvoyer pour maintenir le contexte.
-- L'**ordre** des entrées dans `input` est critique (system en premier, puis ordre chronologique).
-- Un **token** : unité de texte (mot, partie de mot, ponctuation, espace) — tokens d'entrée ET de sortie sont comptabilisés.
-- Si l'historique n'est pas inclus dans `input`, le modèle n'en a aucun souvenir.
+## Structure du projet
 
-## Projet Galerie — Fichiers (<a href="https://si3stael.github.io/tutos/starter">Démarrage</a>)
-
-- Nous pouvons poser toutes questions dans le guide de démarrage.
-- `data.js` : définit les scènes (œuvres, images, prompts).
-- `manip.js` : gère les commandes prédéterminées via `beforeAI()`.
-- `promptVars.js` : variables globales injectables dans les prompts avec `{% raw %}{{nomVariable}}{% endraw %}`.
-- `app.js` : ne pas modifier — gère les appels API.
-
-## manip.js  (<a href="https://si3stael.github.io/tutos/tutorial">Tutoriel complet</a>)
-
-- `beforeAI()` intercepte le message avant l'appel à l'IA.
-- Si `beforeAI()` retourne `false` → l'IA n'est pas appelée.
-- Pour ajouter une commande (ex: "couleur bleue") → `else if` dans `beforeAI()` dans `manip.js`.
-- Commandes existantes : `aide`, `nom`, `mon nom est X`.
-
-## promptVars.js (<a href="https://si3stael.github.io/tutos/tutorial">Tutoriel complet</a>)
-
-- Contient les variables globales réutilisables dans tous les prompts.
-- Syntaxe dans le prompt : `{% raw %}{{userName}}{% endraw %}`, `{% raw %}{{age}}{% endraw %}`, etc.
-- On peut modifier les variables dynamiquement dans `manip.js`.
+- Connaître le rôle global de chacun des fichiers au sein du projet.
+- Comprendre où sont stockées (chemins de fichiers/dossiers) les différentes ressources que le site web nécessite.
 
 ## data.js (<a href="https://si3stael.github.io/tutos/tutorial">Tutoriel complet</a>)
 
-- `systemPrompt` : instructions cachées qui définissent le comportement de l'IA pour la scène (`tutorial.md`).
-- `firstUserMessage` : premier message envoyé à l'IA comme message utilisateur (`tutorial.md`).
-- Transition entre scènes : l'IA inclut `<!-- GOTO:scene-id -->` dans sa réponse (`tutorial.md`).
-- Savoir comment on change les images d'une scène : en modifiant le champ `image` dans `data.js` (`tutorial.md`).
-- En général il faut comprendre la différence entre transition par IA et transition via logique conditionnelle.
+- Contenu de la section "Fichier 1 : data.js - Définir vos scènes" au sein du tutoriel complet.
+- Comprendre la syntaxe des templates utilisées dans les prompts : `{% raw %}{{userName}}{% endraw %}`, `{% raw %}{{age}}{% endraw %}`, etc. Voir section "Fichier 4" du tutoriel complet.
+
+
+## Fonctionnement de l'API et intégration dans le projet (<a href="https://si3stael.github.io/tutos/api">L’API ChatGPT</a>)
+
+- Comprendre les enjeux et implications de l'indépendence des chats entre les scènes.
+- Comprendre une instruction simple du fichier manip.js, telle que celles présentées en exemple le mardi.
+- Comprendre le rôle et fonctionnement d'un prompt système (tel que ceux que vous avez rédigés dans data.js).
+- Différence entre la programmation d'un prompt et la programmation d'un script (manip.js).
+- Savoir ce qu'est une API.
+
 
 ## Normes APA (<a href="https://si3stael.github.io/tutos/apa">Normes APA</a>)
 
-- Les normes APA : ensemble de règles pour citer des sources dans les travaux académiques.
-- Citations dans le texte : format `(Auteur, année)`.
+- Normes APA : ensemble de règles pour citer des sources et formatter des références dans les travaux académiques.
 - Différence entre référence et citation.
-- Bibliographie en fin de document, classée alphabétiquement.
-- Pas de notes de bas de page avec les sources en APA.
-- Dans Google Docs : Outils → Citations → style APA.
+- Manière d'organiser la bibliographie en fin de document.
 
-## Analyse de sources (<a href="https://si3stael.github.io/tutos/apa">Normes APA</a>)
+## Analyse de sources (<a href="https://edu.ge.ch/moodle/pluginfile.php/1323382/mod_resource/content/1/SII3-2526%20-%20Aide%20%C3%A0%20l%C3%A9valuation%20des%20sources.pdf?redirect=1">Aide à l'utilisation des sources</a>)
 
+- Connaître les enjeux de l'utilisation des IA en lien avec les sources (voir document correspondant).
 - Connaître les 7 critères qui permettent d'évaluer la qualité d'une source.
 - Savoir comment une IA serait évaluée selon ces critères.
-- Savoir que les IA actuelles ne sont pas fiables pour fournir des sources de qualité (manque de transparence, biais, etc.).
-- Savoir que les IA ne peuvent pas être utilisées comme sources dans un travail académique selon les normes APA.
-- Savoir que les IA peuvent être utilisées pour aider à trouver des sources, mais que ces sources doivent être vérifiées et citées correctement.
+
+
