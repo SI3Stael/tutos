@@ -15,11 +15,14 @@ Note : d'une manière générale, veillez à bien avoir pris connaissance du gui
 
 ## Fonctionnement de l'API et intégration dans le projet (<a href="https://si3stael.github.io/tutos/api">L’API ChatGPT</a>)
 
+- Savoir ce qu'est une API.
+- Comprendre la différence entre les rôles "system", "user" et "assistant".
+- Comprendre ce qu'est un token.
 - Comprendre les enjeux et implications de l'indépendence des chats entre les scènes.
 - Comprendre une instruction simple du fichier manip.js, telle que celles présentées en exemple le mardi.
 - Comprendre le rôle et fonctionnement d'un prompt système (tel que ceux que vous avez rédigés dans data.js).
 - Différence entre la programmation d'un prompt et la programmation d'un script (manip.js).
-- Savoir ce qu'est une API.
+
 
 
 ## Normes APA (<a href="https://si3stael.github.io/tutos/apa">Normes APA</a>)
