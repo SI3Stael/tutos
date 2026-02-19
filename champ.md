@@ -1,5 +1,6 @@
 # À savoir pour le QCM
 
+Note : d'une manière générale, veillez à bien avoir pris connaissance du guide de démarrage, à propos duquel des questions pourront être posées.
 
 ## Structure du projet (<a href="https://si3stael.github.io/tutos/starter">Démarrage</a>)
 
