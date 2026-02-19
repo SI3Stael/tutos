@@ -15,6 +15,7 @@
 
 ## Projet Galerie — Fichiers (<a href="https://si3stael.github.io/tutos/starter">Démarrage</a>)
 
+- Nous pouvons poser toutes questions dans le guide de démarrage.
 - `data.js` : définit les scènes (œuvres, images, prompts).
 - `manip.js` : gère les commandes prédéterminées via `beforeAI()`.
 - `promptVars.js` : variables globales injectables dans les prompts avec `{% raw %}{{nomVariable}}{% endraw %}`.
@@ -39,11 +40,18 @@
 - `firstUserMessage` : premier message envoyé à l'IA comme message utilisateur (`tutorial.md`).
 - Transition entre scènes : l'IA inclut `<!-- GOTO:scene-id -->` dans sa réponse (`tutorial.md`).
 - Savoir comment on change les images d'une scène : en modifiant le champ `image` dans `data.js` (`tutorial.md`).
+- En général il faut comprendre la différence entre transition par IA et transition via logique conditionnelle.
 
 ## Normes APA (<a href="https://si3stael.github.io/tutos/apa">Normes APA</a>)
 
 - Les normes APA : ensemble de règles pour citer des sources dans les travaux académiques.
 - Citations dans le texte : format `(Auteur, année)`.
+- Différence entre référence et citation.
 - Bibliographie en fin de document, classée alphabétiquement.
 - Pas de notes de bas de page avec les sources en APA.
 - Dans Google Docs : Outils → Citations → style APA.
+
+## Analyse de sources (<a href="https://si3stael.github.io/tutos/apa">Normes APA</a>)
+
+- Connaître les 7 critères qui permettent d'évaluer la qualité d'une source.
+- Savoir comment une IA serait évaluée selon ces critères.
