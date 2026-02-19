@@ -1,8 +1,7 @@
 # À savoir pour le QCM
 
-Note : Attention à bien avoir pris connaissance du contenu du guide de <a href="https://si3stael.github.io/tutos/starter">Démarrage</a>, à propos duquel des questions pourront être posées.
 
-## Structure du projet
+## Structure du projet (<a href="https://si3stael.github.io/tutos/starter">Démarrage</a>)
 
 - Connaître le rôle global de chacun des fichiers au sein du projet.
 - Comprendre où sont stockées (chemins de fichiers/dossiers) les différentes ressources que le site web nécessite.
