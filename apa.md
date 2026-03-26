@@ -46,7 +46,7 @@ Il est également pratique pour partager votre travail avec votre professeur, af
 9. Google Docs insérera automatiquement la citation dans le format APA approprié dans votre document.
 10. Pour générer une bibliographie à la fin de votre document, placez le curseur à l'endroit où vous souhaitez insérer la bibliographie, puis cliquez sur "Insérer la bibliographie" dans le panneau de citations. Google Docs générera automatiquement une bibliographie formatée selon les normes APA avec toutes les sources que vous avez citées dans votre document.
 11. Pour les images, nous recommandons une approche simplifiée adaptée aux TPC/TM : citer dans une légende sous l'image (par exemple, "source : [nom du site web ou de la source]"), ou alors si c'est une œuvre d'art, vous pouvez citer l'artiste et la date de production. Vous pouvez vérifier avec votre maître accompagnant si cette méthode lui convient.
-12. Ce site web ne se veut pas exhaustif, si vous avez un doute ou que vous voulez en savoir plus sur les normes APA ou comment savoir siter un texte de loi, un réseau social... Vous pouvez consulter le document suivant édité par la HEG: [APA HEG](https://github.com/SI3Stael/tutos/blob/main/docs/APA-HES-SO.pdf)  
+12. Ce site web ne se veut pas exhaustif, si vous avez un doute ou que vous voulez en savoir plus sur les normes APA ou comment savoir siter un texte de loi, un réseau social... Vous pouvez consulter le document suivant édité par la HEG: [APA HEG](https://si3stael.github.com/tutos/docs/APA-HES-SO.pdf)  
 
 ---
 
