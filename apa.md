@@ -287,7 +287,7 @@ Pour les images, illustrations, graphiques ou photographies, les règles APA con
 
 ### 9. Le cas particulier de l'IA
 
-Pour les informations générées par une IA (ChatGPT, Claude.ai, etc.), il est important de les citer correctement pour respecter les normes APA et éviter le plagiat. 
+Pour les informations générées par une IA (ChatGPT, Claude.ai, etc.), il est important de les citer correctement pour respecter les normes APA et éviter le plagiat.
 
 - Si vous faites un copié-collé d'une réponse générée par une IA, vous devez citer la source de cette information.
 
@@ -298,7 +298,7 @@ Voici comment vous pouvez citer une IA dans votre travail :
 
 - Par honnêteté intellectuelle, vous pouvez aussi mentionner à la fin de votre travail un paragraphe expliquant que vous avez utilisé une IA pour vérifier vos citations et votre bibliographie, corriger votre orthographe, ou pour toute autre tâche. Par exemple :
   
-> **Note sur l'utilisation de l'IA** : J'ai utilisé ChatGPT et Claude.ai pour vérifier la complétude et la précision de mes citations et de ma bibliographie, ainsi que pour corriger l'orthographe et la grammaire de mon travail. De même j'ai utilisé l'IA pour me donner des idées et des suggestions lors du traitement de ma problématique.Toutes les phrases recopiées intégralement ou partiellement d'une réponse générée par une IA ont été citées dans le texte et référencées dans la bibliographie conformément aux normes APA.
+> **Note sur l'utilisation de l'IA** : J'ai utilisé ChatGPT et Claude.ai pour vérifier la complétude et la précision de mes citations et de ma bibliographie, ainsi que pour corriger l'orthographe et la grammaire de mon travail. De même j'ai utilisé l'IA pour me donner des idées et des suggestions lors du traitement de ma problématique. Toutes les phrases recopiées intégralement ou partiellement d'une réponse générée par une IA ont été citées dans le texte et référencées dans la bibliographie conformément aux normes APA.
 
 ---
 
