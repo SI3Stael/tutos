@@ -29,6 +29,7 @@ Google Docs incorpore un outil de citation qui facilite la création de bibliogr
 De plus, Google Docs est gratuit et accessible à tous, ce qui en fait un choix populaire pour les étudiants et les professionnels qui ont besoin de créer des documents avec des citations, sans avoir à investir dans des logiciels coûteux.
 
 Dernier point, mais non des moindres, Google Docs permet une collaboration en temps réel, ce qui est particulièrement utile pour les projets de groupe.
+
 Il est également pratique pour partager votre travail avec votre professeur, afin qu’il puisse suivre votre progression et vous donner des conseils en temps réel.
 
 ---
@@ -46,24 +47,11 @@ Il est également pratique pour partager votre travail avec votre professeur, af
 9. Google Docs insérera automatiquement la citation dans le format APA approprié dans votre document.
 10. Pour générer une bibliographie à la fin de votre document, placez le curseur à l'endroit où vous souhaitez insérer la bibliographie, puis cliquez sur "Insérer la bibliographie" dans le panneau de citations. Google Docs générera automatiquement une bibliographie formatée selon les normes APA avec toutes les sources que vous avez citées dans votre document.
 11. Pour les images, nous recommandons une approche simplifiée adaptée aux TPC/TM : citer dans une légende sous l'image (par exemple, "source : [nom du site web ou de la source]"), ou alors si c'est une œuvre d'art, vous pouvez citer l'artiste et la date de production. Vous pouvez vérifier avec votre maître accompagnant si cette méthode lui convient.
-12. Avant de finaliser votre document, uploadez votre travail sur ChatGPT et/ou Claude.ai et posez les questions suivantes :
+12. Ce site web ne se veut pas exhaustif, si vous avez un doute ou que vous voulez en savoir plus sur les normes APA ou comment citer un texte de loi, un réseau social... Vous pouvez consulter le [guide APA 7e édition de la HES-SO](https://si3stael.github.io/tutos/docs/APA-HES-SO.pdf).
+13. Avant de finaliser votre document, uploadez votre travail sur ChatGPT et/ou Claude.ai et posez les questions suivantes :
    - "Peux-tu vérifier que mes citations sont correctes et complètes selon les normes APA ?"
    - "Peux-tu vérifier que ma bibliographie est correctement formatée selon les normes APA ?"
-   - "Peux-tu vérifier que j'ai cité toutes les sources que j'ai utilisées dans mon travail ?
-  
----
-
-    - [1. Accéder au menu citation](#1-accéder-au-menu-citation)
-    - [2. Ajouter un livre à votre bibliothèque de citations](#2-ajouter-un-livre-à-votre-bibliothèque-de-citations)
-    - [3. Ajouter un site web à votre bibliothèque de citations](#3-ajouter-un-site-web-à-votre-bibliothèque-de-citations)
-    - [4. Ajouter un article de journal à votre bibliothèque de citations](#4-ajouter-un-article-de-journal-à-votre-bibliothèque-de-citations)
-    - [5. Insérer une citation dans votre texte](#5-insérer-une-citation-dans-votre-texte)
-    - [6. Insérer la bibliographie finale](#6-insérer-la-bibliographie-finale)
-    - [7. Conseils supplémentaires et erreurs courantes à éviter](#7-conseils-supplémentaires-et-erreurs-courantes-à-éviter)
-    - [8. Cas particulier : citer les images et illustrations](#8-cas-particulier--citer-les-images-et-illustrations)
-    - [9. Le cas particulier de l'IA](#9-le-cas-particulier-de-lia)
-  - [Récapitulatif final](#récapitulatif-final)
-
+   - "Peux-tu vérifier que j'ai cité toutes les sources que j'ai utilisées dans mon travail ?"
 
 ---
 
@@ -191,7 +179,7 @@ Pour citer un article de journal académique ou de presse :
 
 La règle est la suivante : si la citation est courte (moins de 40 mots), elle doit être intégrée dans le texte entre guillemets. Si la citation est longue (40 mots ou plus), elle doit être mise en retrait et formatée différemment (sans guillemets, avec un retrait de 1,27 cm (1/2 pouce), et en taille de police plus petite).
 
-Une fois que vous avez ajouté vos sources à votre bibliothèque de citations, vous pouvez les utiliser quand vous insérer une citation dans votre document :
+Une fois que vous avez ajouté vos sources à votre bibliothèque de citations, vous pouvez les utiliser quand vous insérez une citation dans votre document :
 
 1. **Placez votre curseur** à l'endroit exact où vous souhaitez insérer la citation dans votre texte
    - Généralement, la citation se place juste après l'information que vous souhaitez référencer
@@ -305,7 +293,7 @@ Pour les informations générées par une IA (ChatGPT, Claude.ai, etc.), il est 
 
 Voici comment vous pouvez citer une IA dans votre travail :
 **Dans le texte** : (ChatGPT, 2024) ou (Claude.ai, 2024)
-**Dans la bibliographie** :
+**Dans la bibliographie** :  A ajouter
 **Remarque** : Les normes APA pour citer les IA sont encore en évolution, il est donc recommandé de vérifier les dernières directives de l'APA ou de consulter votre professeur pour vous assurer que vous citez correctement les informations générées par une IA et comment les inclure dans votre bibliographie.
 
 - Par honnêteté intellectuelle, vous pouvez aussi mentionner à la fin de votre travail un paragraphe expliquant que vous avez utilisé une IA pour vérifier vos citations et votre bibliographie, corriger votre orthographe, ou pour toute autre tâche. Par exemple :
@@ -323,6 +311,7 @@ En suivant ces instructions détaillées, vous devriez être en mesure de :
 - ✓ Insérer des citations dans votre texte au bon format
 - ✓ Générer automatiquement une bibliographie complète et correctement formatée
 - ✓ Citer les images de manière appropriée
+- ✓ Savoir comment citer les informations générées par une IA
 
 N'oubliez pas que Google Docs fait la majorité du travail de formatage pour vous, mais il est de votre responsabilité de :
 
@@ -330,7 +319,7 @@ N'oubliez pas que Google Docs fait la majorité du travail de formatage pour vou
 2. Citer **toutes** les sources que vous utilisez
 3. Relire votre bibliographie finale
 
-Pour toute question sur les normes APA ou sur l'utilisation de Google Docs, n'hésitez pas à consulter votre professeur ou les ressources en ligne officielles de l'APA.
+Pour toute question sur les normes APA ou sur l'utilisation de Google Docs, n'hésitez pas à consulter votre professeur, les ressources en ligne officielles de l'APA ou le [guide APA 7e édition de la HES-SO](https://www.hes-so.ch/data/documents/APA-7th-edition-HES-SO.pdf).
 
 Bon courage pour votre TPC/TM !
 
