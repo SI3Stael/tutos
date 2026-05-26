@@ -46,19 +46,28 @@ Il est également pratique pour partager votre travail avec votre professeur, af
 9. Google Docs insérera automatiquement la citation dans le format APA approprié dans votre document.
 10. Pour générer une bibliographie à la fin de votre document, placez le curseur à l'endroit où vous souhaitez insérer la bibliographie, puis cliquez sur "Insérer la bibliographie" dans le panneau de citations. Google Docs générera automatiquement une bibliographie formatée selon les normes APA avec toutes les sources que vous avez citées dans votre document.
 11. Pour les images, nous recommandons une approche simplifiée adaptée aux TPC/TM : citer dans une légende sous l'image (par exemple, "source : [nom du site web ou de la source]"), ou alors si c'est une œuvre d'art, vous pouvez citer l'artiste et la date de production. Vous pouvez vérifier avec votre maître accompagnant si cette méthode lui convient.
+12. Avant de finaliser votre document, uploadez votre travail sur ChatGPT et/ou Claude.ai et posez les questions suivantes :
+   - "Peux-tu vérifier que mes citations sont correctes et complètes selon les normes APA ?"
+   - "Peux-tu vérifier que ma bibliographie est correctement formatée selon les normes APA ?"
+   - "Peux-tu vérifier que j'ai cité toutes les sources que j'ai utilisées dans mon travail ?
+  
+---
+
+    - [1. Accéder au menu citation](#1-accéder-au-menu-citation)
+    - [2. Ajouter un livre à votre bibliothèque de citations](#2-ajouter-un-livre-à-votre-bibliothèque-de-citations)
+    - [3. Ajouter un site web à votre bibliothèque de citations](#3-ajouter-un-site-web-à-votre-bibliothèque-de-citations)
+    - [4. Ajouter un article de journal à votre bibliothèque de citations](#4-ajouter-un-article-de-journal-à-votre-bibliothèque-de-citations)
+    - [5. Insérer une citation dans votre texte](#5-insérer-une-citation-dans-votre-texte)
+    - [6. Insérer la bibliographie finale](#6-insérer-la-bibliographie-finale)
+    - [7. Conseils supplémentaires et erreurs courantes à éviter](#7-conseils-supplémentaires-et-erreurs-courantes-à-éviter)
+    - [8. Cas particulier : citer les images et illustrations](#8-cas-particulier--citer-les-images-et-illustrations)
+    - [9. Le cas particulier de l'IA](#9-le-cas-particulier-de-lia)
+  - [Récapitulatif final](#récapitulatif-final)
+
 
 ---
 
 ## Instructions détaillées pour citer en suivant les normes APA dans Google Docs
-
-- [1. Accéder au menu citation](#1-accéder-au-menu-citation)
-- [2. Ajouter un livre à votre bibliothèque de citations](#2-ajouter-un-livre-à-votre-bibliothèque-de-citations)
-- [3. Ajouter un site web à votre bibliothèque de citations](#3-ajouter-un-site-web-à-votre-bibliothèque-de-citations)
-- [4. Citer un article de journal (académique ou presse)](#4-citer-un-article-de-journal-académique-ou-presse)
-- [5. Insérer une citation dans votre texte](#5-insérer-une-citation-dans-votre-texte)
-- [6. Insérer la bibliographie finale](#6-insérer-la-bibliographie-finale)
-- [7. Conseils supplémentaires et erreurs courantes à éviter](#7-conseils-supplémentaires-et-erreurs-courantes-à-éviter)
-- [8. Cas particulier : citer les images et illustrations](#8-cas-particulier--citer-les-images-et-illustrations)
 
 ---
 
@@ -239,6 +248,7 @@ Ici, nous avons cité un livre de Gould (1998), un site web sérieux et un artic
 - Citez au fur et à mesure de votre rédaction plutôt qu'à la fin
 - Gardez vos sources organisées dans le panneau de citations
 - Relisez votre bibliographie finale pour détecter d'éventuelles erreurs de formatage
+- Utiliez les IA (ChatGPT, Claude.ai) pour vérifier la complétude et la précision de vos citations et de votre bibliographie avant de finaliser votre document
 
 **✗ À éviter :**
 
@@ -287,6 +297,23 @@ Pour les images, illustrations, graphiques ou photographies, les règles APA con
 
 ---
 
+### 9. Le cas particulier de l'IA
+
+Pour les informations générées par une IA (ChatGPT, Claude.ai, etc.), il est important de les citer correctement pour respecter les normes APA et éviter le plagiat. 
+
+- Si vous faites un copié-collé d'une réponse générée par une IA, vous devez citer la source de cette information.
+
+Voici comment vous pouvez citer une IA dans votre travail :
+**Dans le texte** : (ChatGPT, 2024) ou (Claude.ai, 2024)
+**Dans la bibliographie** :
+**Remarque** : Les normes APA pour citer les IA sont encore en évolution, il est donc recommandé de vérifier les dernières directives de l'APA ou de consulter votre professeur pour vous assurer que vous citez correctement les informations générées par une IA et comment les inclure dans votre bibliographie.
+
+- Par honnêteté intellectuelle, vous pouvez aussi mentionner à la fin de votre travail un paragraphe expliquant que vous avez utilisé une IA pour vérifier vos citations et votre bibliographie, corriger votre orthographe, ou pour toute autre tâche. Par exemple :
+  
+> **Note sur l'utilisation de l'IA** : J'ai utilisé ChatGPT et Claude.ai pour vérifier la complétude et la précision de mes citations et de ma bibliographie, ainsi que pour corriger l'orthographe et la grammaire de mon travail. De même j'ai utilisé l'IA pour me donner des idées et des suggestions lors du traitement de ma problématique.Toutes les phrases recopiées intégralement ou partiellement d'une réponse générée par une IA ont été citées dans le texte et référencées dans la bibliographie conformément aux normes APA.
+
+---
+
 ## Récapitulatif final
 
 En suivant ces instructions détaillées, vous devriez être en mesure de :
@@ -306,3 +333,4 @@ N'oubliez pas que Google Docs fait la majorité du travail de formatage pour vou
 Pour toute question sur les normes APA ou sur l'utilisation de Google Docs, n'hésitez pas à consulter votre professeur ou les ressources en ligne officielles de l'APA.
 
 Bon courage pour votre TPC/TM !
+
