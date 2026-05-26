@@ -287,20 +287,20 @@ Pour les images, illustrations, graphiques ou photographies, les règles APA con
 
 ### 9. Le cas particulier de l'IA
 
-Pour les informations générées par une IA (ChatGPT, Claude.ai, etc.), il est important de les citer correctement pour respecter les normes APA et éviter le plagiat.
+Il est utile de distinguer deux usages de l'IA dans un travail académique :
 
-- Si vous faites un copié-collé d'une réponse générée par une IA, vous devez citer la source de cette information.
+**1. L'IA comme source d'information** (contenu recopié dans le texte)
 
-Voici comment vous pouvez citer une IA dans votre travail :
+Si vous copiez-collez une réponse générée par une IA, vous devez la citer comme n'importe quelle autre source :
 
-**Dans le texte** : (ChatGPT, 2026. En réponse à la question :"Quelle est le sens du mot contingence chez Steven Jay Gould")
+- **Dans le texte** : (ChatGPT, 2026. En réponse à la question : "Quelle est le sens du mot contingence chez Steven Jay Gould")
+- **Dans la bibliographie** : ChatGPT. (2026). Réponse à la question : "Quelle est le sens du mot contingence chez Steven Jay Gould". OpenAI. <https://chat.openai.com/>
 
-**Dans la bibliographie** : ChatGPT. (2026). Réponse à la question : "Quelle est le sens du mot contingence chez Steven Jay Gould". OpenAI. https://chat.openai.com/
+> **Remarque** : Les normes APA pour citer les IA sont encore en évolution. En cas de doute, consultez votre professeur.
 
-**Remarque** : Les normes APA pour citer les IA sont encore en évolution, il est donc recommandé de vérifier les dernières directives de l'APA ou de consulter votre professeur pour vous assurer que vous citez correctement les informations générées par une IA et comment les inclure dans votre bibliographie.
+**2. L'IA comme outil de feedback** (relecture, suggestions, correction)
 
-- Par honnêteté intellectuelle, vous pouvez aussi mentionner à la fin de votre travail un paragraphe expliquant comment vous avez utilisé une IA. Il est important de distinguer deux usages : l'IA comme outil de relecture et de feedback (vérifier vos citations, corriger l'orthographe, obtenir des suggestions sur votre argumentation) et l'IA comme source d'information que vous citez directement dans votre texte.
-Voici un exemple de paragraphe que vous pourriez inclure à la fin de votre travail :
+Si vous avez utilisé une IA pour vous aider à améliorer votre travail sans en recopier le contenu, il est recommandé de le mentionner en toute transparence à la fin de votre document. Voici un exemple :
 
 > **Note sur l'utilisation de l'IA** : J'ai utilisé ChatGPT et Claude.ai comme outils de feedback pour vérifier la complétude et la précision de mes citations et de ma bibliographie, corriger l'orthographe et la grammaire de mon travail, et obtenir des suggestions lors du traitement de ma problématique. Les idées et le contenu du travail restent les miens. Toutes les phrases recopiées intégralement ou partiellement d'une réponse générée par une IA ont été citées dans le texte et référencées dans la bibliographie conformément aux normes APA.
 
