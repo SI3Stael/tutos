@@ -292,8 +292,8 @@ Pour les informations générées par une IA (ChatGPT, Claude.ai, etc.), il est 
 - Si vous faites un copié-collé d'une réponse générée par une IA, vous devez citer la source de cette information.
 
 Voici comment vous pouvez citer une IA dans votre travail :
-**Dans le texte** : (ChatGPT, 2024) ou (Claude.ai, 2024)
-**Dans la bibliographie** :  A ajouter
+**Dans le texte** : (ChatGPT, 2026. En réponse à la question :"Quelle est le sens du mot contingence chez Steven Jay Gould")
+**Dans la bibliographie** : ChatGPT. (2026). Réponse à la question : "Quelle est le sens du mot contingence chez Steven Jay Gould". OpenAI. https://chat.openai.com/
 **Remarque** : Les normes APA pour citer les IA sont encore en évolution, il est donc recommandé de vérifier les dernières directives de l'APA ou de consulter votre professeur pour vous assurer que vous citez correctement les informations générées par une IA et comment les inclure dans votre bibliographie.
 
 - Par honnêteté intellectuelle, vous pouvez aussi mentionner à la fin de votre travail un paragraphe expliquant que vous avez utilisé une IA pour vérifier vos citations et votre bibliographie, corriger votre orthographe, ou pour toute autre tâche. Par exemple :
@@ -319,7 +319,7 @@ N'oubliez pas que Google Docs fait la majorité du travail de formatage pour vou
 2. Citer **toutes** les sources que vous utilisez
 3. Relire votre bibliographie finale
 
-Pour toute question sur les normes APA ou sur l'utilisation de Google Docs, n'hésitez pas à consulter votre professeur, les ressources en ligne officielles de l'APA ou le [guide APA 7e édition de la HES-SO](https://www.hes-so.ch/data/documents/APA-7th-edition-HES-SO.pdf).
+Pour toute question sur les normes APA ou sur l'utilisation de Google Docs, n'hésitez pas à consulter votre professeur, les ressources en ligne officielles de l'APA ou le [guide APA 7e édition de la HES-SO](https://si3stael.github.io/tutos/docs/APA-HES-SO.pdf).
 
 Bon courage pour votre TPC/TM !
 
