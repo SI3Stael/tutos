@@ -296,9 +296,10 @@ Voici comment vous pouvez citer une IA dans votre travail :
 **Dans la bibliographie** : ChatGPT. (2026). Réponse à la question : "Quelle est le sens du mot contingence chez Steven Jay Gould". OpenAI. https://chat.openai.com/
 **Remarque** : Les normes APA pour citer les IA sont encore en évolution, il est donc recommandé de vérifier les dernières directives de l'APA ou de consulter votre professeur pour vous assurer que vous citez correctement les informations générées par une IA et comment les inclure dans votre bibliographie.
 
-- Par honnêteté intellectuelle, vous pouvez aussi mentionner à la fin de votre travail un paragraphe expliquant que vous avez utilisé une IA pour vérifier vos citations et votre bibliographie, corriger votre orthographe, ou pour toute autre tâche. Par exemple :
-  
-> **Note sur l'utilisation de l'IA** : J'ai utilisé ChatGPT et Claude.ai pour vérifier la complétude et la précision de mes citations et de ma bibliographie, ainsi que pour corriger l'orthographe et la grammaire de mon travail. De même, j'ai utilisé l'IA pour me donner des idées et des suggestions lors du traitement de ma problématique. Toutes les phrases recopiées intégralement ou partiellement d'une réponse générée par une IA ont été citées dans le texte et référencées dans la bibliographie conformément aux normes APA.
+- Par honnêteté intellectuelle, vous pouvez aussi mentionner à la fin de votre travail un paragraphe expliquant comment vous avez utilisé une IA. Il est important de distinguer deux usages : l'IA comme outil de relecture et de feedback (vérifier vos citations, corriger l'orthographe, obtenir des suggestions sur votre argumentation) et l'IA comme source d'information que vous citez directement dans votre texte.
+Voici un exemple de paragraphe que vous pourriez inclure à la fin de votre travail :
+
+> **Note sur l'utilisation de l'IA** : J'ai utilisé ChatGPT et Claude.ai comme outils de feedback pour vérifier la complétude et la précision de mes citations et de ma bibliographie, corriger l'orthographe et la grammaire de mon travail, et obtenir des suggestions lors du traitement de ma problématique. Les idées et le contenu du travail restent les miens. Toutes les phrases recopiées intégralement ou partiellement d'une réponse générée par une IA ont été citées dans le texte et référencées dans la bibliographie conformément aux normes APA.
 
 ---
 
