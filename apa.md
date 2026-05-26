@@ -292,8 +292,11 @@ Pour les informations générées par une IA (ChatGPT, Claude.ai, etc.), il est 
 - Si vous faites un copié-collé d'une réponse générée par une IA, vous devez citer la source de cette information.
 
 Voici comment vous pouvez citer une IA dans votre travail :
+
 **Dans le texte** : (ChatGPT, 2026. En réponse à la question :"Quelle est le sens du mot contingence chez Steven Jay Gould")
+
 **Dans la bibliographie** : ChatGPT. (2026). Réponse à la question : "Quelle est le sens du mot contingence chez Steven Jay Gould". OpenAI. https://chat.openai.com/
+
 **Remarque** : Les normes APA pour citer les IA sont encore en évolution, il est donc recommandé de vérifier les dernières directives de l'APA ou de consulter votre professeur pour vous assurer que vous citez correctement les informations générées par une IA et comment les inclure dans votre bibliographie.
 
 - Par honnêteté intellectuelle, vous pouvez aussi mentionner à la fin de votre travail un paragraphe expliquant comment vous avez utilisé une IA. Il est important de distinguer deux usages : l'IA comme outil de relecture et de feedback (vérifier vos citations, corriger l'orthographe, obtenir des suggestions sur votre argumentation) et l'IA comme source d'information que vous citez directement dans votre texte.
