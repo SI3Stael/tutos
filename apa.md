@@ -323,7 +323,7 @@ N'oubliez pas que Google Docs fait la majorité du travail de formatage pour vou
 2. Citer **toutes** les sources que vous utilisez
 3. Relire votre bibliographie finale
 
-Pour toute question sur les normes APA ou sur l'utilisation de Google Docs, n'hésitez pas à consulter votre professeur, les ressources en ligne officielles de l'APA ou le [guide APA 7e édition de la HES-SO](https://edu.ge.ch/secondaire2/system/files/organisations/%5Bsec2token%3Aorganisation_label%5D/documents/2026-05/Guide_Citations_Bibliographie_0.pdf).
+Pour toute question sur les normes APA ou sur l'utilisation de Google Docs, n'hésitez pas à consulter votre professeur, les ressources en ligne officielles de l'APA ou le [guide du CEDOC](https://edu.ge.ch/secondaire2/system/files/organisations/%5Bsec2token%3Aorganisation_label%5D/documents/2026-05/Guide_Citations_Bibliographie_0.pdf).
 
 Bon courage pour votre TPC/TM !
 
