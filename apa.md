@@ -48,10 +48,13 @@ Il est également pratique pour partager votre travail avec votre professeur, af
 10. Pour générer une bibliographie à la fin de votre document, placez le curseur à l'endroit où vous souhaitez insérer la bibliographie, puis cliquez sur "Insérer la bibliographie" dans le panneau de citations. Google Docs générera automatiquement une bibliographie formatée selon les normes APA avec toutes les sources que vous avez citées dans votre document.
 11. Pour les images, nous recommandons une approche simplifiée adaptée aux TPC/TM : citer dans une légende sous l'image (par exemple, "source : [nom du site web ou de la source]"), ou alors si c'est une œuvre d'art, vous pouvez citer l'artiste et la date de production. Vous pouvez vérifier avec votre maître accompagnant si cette méthode lui convient.
 12. Ce site web ne se veut pas exhaustif, si vous avez un doute ou que vous voulez en savoir plus sur les normes APA ou comment citer un texte de loi, un réseau social... Vous pouvez consulter le [guide du CEDOC](https://edu.ge.ch/secondaire2/system/files/organisations/%5Bsec2token%3Aorganisation_label%5D/documents/2026-05/Guide_Citations_Bibliographie_0.pdf).
-14. Avant de finaliser votre document, uploadez votre travail sur ChatGPT et/ou Claude.ai et posez les questions suivantes :
-   - "Peux-tu vérifier que mes citations sont correctes et complètes selon les normes APA ?"
-   - "Peux-tu vérifier que ma bibliographie est correctement formatée selon les normes APA ?"
-   - "Peux-tu vérifier que j'ai cité toutes les sources que j'ai utilisées dans mon travail ?"
+13. Avant de finaliser votre document, uploadez votre travail sur ChatGPT et/ou Claude.ai et posez les questions suivantes :
+
+- "Peux-tu vérifier que mes citations sont correctes et complètes selon les normes APA ?"
+  
+- "Peux-tu vérifier que ma bibliographie est correctement formatée selon les normes APA ?"
+  
+- "Peux-tu vérifier que j'ai cité toutes les sources que j'ai utilisées dans mon travail ?"
 
 ---
 
