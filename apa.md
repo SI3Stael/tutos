@@ -119,7 +119,7 @@ Le livre est maintenant enregistré dans votre bibliothèque de citations et pr�
 
 ### 3. Ajouter un site web à votre bibliothèque de citations
 
-![Capture d'écran de la sélection du type de source Site web](images/type-source-siteweb.png)
+
 
 Pour citer un site web dans votre document :
 
@@ -140,7 +140,7 @@ Pour citer un site web dans votre document :
 
 4. Cliquez sur **"Ajouter la source de citation"**
 
-![Capture d'écran du formulaire de citation pour un site web](images/formulaire-siteweb.png)
+
 
 **Exemple de résultat** : Dans le texte : (Nom de l'auteur ou de l'organisation, 2021). Dans la bibliographie : Nom de l'auteur. (2021). *Titre de la page*. Nom du site. URL
 
@@ -148,7 +148,7 @@ Pour citer un site web dans votre document :
 
 ### 4. Ajouter un article de journal à votre bibliothèque de citations
 
-![Capture d'écran de la sélection article de journal](images/type-source-article.png)
+
 
 Pour citer un article de journal académique ou de presse :
 
@@ -170,7 +170,7 @@ Pour citer un article de journal académique ou de presse :
 
 4. Cliquez sur **"Ajouter la source de citation"**
 
-![Capture d'écran du formulaire pour un article](images/formulaire-article.png)
+
 
 **Exemple de résultat (revue académique)** : Dans le texte : (Martin & Lefèvre, 2019). Dans la bibliographie : Martin, P., & Lefèvre, S. (2019). Titre de l'article. *Nom de la Revue*, *32*(4), 45-67. https://doi.org/10.xxxx/xxxxx
 
