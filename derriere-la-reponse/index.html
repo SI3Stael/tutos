@@ -214,6 +214,14 @@ a{color:inherit}
 .cost .pr em{display:block;font-style:normal;font-weight:600;font-size:.8rem;color:var(--ok)}
 @media(max-width:620px){.cost{grid-template-columns:1fr auto}.cost .bw{grid-column:1 / -1;grid-row:2}}
 
+.grid4{width:100%;border-collapse:separate;border-spacing:6px;margin:14px 0;font-size:.93rem}
+.grid4 th{font-family:var(--display);font-weight:800;text-align:left;vertical-align:middle;padding:6px 8px}
+.grid4 td{background:var(--paper);border:2px solid transparent;border-radius:10px;padding:10px 12px;vertical-align:top;width:38%}
+.grid4 td.vide{background:none;width:auto}
+.grid4 td.me{border-color:var(--c);box-shadow:inset 0 -5px 0 var(--c)}
+.grid4 .tag{display:block;margin-top:6px;font-weight:700;color:var(--c);font-size:.82rem}
+@media(max-width:620px){.grid4{font-size:.85rem;border-spacing:4px}.grid4 th,.grid4 td{padding:6px}}
+
 </style>
 </head>
 <body>
@@ -657,25 +665,45 @@ C.ouv={
    <p>À retenir&nbsp;: la tendance d’un modèle n’est pas un accident. Elle résulte de <b>choix</b>, que l’on peut mesurer et discuter.</p>`,
    src:'Röttger et al., ACL 2024&nbsp;; New York Times, septembre 2025&nbsp;; Pan et Xu, étude sur les modèles chinois.'},
 
-  {type:'dilemma', title:'Le dilemme du tramway',
-   html:`<p>Pour comparer des façons de raisonner en morale, les philosophes utilisent des <b>expériences de pensée</b>&nbsp;: des situations inventées et simplifiées exprès, pour isoler une seule question. La plus célèbre a été imaginée en 1967 par la philosophe Philippa Foot.</p><div class="fig" style="padding:8px"><svg viewBox="0 0 640 235" role="img" aria-label="Schéma : un tramway roule vers cinq personnes ; un levier permet de le dévier vers une voie où se trouve une personne." style="width:100%;height:auto;display:block"><path d="M15 160 H625" stroke="#47536E" stroke-width="6"/><path d="M250 160 C320 160 320 62 395 62 H625" stroke="#47536E" stroke-width="6" fill="none"/><rect x="30" y="116" width="92" height="38" rx="7" fill="#3D5A80"/><rect x="39" y="124" width="13" height="13" fill="#fff"/><rect x="59" y="124" width="13" height="13" fill="#fff"/><rect x="79" y="124" width="13" height="13" fill="#fff"/><rect x="99" y="124" width="13" height="13" fill="#fff"/><circle cx="50" cy="155" r="5" fill="#16213E"/><circle cx="102" cy="155" r="5" fill="#16213E"/><path d="M130 135 h34 m-8 -6 l8 6 l-8 6" stroke="#16213E" stroke-width="3" fill="none"/><path d="M232 190 l18 28" stroke="#16213E" stroke-width="5" stroke-linecap="round"/><circle cx="232" cy="190" r="6" fill="#C2571A"/><rect x="238" y="218" width="26" height="7" fill="#16213E"/><g stroke="#16213E" stroke-width="3" stroke-linecap="round" fill="none"><circle cx="200" cy="197" r="6" fill="#16213E" stroke="none"/><path d="M200 204 v14 M192 209 h16 M200 218 l-7 11 M200 218 l7 11"/></g><g stroke="#B2304A" stroke-width="3" stroke-linecap="round" fill="none"><circle cx="455" cy="125" r="6" fill="#B2304A" stroke="none"/><path d="M455 132 v14 M447 137 h16 M455 146 l-7 11 M455 146 l7 11"/></g><g stroke="#B2304A" stroke-width="3" stroke-linecap="round" fill="none"><circle cx="485" cy="125" r="6" fill="#B2304A" stroke="none"/><path d="M485 132 v14 M477 137 h16 M485 146 l-7 11 M485 146 l7 11"/></g><g stroke="#B2304A" stroke-width="3" stroke-linecap="round" fill="none"><circle cx="515" cy="125" r="6" fill="#B2304A" stroke="none"/><path d="M515 132 v14 M507 137 h16 M515 146 l-7 11 M515 146 l7 11"/></g><g stroke="#B2304A" stroke-width="3" stroke-linecap="round" fill="none"><circle cx="545" cy="125" r="6" fill="#B2304A" stroke="none"/><path d="M545 132 v14 M537 137 h16 M545 146 l-7 11 M545 146 l7 11"/></g><g stroke="#B2304A" stroke-width="3" stroke-linecap="round" fill="none"><circle cx="575" cy="125" r="6" fill="#B2304A" stroke="none"/><path d="M575 132 v14 M567 137 h16 M575 146 l-7 11 M575 146 l7 11"/></g><g stroke="#2A7656" stroke-width="3" stroke-linecap="round" fill="none"><circle cx="515" cy="27" r="6" fill="#2A7656" stroke="none"/><path d="M515 34 v14 M507 39 h16 M515 48 l-7 11 M515 48 l7 11"/></g><text x="150" y="212" text-anchor="end" font-family="inherit" font-size="14" fill="#47536E">toi, près du levier</text><text x="515" y="186" text-anchor="middle" font-family="inherit" font-size="14" fill="#47536E">cinq personnes</text><text x="515" y="84" text-anchor="middle" font-family="inherit" font-size="14" fill="#47536E">une personne</text><text x="300" y="76" text-anchor="end" font-family="inherit" font-size="14" fill="#47536E">si tu tires le levier</text></svg></div>
+  {type:'dilemma', key:'levier', title:'Que fais-tu ?',
+   hint:'Pas de points en jeu, et pas de piège : réponds d’abord, on en discute juste après.',
+   html:`<div class="fig" style="padding:8px"><svg viewBox="0 0 640 235" role="img" aria-label="Schéma : un tramway roule vers cinq personnes ; un levier permet de le dévier vers une voie où se trouve une personne." style="width:100%;height:auto;display:block"><path d="M15 160 H625" stroke="#47536E" stroke-width="6"/><path d="M250 160 C320 160 320 62 395 62 H625" stroke="#47536E" stroke-width="6" fill="none"/><rect x="30" y="116" width="92" height="38" rx="7" fill="#3D5A80"/><rect x="39" y="124" width="13" height="13" fill="#fff"/><rect x="59" y="124" width="13" height="13" fill="#fff"/><rect x="79" y="124" width="13" height="13" fill="#fff"/><rect x="99" y="124" width="13" height="13" fill="#fff"/><circle cx="50" cy="155" r="5" fill="#16213E"/><circle cx="102" cy="155" r="5" fill="#16213E"/><path d="M130 135 h34 m-8 -6 l8 6 l-8 6" stroke="#16213E" stroke-width="3" fill="none"/><path d="M232 190 l18 28" stroke="#16213E" stroke-width="5" stroke-linecap="round"/><circle cx="232" cy="190" r="6" fill="#C2571A"/><rect x="238" y="218" width="26" height="7" fill="#16213E"/><g stroke="#16213E" stroke-width="3" stroke-linecap="round" fill="none"><circle cx="200" cy="197" r="6" fill="#16213E" stroke="none"/><path d="M200 204 v14 M192 209 h16 M200 218 l-7 11 M200 218 l7 11"/></g><g stroke="#B2304A" stroke-width="3" stroke-linecap="round" fill="none"><circle cx="455" cy="125" r="6" fill="#B2304A" stroke="none"/><path d="M455 132 v14 M447 137 h16 M455 146 l-7 11 M455 146 l7 11"/></g><g stroke="#B2304A" stroke-width="3" stroke-linecap="round" fill="none"><circle cx="485" cy="125" r="6" fill="#B2304A" stroke="none"/><path d="M485 132 v14 M477 137 h16 M485 146 l-7 11 M485 146 l7 11"/></g><g stroke="#B2304A" stroke-width="3" stroke-linecap="round" fill="none"><circle cx="515" cy="125" r="6" fill="#B2304A" stroke="none"/><path d="M515 132 v14 M507 137 h16 M515 146 l-7 11 M515 146 l7 11"/></g><g stroke="#B2304A" stroke-width="3" stroke-linecap="round" fill="none"><circle cx="545" cy="125" r="6" fill="#B2304A" stroke="none"/><path d="M545 132 v14 M537 137 h16 M545 146 l-7 11 M545 146 l7 11"/></g><g stroke="#B2304A" stroke-width="3" stroke-linecap="round" fill="none"><circle cx="575" cy="125" r="6" fill="#B2304A" stroke="none"/><path d="M575 132 v14 M567 137 h16 M575 146 l-7 11 M575 146 l7 11"/></g><g stroke="#2A7656" stroke-width="3" stroke-linecap="round" fill="none"><circle cx="515" cy="27" r="6" fill="#2A7656" stroke="none"/><path d="M515 34 v14 M507 39 h16 M515 48 l-7 11 M515 48 l7 11"/></g><text x="150" y="212" text-anchor="end" font-family="inherit" font-size="14" fill="#47536E">toi, près du levier</text><text x="515" y="186" text-anchor="middle" font-family="inherit" font-size="14" fill="#47536E">cinq personnes</text><text x="515" y="84" text-anchor="middle" font-family="inherit" font-size="14" fill="#47536E">une personne</text><text x="300" y="76" text-anchor="end" font-family="inherit" font-size="14" fill="#47536E">si tu tires le levier</text></svg></div>
    <ol><li>Un tramway sans freins roule vers <b>cinq personnes</b> bloquées sur la voie. Si rien ne change, elles vont mourir.</li>
    <li>Tu te trouves à côté d’un <b>levier</b> d’aiguillage. Tu ne peux ni les prévenir, ni arrêter le tramway.</li>
    <li>Si tu tires le levier, le tramway part sur une autre voie, où se trouve <b>une personne</b>. Elle mourra, alors qu’elle ne risquait rien.</li></ol>
-   <p>Tu n’as que ces deux possibilités. Que fais-tu&nbsp;?</p>`,
+   <p>Tu n’as que ces deux possibilités. <b>Que fais-tu&nbsp;?</b></p>`,
    opts:[
-    {t:'Je tire le levier&nbsp;: une personne meurt, cinq sont sauvées.', out:'<p><b>Ton raisonnement&nbsp;:</b> une mort vaut mieux que cinq. C’est la position <b>utilitariste</b>&nbsp;: on juge une action à ses conséquences, et la meilleure est celle qui fait le moins de mal au total.</p><p><b>L’objection&nbsp;:</b> en tirant le levier, tu causes toi-même la mort d’une personne qui ne risquait rien.</p><p>Dans une enquête menée dans 42 pays, environ quatre personnes sur cinq font comme toi.</p>'},
-    {t:'Je ne touche à rien&nbsp;: cinq personnes meurent, sans mon intervention.', out:'<p><b>Ton raisonnement&nbsp;:</b> on n’a pas le droit de tuer une personne, même pour en sauver d’autres. C’est la position <b>déontologique</b>&nbsp;: certaines actions sont interdites, quelles que soient leurs conséquences.</p><p><b>L’objection&nbsp;:</b> ne rien faire est aussi un choix, et cinq personnes meurent alors que tu pouvais l’éviter.</p><p>Dans une enquête menée dans 42 pays, environ une personne sur cinq fait comme toi.</p>'}],
-   keep:'<p><b>À retenir&nbsp;:</b> il n’y a pas de bonne réponse officielle. Le dilemme oppose deux idées que presque tout le monde partage&nbsp;: «&nbsp;il faut limiter le nombre de morts&nbsp;» et «&nbsp;on ne doit pas tuer un innocent&nbsp;».</p>'},
+    {t:'Je tire le levier&nbsp;: une personne meurt, cinq sont sauvées.', out:'<p>C’est noté. Garde ta réponse en tête&nbsp;: voici une deuxième situation.</p>'},
+    {t:'Je ne touche à rien&nbsp;: cinq personnes meurent, sans mon intervention.', out:'<p>C’est noté. Garde ta réponse en tête&nbsp;: voici une deuxième situation.</p>'}]},
 
-  {type:'dilemma', title:'La variante de la passerelle',
+  {type:'dilemma', key:'passerelle', title:'Et maintenant ?',
+   hint:'Même règle : réponds d’abord, on en discute juste après.',
    html:`<p>Même tramway, mêmes cinq personnes. Mais cette fois, il n’y a pas de levier.</p><div class="fig" style="padding:8px"><svg viewBox="0 0 640 215" role="img" aria-label="Schéma : une passerelle passe au-dessus de la voie ; deux personnes s’y trouvent ; le tramway roule vers cinq personnes." style="width:100%;height:auto;display:block"><path d="M15 180 H625" stroke="#47536E" stroke-width="6"/><rect x="30" y="136" width="92" height="38" rx="7" fill="#3D5A80"/><rect x="39" y="144" width="13" height="13" fill="#fff"/><rect x="59" y="144" width="13" height="13" fill="#fff"/><rect x="79" y="144" width="13" height="13" fill="#fff"/><rect x="99" y="144" width="13" height="13" fill="#fff"/><circle cx="50" cy="175" r="5" fill="#16213E"/><circle cx="102" cy="175" r="5" fill="#16213E"/><path d="M130 155 h34 m-8 -6 l8 6 l-8 6" stroke="#16213E" stroke-width="3" fill="none"/><path d="M235 78 H405" stroke="#16213E" stroke-width="7"/><path d="M245 78 V180 M395 78 V180" stroke="#16213E" stroke-width="5"/><path d="M235 52 H405 M245 52 V78 M285 52 V78 M325 52 V78 M365 52 V78 M395 52 V78" stroke="#47536E" stroke-width="2"/><g stroke="#16213E" stroke-width="3" stroke-linecap="round" fill="none"><circle cx="300" cy="43" r="6" fill="#16213E" stroke="none"/><path d="M300 50 v14 M292 55 h16 M300 64 l-7 11 M300 64 l7 11"/></g><g stroke="#2A7656" stroke-width="3" stroke-linecap="round" fill="none"><circle cx="338" cy="43" r="6" fill="#2A7656" stroke="none"/><path d="M338 50 v14 M330 55 h16 M338 64 l-7 11 M338 64 l7 11"/></g><g stroke="#B2304A" stroke-width="3" stroke-linecap="round" fill="none"><circle cx="455" cy="145" r="6" fill="#B2304A" stroke="none"/><path d="M455 152 v14 M447 157 h16 M455 166 l-7 11 M455 166 l7 11"/></g><g stroke="#B2304A" stroke-width="3" stroke-linecap="round" fill="none"><circle cx="485" cy="145" r="6" fill="#B2304A" stroke="none"/><path d="M485 152 v14 M477 157 h16 M485 166 l-7 11 M485 166 l7 11"/></g><g stroke="#B2304A" stroke-width="3" stroke-linecap="round" fill="none"><circle cx="515" cy="145" r="6" fill="#B2304A" stroke="none"/><path d="M515 152 v14 M507 157 h16 M515 166 l-7 11 M515 166 l7 11"/></g><g stroke="#B2304A" stroke-width="3" stroke-linecap="round" fill="none"><circle cx="545" cy="145" r="6" fill="#B2304A" stroke="none"/><path d="M545 152 v14 M537 157 h16 M545 166 l-7 11 M545 166 l7 11"/></g><g stroke="#B2304A" stroke-width="3" stroke-linecap="round" fill="none"><circle cx="575" cy="145" r="6" fill="#B2304A" stroke="none"/><path d="M575 152 v14 M567 157 h16 M575 166 l-7 11 M575 166 l7 11"/></g><text x="290" y="30" text-anchor="end" font-family="inherit" font-size="14" fill="#47536E">toi</text><text x="350" y="30" text-anchor="start" font-family="inherit" font-size="14" fill="#47536E">un inconnu</text><text x="515" y="206" text-anchor="middle" font-family="inherit" font-size="14" fill="#47536E">cinq personnes</text></svg></div>
    <p>Tu es sur une passerelle, au-dessus de la voie, à côté d’un inconnu très corpulent. Le seul moyen d’arrêter le tramway est de <b>pousser cet inconnu sur la voie</b>&nbsp;: il mourra, et les cinq seront sauvées.</p>
-   <p>Le bilan est exactement le même qu’avec le levier&nbsp;: une vie contre cinq. Que fais-tu&nbsp;?</p>`,
+   <p><b>Que fais-tu&nbsp;?</b></p>`,
    opts:[
-    {t:'Je pousse l’inconnu.', out:'<p>Tu appliques le même calcul qu’avec le levier&nbsp;: une vie contre cinq. C’est cohérent.</p><p><b>L’objection&nbsp;:</b> ici, tu ne dévies pas un danger. Tu te sers du corps d’une personne comme d’un outil pour arrêter le tramway.</p><p>Dans l’enquête menée dans 42 pays, une personne sur deux seulement accepte de pousser, contre quatre sur cinq pour le levier.</p>'},
-    {t:'Je ne le pousse pas.', out:'<p>Comme une personne sur deux dans l’enquête menée dans 42 pays.</p><p><b>La question qui dérange&nbsp;:</b> si tu as tiré le levier tout à l’heure, pourquoi refuser maintenant, alors que le bilan est le même&nbsp;?</p><p>La réponse la plus courante des philosophes&nbsp;: avec le levier, la mort d’une personne est une conséquence malheureuse de ton geste. Sur la passerelle, cette personne est le <b>moyen</b> que tu utilises.</p>'}],
-   keep:'<p><b>À retenir&nbsp;:</b> la passerelle montre que nous ne faisons pas que compter. La façon de causer un mal compte aussi. C’est pour cela que ces deux questions servent à tester les IA&nbsp;: un modèle qui répond oui aux deux ne fait que compter&nbsp;; un modèle qui répond oui puis non fait la même différence que la plupart des humains.</p>'},
+    {t:'Je pousse l’inconnu&nbsp;: il meurt, cinq sont sauvées.', out:'<p>C’est noté. Voyons maintenant ce que disent tes deux réponses.</p>'},
+    {t:'Je ne le pousse pas&nbsp;: cinq personnes meurent.', out:'<p>C’est noté. Voyons maintenant ce que disent tes deux réponses.</p>'}]},
+
+  {type:'debrief', title:'Ce que disent tes deux réponses', keys:['levier','passerelle'],
+   rows:['Tirer le levier','Ne pas tirer le levier'], cols:['Pousser l’inconnu','Ne pas pousser'],
+   cells:{
+    '00':'<b>Compter jusqu’au bout.</b> Une vie contre cinq, dans les deux cas.',
+    '01':'<b>La réponse la plus fréquente.</b> Oui au levier, non à la passerelle.',
+    '10':'<b>Une réponse rare.</b> Non au levier, oui à la passerelle.',
+    '11':'<b>Ne jamais tuer.</b> Aucune intervention, dans les deux cas.'},
+   mine:{
+    '00':'<p>Tu as tiré le levier <b>et</b> poussé l’inconnu. Tu appliques le même calcul dans les deux cas&nbsp;: une vie contre cinq. C’est la position utilitariste, tenue jusqu’au bout. Sur la passerelle, une personne sur deux seulement fait comme toi.</p>',
+    '01':'<p>Tu as tiré le levier, <b>mais</b> refusé de pousser l’inconnu. C’est la réponse la plus fréquente. Pourtant le bilan est exactement le même&nbsp;: une vie contre cinq. Tu fais donc une différence entre dévier un danger et te servir d’une personne.</p>',
+    '10':'<p>Tu n’as pas tiré le levier, <b>mais</b> tu as poussé l’inconnu. C’est une combinaison rare. Le bilan est le même dans les deux cas&nbsp;: demande-toi ce qui t’a fait changer d’avis.</p>',
+    '11':'<p>Tu as refusé d’intervenir dans les deux cas. C’est la position déontologique&nbsp;: on ne tue pas un innocent, même pour en sauver cinq. Pour le levier, une personne sur cinq environ fait comme toi.</p>'},
+   after:`<p>Tu viens de répondre à la plus célèbre <b>expérience de pensée</b> de la philosophie morale&nbsp;: une situation inventée, simplifiée exprès, pour isoler une seule question. Le tramway a été imaginé en 1967 par la philosophe Philippa Foot, la passerelle un peu plus tard par Judith Jarvis Thomson.</p>
+   <p>Dans les deux situations, le bilan est le même&nbsp;: une vie contre cinq. Deux grandes façons de raisonner s’opposent.</p>
+   <ul><li><b>L’utilitarisme</b> juge une action à ses conséquences&nbsp;: une mort vaut mieux que cinq, il faut intervenir. Objection&nbsp;: avec ce calcul, tout devient permis dès que le bilan est favorable.</li>
+   <li><b>La déontologie</b> pose des interdits&nbsp;: on ne tue pas un innocent, quelles que soient les conséquences. Objection&nbsp;: ne rien faire est aussi un choix, et cinq personnes meurent.</li></ul>
+   <p>Dans une enquête menée dans 42 pays, environ <b>quatre personnes sur cinq</b> tirent le levier, mais <b>une sur deux</b> seulement pousse l’inconnu. Pourquoi cette différence, si le bilan est le même&nbsp;? Avec le levier, la mort d’une personne est la conséquence malheureuse d’un geste qui dévie un danger. Sur la passerelle, cette personne est le <b>moyen</b> utilisé pour arrêter le tramway.</p>
+   <p>Il n’y a pas de bonne réponse officielle. Mais ces deux questions font un bon test pour une IA&nbsp;: un modèle qui répond oui aux deux ne fait que compter&nbsp;; un modèle qui répond oui, puis non, fait la même différence que la plupart des humains.</p>`,
+   btn:'Et les IA, que répondent-elles ?'},
 
   {type:'explore', title:'Quel modèle répond quoi ?',
    html:`<p>Des chercheurs de l’université de New York ont posé les deux questions, le levier puis la passerelle, à huit assistants. D’autres équipes ont répété des variantes du dilemme des centaines de fois. Voici ce que répond chaque modèle.</p>`,
@@ -1426,6 +1454,18 @@ function carnet(){
 /* ================= types d’étapes ================= */
 var R={};
 
+/* --- retour sur deux dilemmes : tableau des quatre combinaisons, celle de l'élève mise en évidence --- */
+R.debrief=function(ctx){
+  var s=ctx.step, ch=window.DLR_CHOICES||{}, a=ch[s.keys[0]], b=ch[s.keys[1]], known=(a===0||a===1)&&(b===0||b===1), me=known? ''+a+b : null;
+  if(known) ctx.box.appendChild(el('div',{class:'out',html:s.mine[me]}));
+  var h='<table class="grid4"><tr><td class="vide"></td><th scope="col">'+s.cols[0]+'</th><th scope="col">'+s.cols[1]+'</th></tr>';
+  [0,1].forEach(function(r){ h+='<tr><th scope="row">'+s.rows[r]+'</th>';
+    [0,1].forEach(function(c){ var k=''+r+c; h+='<td'+(k===me?' class="me"':'')+'>'+s.cells[k]+(k===me?'<span class="tag">ta réponse</span>':'')+'</td>'; });
+    h+='</tr>'; });
+  ctx.box.appendChild(el('div',{html:h+'</table>'}));
+  ctx.box.appendChild(el('div',{html:s.after||''}));
+  ctx.box.appendChild(el('div',{class:'actions'},ctx.nextBtn(s.btn||'Continuer')));
+};
 R.info=function(ctx){
   ctx.box.appendChild(el('div',{class:'actions'},ctx.nextBtn(ctx.step.btn||'Continuer')));
 };
@@ -1621,15 +1661,16 @@ R.dilemma=function(ctx){
     var b=el('button',{class:'opt',onclick:function(){
       Array.prototype.forEach.call(list.children,function(x){x.classList.remove('sel');}); b.classList.add('sel');
       out.innerHTML='<div class="out">'+o.out+'</div>';
+      if(s.key){ window.DLR_CHOICES=window.DLR_CHOICES||{}; window.DLR_CHOICES[s.key]=s.opts.indexOf(o); }
       if(!shown){ shown=true;
         act.appendChild(ctx.nextBtn('Continuer'));
-        act.appendChild(el('span',{class:'hint',text:'Tu peux aussi tester les autres options avant de continuer.'}));
+        if(!s.key) act.appendChild(el('span',{class:'hint',text:'Tu peux aussi tester les autres options avant de continuer.'}));
         if(s.keep) ctx.box.appendChild(el('div',{class:'fb',html:s.keep}));
       }
     }},[el('span',{class:'mk'}),el('span',{html:o.t})]);
     list.appendChild(b);
   });
-  ctx.box.appendChild(el('p',{class:'hint',text:'Il n’y a pas de bonne réponse unique ici, et pas de points en jeu : choisis, puis regarde les conséquences.'}));
+  ctx.box.appendChild(el('p',{class:'hint',text:s.hint||'Il n’y a pas de bonne réponse unique ici, et pas de points en jeu : choisis, puis regarde les conséquences.'}));
   ctx.box.appendChild(list); ctx.box.appendChild(out); ctx.box.appendChild(act);
 };
 
