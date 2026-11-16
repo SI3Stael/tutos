@@ -525,11 +525,13 @@ C.geo={
     {t:'Construire les machines EUV', b:'u', why:'ASML est néerlandaise, et les Pays-Bas appliquent des restrictions proches de celles de Washington.'},
     {t:'Fabriquer les puces les plus fines', b:'u', why:'TSMC, à Taïwan, en produit environ 90 %.'},
     {t:'Posséder les plus grands services de cloud', b:'u', why:'Microsoft, Amazon et Google sont américaines.'},
+    {t:'Entraîner les modèles fermés les plus avancés', b:'u', why:'OpenAI (ChatGPT), Anthropic (Claude) et Google (Gemini) sont des entreprises américaines.'},
     {t:'Produire presque tout le gallium du monde', b:'c', why:'La Chine assure la quasi-totalité de la production mondiale de ce métal.'},
     {t:'Raffiner la grande majorité des terres rares', b:'c', why:'C’est le principal moyen de pression de Pékin dans les négociations.'},
-    {t:'Développer des puces de remplacement sous embargo', b:'c', why:'Huawei progresse vite : 28 % du marché chinois des puces d’IA au premier semestre 2026.'}],
-   exp:`<p>Chaque camp tient quelque chose dont l’autre a besoin. On parle d’<b>interdépendance</b>&nbsp;: elle rend un conflit ouvert très coûteux pour tous, mais elle donne aussi à chacun un moyen de pression.</p>`,
-   src:'US Geological Survey ; IDC cité par Reuters (octobre 2026).'},
+    {t:'Développer des puces de remplacement sous embargo', b:'c', why:'Huawei progresse vite : 28 % du marché chinois des puces d’IA au premier semestre 2026.'},
+    {t:'Publier les modèles ouverts les plus téléchargés', b:'c', why:'Qwen (Alibaba) et DeepSeek sont chinois. Les modèles ouverts les plus puissants viennent aujourd’hui surtout de Chine.'}],
+   exp:`<p>Chaque camp tient quelque chose dont l’autre a besoin. C’est vrai aussi des modèles&nbsp;: les modèles fermés les plus avancés sont américains, les modèles ouverts les plus téléchargés sont chinois. On parle d’<b>interdépendance</b>&nbsp;: elle rend un conflit ouvert très coûteux pour tous, mais elle donne aussi à chacun un moyen de pression.</p>`,
+   src:'US Geological Survey ; IDC cité par Reuters (octobre 2026) ; rapport ATOM sur les modèles ouverts (2026).'},
 
   {type:'match', pts:10, title:'Quatre points de vue',
    q:'Qui défend cet argument&nbsp;? Aucun n’est « le bon »&nbsp;: l’objectif est de savoir les reconnaître.',
@@ -560,6 +562,7 @@ C.geo={
   notes:[
    '<b>ASML</b> (Pays-Bas) est le seul fabricant des machines EUV. <b>TSMC</b> (Taïwan) fabrique environ 90 % des puces les plus avancées. <b>Nvidia</b> (États-Unis) conçoit environ 80 % des puces d’IA mais ne les fabrique pas.',
    '<b>Microsoft, Amazon, Google</b> possèdent les centres de données (le cloud). <b>OpenAI</b> (ChatGPT) et <b>Anthropic</b> (Claude) entraînent les modèles et louent cette puissance. GAFAM = Google, Apple, Facebook (Meta), Amazon, Microsoft.',
+   'Côté modèles : les modèles fermés les plus avancés sont américains (OpenAI, Anthropic, Google) ; les modèles ouverts les plus téléchargés sont chinois (Qwen, DeepSeek).',
    '<b>Accords circulaires</b> : les fournisseurs investissent dans leurs clients, qui leur achètent leurs produits (Microsoft et OpenAI, Amazon et Anthropic, Nvidia et les deux).',
    '<b>Goulet d’étranglement</b> : un point unique dont dépend toute la chaîne, comme TSMC à Taïwan.',
    'États-Unis et Chine s’affrontent par contrôles à l’exportation : puces et machines d’un côté (2019, 2022), gallium, germanium et terres rares de l’autre (2023, 2025).',
@@ -629,7 +632,7 @@ C.ouv={
    exp:`<p>Le prix n’est qu’un critère parmi d’autres. La <b>confidentialité</b> (données médicales, secrets industriels), l’<b>indépendance</b> (un fournisseur peut changer ses prix, ses règles, ou être soumis aux lois d’un autre pays) et la possibilité d’<b>adapter</b> le modèle pèsent souvent plus lourd.</p><p>En pratique, beaucoup d’organisations mélangent&nbsp;: un petit modèle local pour les tâches courantes ou sensibles, une API pour les tâches difficiles.</p>`},
 
   {type:'info', title:'Un modèle a-t-il des opinions ?',
-   html:`<p>Les modèles ne diffèrent pas seulement par leur prix. Posez la même question délicate à plusieurs assistants&nbsp;: vous n’obtiendrez pas la même réponse.</p>
+   html:`<p>Les modèles ne diffèrent pas seulement par leur prix. Pose la même question délicate à plusieurs assistants&nbsp;: tu n’obtiendras pas la même réponse.</p>
    <p>Un modèle n’a pas de convictions comme une personne. Mais ses réponses ont des <b>tendances</b>, qui viennent de trois sources&nbsp;:</p>
    <ul><li>ses <b>données</b> d’entraînement, surtout des textes en anglais écrits dans des pays riches&nbsp;;</li>
    <li>les <b>personnes</b> qui ont noté et corrigé ses réponses pendant l’entraînement&nbsp;;</li>
@@ -1002,7 +1005,7 @@ C.don={
    'Affaire des livres : Anthropic a téléchargé plus de 7 millions de livres piratés, puis acheté, découpé, numérisé et détruit des millions de livres (projet Panama). Accord de 1,5 milliard de dollars, soit environ 3 000 $ par livre.',
    'Jugement de juin 2025 : entraîner sur des livres achetés est un <b>usage loyal</b> (<i>fair use</i>) ; garder des livres piratés est illégal. Un autre juge estime que l’entraînement peut nuire au marché des auteurs.',
    'Images : le style d’un artiste n’est pas protégé, mais les œuvres qui ont servi à l’apprendre le sont. Vague « style Ghibli » en mars 2025, protestation des studios japonais.',
-   '<b>Licence</b> (contrat), <b>opt-in</b> (il faut un oui), <b>opt-out</b> (permis sauf refus). Disney attaque un générateur d’images et loue ses personnages à un autre.',
+   '<b>Licence</b> (contrat), <b>opt-in</b> (il faut un oui), <b>opt-out</b> (permis sauf refus). Disney attaque un générateur d’images tout en négociant avec un autre (accord abandonné en mars 2026).',
    'Fin 2026, rien n’est tranché : presse, artistes et studios attendent leurs jugements. En Suisse, une loi est en préparation.',
    'Après les données vient le <b>comportement</b> : des philosophes rédigent les principes des modèles (la « constitution » de Claude, le <i>Model Spec</i> d’OpenAI) et étudient la question de la conscience des machines.']
 };
@@ -1114,7 +1117,7 @@ C.bia={
 function Q(title,q,opts,exp){ return {type:'mcq',pts:10,tries:1,title:title,q:q,opts:opts,exp:exp}; }
 C.fin={
   title:'Le grand quiz', color:'#262B36', tex:'t-rock',
-  sub:'Vingt-deux questions sur toute l’enquête. Un seul essai par question.',
+  sub:'Vingt-trois questions sur toute l’enquête. Un seul essai par question.',
   lockText:'Termine les sept dossiers pour le débloquer.',
   endTitle:'Tu es remonté à la surface',
   steps:[
@@ -1151,9 +1154,12 @@ C.fin={
   Q('Comparer les modèles','Que signifie «&nbsp;modèle à poids ouverts&nbsp;»&nbsp;?',[
     {t:'On peut télécharger le modèle et le faire tourner sur ses propres machines',ok:true},{t:'Le modèle est gratuit sur un site web'},{t:'Ses données d’entraînement sont forcément publiques'},{t:'Il appartient à un État'}],
    '<p>Les poids sont le fichier de nombres qui constitue le modèle. Les publier ne dit rien des données d’entraînement&nbsp;: un modèle entièrement ouvert, comme Apertus, publie aussi ses données et sa méthode.</p>'),
-  Q('Comparer les modèles','Lequel de ces modèles ne peut pas être téléchargé&nbsp;?',[
-    {t:'Claude (Anthropic)',ok:true},{t:'DeepSeek'},{t:'Qwen (Alibaba)'},{t:'Apertus (EPFL, EPFZ, CSCS)'}],
-   '<p>Claude, comme les modèles phares d’OpenAI et de Google, est un modèle fermé&nbsp;: on y accède par une application ou une API.</p>'),
+  Q('Comparer les modèles','Lequel de ces modèles peut-on télécharger et installer sur ses propres machines&nbsp;?',[
+    {t:'Qwen (Alibaba)',ok:true},{t:'Claude (Anthropic)'},{t:'Gemini (Google)'},{t:'Les modèles GPT de ChatGPT (OpenAI)'}],
+   '<p>Qwen est à poids ouverts, comme DeepSeek, plusieurs modèles de Mistral ou le modèle suisse Apertus. Claude, Gemini et les modèles phares d’OpenAI sont fermés&nbsp;: on y accède par une application ou une API.</p>'),
+  Q('Comparer les modèles','Huit assistants (GPT, Claude, Gemini, Llama, Grok, DeepSeek, Perplexity, Mistral) ont reçu le dilemme du tramway, puis la variante de la passerelle. Qu’ont répondu la plupart&nbsp;?',[
+    {t:'Tirer le levier, mais ne pas pousser l’inconnu',ok:true},{t:'Tirer le levier et pousser l’inconnu'},{t:'Ne rien faire dans les deux cas'},{t:'Refuser de répondre'}],
+   '<p>Sept sur huit tirent le levier et six sur huit refusent de pousser, comme la majorité des humains. Gemini est le seul à pousser&nbsp;; un petit modèle de Mistral ne choisit pas. Ces réponses changent avec la formulation et la version.</p>'),
   Q('Comparer les modèles','Pourquoi un serveur local n’est-il rentable qu’à gros volume&nbsp;?',[
     {t:'Parce qu’il coûte chaque mois la même somme, qu’il serve ou non',ok:true},{t:'Parce que les modèles ouverts sont payants au téléchargement'},{t:'Parce que les API deviennent gratuites à petit volume'},{t:'Parce qu’un serveur local ne peut traiter que de longs textes'}],
    '<p>Coût fixe contre coût variable&nbsp;: une API ne facture que les tokens consommés. On choisit souvent le local pour la confidentialité et l’indépendance plutôt que pour le prix.</p>'),
@@ -1191,6 +1197,9 @@ C.fin={
    'Tu peux rejouer chaque dossier : seul ton meilleur score compte.']
 };
 
+/* quiz : questions présentées dans un ordre qui alterne les thèmes (ordre fixe, pour que la reprise fonctionne) */
+C.fin.steps=[10, 0, 11, 6, 12, 1, 7, 13, 20, 2, 4, 8, 14, 16, 18, 21, 3, 5, 9, 15, 17, 19, 22].map(function(i){return C.fin.steps[i];});
+
 return {
   title:'Derrière la réponse',
   pass:60,
@@ -1209,7 +1218,7 @@ return {
    'Modèles ouverts et prix : « The ATOM Report » (arXiv 2604.07190), 2026 ; Epoch AI ; communiqué EPFL, EPFZ et CSCS sur Apertus, septembre 2025 ; tarifs publics d’Anthropic (platform.claude.com/docs), d’OpenAI, de Mistral AI et de DeepSeek, novembre 2026 ; comparatifs de coût d’hébergement (SemiAnalysis InferenceX, 2026).',
    'Valeurs des modèles : Washington Post, 24 juin 2026 (résumé par The Decoder) ; Anthropic, « Measuring political bias in Claude », novembre 2025 ; New York Times, septembre 2025 ; Röttger et al., « Political Compass or Spinning Arrow? », ACL 2024 ; Pan et Xu, étude sur les modèles chinois ; Awad et al., Nature, 2018, et PNAS, 2020 ; Neuman, Coleman et Shah, « Analyzing the Ethical Logic of Eight Large Language Models », 2025 ; Agarwal, 2026 (prépublication) ; Institut Max-Planck, 2025 ; Cheung, Maier et Lieder, PNAS, 2025 ; Himmelreich, 2026 ; Jin et al., ICLR 2025 ; Atari, Henrich et al., « Which Humans? », 2023.',
    'Fonds monétaire international, janvier 2026 ; Forum économique mondial, « Future of Jobs Report 2025 » ; Brynjolfsson, Chandar et Chen, « Canaries in the Coal Mine? », Stanford Digital Economy Lab, 2025, révisé en août 2026.',
-   'Données d’entraînement : jugements Bartz c. Anthropic et Kadrey c. Meta (juin 2025) ; accord Bartz (septembre 2025, approuvé en juillet 2026) ; Washington Post sur le projet Panama (janvier 2026) ; TechCrunch sur la lettre de CODA (novembre 2025) ; annonce Disney–OpenAI (décembre 2025) ; motion Gössi 24.4596 (Parlement suisse) ; Le Temps, SUISA.',
+   'Données d’entraînement : jugements Bartz c. Anthropic et Kadrey c. Meta (juin 2025) ; accord Bartz (septembre 2025, approuvé en juillet 2026) ; Washington Post sur le projet Panama (janvier 2026) ; TechCrunch sur la lettre de CODA (novembre 2025) ; annonce Disney–OpenAI (décembre 2025) et abandon de l’accord (mars 2026) ; motion Gössi 24.4596 (Parlement suisse) ; Le Temps, SUISA.',
    'Philosophes et comportement des modèles : Anthropic, « Claude’s Constitution », janvier 2026 ; New York Times cité par Daily Nous, juillet 2026 ; Washington Times, juillet 2026 ; Varsity (Cambridge), 2026.',
    'Buolamwini et Gebru, « Gender Shades », 2018 ; Reuters, enquête sur l’outil de recrutement d’Amazon, 2018 ; UNESCO, 2024 ; ONU Femmes, juin 2026 ; Bloomberg, 2023.'],
   sourceNote:'Les chiffres sur l’IA changent vite. Ceux de ce jeu ont été vérifiés en novembre 2026 ; plusieurs sont des estimations ou des prévisions, signalées comme telles.'
