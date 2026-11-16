@@ -661,7 +661,7 @@ C.ouv={
     {t:'Une partie des tests sont réalisés par les entreprises elles-mêmes.',ok:true},
     {t:'Les modèles tirent leurs réponses politiques au hasard.'},
     {t:'Un modèle d’IA ne peut avoir aucune tendance, puisque c’est une machine.'}],
-   exp:`<p>Les quatre premières raisons sont vraies.</p>
+   exp:`<p>Quatre de ces raisons sont vraies. Les deux autres sont fausses&nbsp;: un modèle ne répond pas au hasard, et une machine peut très bien avoir des tendances.</p>
    <ul><li>Des chercheurs ont montré qu’un modèle forcé de choisir entre «&nbsp;d’accord&nbsp;» et «&nbsp;pas d’accord&nbsp;» ne répond pas comme lorsqu’il s’exprime librement&nbsp;: ils parlent de «&nbsp;girouette&nbsp;» plutôt que de «&nbsp;boussole&nbsp;».</li>
    <li>En 2025, le <i>New York Times</i> a montré que des changements de consignes avaient déplacé vers la droite les réponses de Grok à plus de la moitié de ses questions, surtout sur l’économie et l’État.</li>
    <li>Il existe une autre forme de couleur politique&nbsp;: les modèles chinois évitent ou refusent certaines questions sur la Chine (Tiananmen, Taïwan, Xinjiang).</li></ul>
@@ -855,8 +855,8 @@ C.tra={
     {t:'Les entreprises d’IA et leurs fournisseurs, payés en abonnements et en tokens',ok:true},
     {t:'Personne&nbsp;: un gain de temps ne crée aucune richesse'},
     {t:'Tout le monde à parts égales, automatiquement'}],
-   exp:`<p>Les quatre premiers peuvent en recevoir une part, et rien ne fixe ce partage à l’avance.</p>
-   <p>Le quatrième est souvent oublié. Chaque tâche confiée à un modèle se paie&nbsp;: une partie de ce que l’entreprise économise part chez le fournisseur du modèle, puis remonte la chaîne vers les géants du cloud et les fabricants de puces (dossier «&nbsp;Puces et puissances&nbsp;»).</p>
+   exp:`<p>Propriétaires, salariés, clients et entreprises d’IA peuvent chacun en recevoir une part, et rien ne fixe ce partage à l’avance.</p>
+   <p>Les entreprises d’IA sont le destinataire qu’on oublie souvent. Chaque tâche confiée à un modèle se paie&nbsp;: une partie de ce que l’entreprise économise part chez le fournisseur du modèle, puis remonte la chaîne vers les géants du cloud et les fabricants de puces (dossier «&nbsp;Puces et puissances&nbsp;»).</p>
    <p>Ce destinataire est très concentré, et souvent situé ailleurs&nbsp;: quand une entreprise suisse remplace des heures de travail par des tokens, une partie de la valeur qui restait dans le pays sous forme de salaires est versée à quelques fournisseurs étrangers.</p>
    <p>Le Fonds monétaire international avertit que, sans politiques publiques, l’IA risque d’accroître les inégalités, entre les personnes comme entre les pays.</p>`,
    src:'Fonds monétaire international (janvier 2026).'},
@@ -1148,7 +1148,7 @@ C.fin={
    '<p>De 415 TWh en 2024 à environ 945 TWh en 2030.</p>'),
   Q('Énergie et climat','Laquelle de ces opérations consomme le plus d’énergie&nbsp;?',[
     {t:'Générer une minute de vidéo',ok:true},{t:'Générer une image'},{t:'Poser dix questions en texte'},{t:'Recharger un téléphone'}],
-   '<p>Une minute de vidéo&nbsp;: plusieurs centaines de wattheures. Une recharge de téléphone&nbsp;: environ 15 Wh. Une image ou dix questions en texte&nbsp;: quelques wattheures au plus.</p>'),
+   '<p>Une minute de vidéo&nbsp;: de quelques centaines de wattheures à plusieurs kilowattheures selon le modèle. Une recharge de téléphone&nbsp;: environ 15 Wh. Une image ou dix questions en texte&nbsp;: quelques wattheures au plus.</p>'),
   Q('Eau','Au Texas, quel usage consomme aujourd’hui le plus d’eau&nbsp;?',[
     {t:'L’irrigation agricole',ok:true},{t:'Les centres de données'},{t:'Les piscines privées'},{t:'Le lavage des voitures'}],
    '<p>L’irrigation utilise 50 à 60 % de l’eau. Les centres de données, moins de 1 % aujourd’hui, mais leur part augmente vite.</p>'),
@@ -1208,13 +1208,13 @@ C.fin={
    '<p>Ce biais est humain : trop faire confiance à une machine. Une IA n’est pas objective par nature ; elle reflète ses données.</p>')
   ],
   notes:[
-   'Derrière une réponse d’IA, il y a de l’énergie et de l’eau, une chaîne industrielle mondiale, du travail humain et des données.',
+   'Derrière une réponse d’IA, il y a de l’énergie et de l’eau, une chaîne industrielle mondiale, des modèles qui n’ont ni le même prix ni les mêmes valeurs, du travail humain et des données.',
    'Aucun de ces sujets n’a de réponse simple : chacun demande de connaître des ordres de grandeur, de comparer des points de vue et de vérifier ses sources.',
    'Tu peux rejouer chaque dossier : seul ton meilleur score compte.']
 };
 
 /* quiz : questions présentées dans un ordre qui alterne les thèmes (ordre fixe, pour que la reprise fonctionne) */
-C.fin.steps=[10, 0, 11, 6, 12, 1, 7, 13, 20, 2, 4, 8, 14, 16, 18, 21, 3, 5, 9, 15, 17, 19, 22].map(function(i){return C.fin.steps[i];});
+C.fin.steps=[10, 0, 18, 6, 12, 1, 7, 13, 20, 2, 4, 8, 14, 16, 11, 21, 3, 5, 9, 15, 17, 19, 22].map(function(i){return C.fin.steps[i];});
 
 return {
   title:'Derrière la réponse',
