@@ -846,6 +846,21 @@ C.tra={
     {t:'J’interdis l’IA dans l’agence.', out:'<p><b>Tout de suite :</b> rien ne change, et tu évites les erreurs de l’IA.</p><p><b>Dans cinq ans :</b> tes concurrents livrent plus vite et moins cher. Et tes employés l’utilisent peut-être en cachette, sans règles.</p>'}],
    keep:'<p><b>À retenir :</b> l’effet de l’IA sur l’emploi dépend de choix humains. Remplacer ou compléter, former ou non, partager les gains ou non : ce sont des décisions d’entreprises, de syndicats et d’États.</p>'},
 
+  {type:'multi', pts:10, title:'Qui profite des gains ?',
+   q:'Grâce à une IA, une entreprise fait le même travail en moins de temps. Qui peut recevoir la richesse ainsi gagnée&nbsp;?',
+   opts:[
+    {t:'Les propriétaires de l’entreprise, sous forme de bénéfices',ok:true},
+    {t:'Les salariés, sous forme de salaires plus élevés ou de temps libre',ok:true},
+    {t:'Les clients, sous forme de prix plus bas',ok:true},
+    {t:'Les entreprises d’IA et leurs fournisseurs, payés en abonnements et en tokens',ok:true},
+    {t:'Personne&nbsp;: un gain de temps ne crée aucune richesse'},
+    {t:'Tout le monde à parts égales, automatiquement'}],
+   exp:`<p>Les quatre premiers peuvent en recevoir une part, et rien ne fixe ce partage à l’avance.</p>
+   <p>Le quatrième est souvent oublié. Chaque tâche confiée à un modèle se paie&nbsp;: une partie de ce que l’entreprise économise part chez le fournisseur du modèle, puis remonte la chaîne vers les géants du cloud et les fabricants de puces (dossier «&nbsp;Puces et puissances&nbsp;»).</p>
+   <p>Ce destinataire est très concentré, et souvent situé ailleurs&nbsp;: quand une entreprise suisse remplace des heures de travail par des tokens, une partie de la valeur qui restait dans le pays sous forme de salaires est versée à quelques fournisseurs étrangers.</p>
+   <p>Le Fonds monétaire international avertit que, sans politiques publiques, l’IA risque d’accroître les inégalités, entre les personnes comme entre les pays.</p>`,
+   src:'Fonds monétaire international (janvier 2026).'},
+
   {type:'multi', pts:10, title:'Les travailleurs invisibles',
    q:'Qui travaille, souvent sans qu’on le voie, pour qu’un chatbot fonctionne&nbsp;?',
    opts:[
@@ -884,7 +899,8 @@ C.tra={
    'Forum économique mondial : 170 millions d’emplois créés et 92 millions supprimés d’ici 2030 selon les employeurs. Ce sont des prévisions, et les emplois créés ne vont pas forcément aux personnes qui perdent le leur.',
    'Étude de Stanford : l’emploi des 22–25 ans dans les métiers les plus exposés est inférieur de 19 % (août 2026) à celui des métiers peu exposés, surtout parce que les entreprises embauchent moins de débutants. C’est un signal d’alerte, pas une preuve de cause.',
    '<b>Automatisation</b> (l’IA remplace) ou <b>augmentation</b> (l’IA complète) : l’emploi résiste là où l’IA complète. C’est un choix humain, pas une fatalité technique.',
-   'L’IA repose sur des travailleurs invisibles (étiquetage, modération, chantiers). Les compétences qui montent : vérifier, juger, formuler, coopérer.']
+   'L’IA repose sur des travailleurs invisibles (étiquetage, modération, chantiers). Les compétences qui montent : vérifier, juger, formuler, coopérer.',
+   'Les gains de productivité peuvent aller aux propriétaires, aux salariés, aux clients, et aux entreprises d’IA et à leurs fournisseurs (abonnements, tokens, cloud, puces). Ce partage est un choix, pas une loi de la technique.']
 };
 
 /* =====================================================================
