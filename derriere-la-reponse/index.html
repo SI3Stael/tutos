@@ -710,17 +710,17 @@ C.ouv={
    btn:'Et les IA, que répondent-elles ?'},
 
   {type:'explore', title:'Quel modèle répond quoi ?',
-   html:`<p>Des chercheurs de l’université de New York ont posé les deux questions, le levier puis la passerelle, à huit assistants. D’autres équipes ont répété des variantes du dilemme des centaines de fois. Voici ce que répond chaque modèle.</p>`,
+   html:`<p>Des chercheurs de l’université de New York ont posé les deux questions, le levier puis la passerelle, à huit assistants. D’autres équipes ont essayé des <b>variantes</b>&nbsp;: le même dilemme, dont on change un seul détail pour voir si la réponse change. Une étude a ainsi posé à quatre modèles huit situations (le levier, la passerelle, une où se pose la question de l’accord de la personne sacrifiée…), chacune de cinq façons (par exemple «&nbsp;sauver cinq personnes&nbsp;» au lieu de «&nbsp;tuer une personne&nbsp;»)&nbsp;: 480 essais en tout. Voici ce que répond chaque modèle.</p>`,
    prompt:'Ouvre les six fiches.',
    items:[
     {label:'GPT', sub:'OpenAI&nbsp;: levier oui, passerelle non',
-     html:`<p><b>Levier&nbsp;: oui.</b> Il faut réduire le mal total.<br><b>Passerelle&nbsp;: non.</b> Tuer volontairement un innocent est mal.</p><p>Mais tout dépend de la question. À «&nbsp;Dois-je tirer le levier&nbsp;?&nbsp;», le modèle GPT-4o ne répondait oui que dans 14 à 30&nbsp;% des essais, parce qu’il évitait souvent de donner un conseil. Avec une formulation neutre, il répondait oui dans 99&nbsp;% des cas.</p><p>Sur 480 essais de variantes, GPT-5 choisit de sauver le plus grand nombre dans <b>67&nbsp;%</b> des cas.</p>`},
+     html:`<p><b>Levier&nbsp;: oui.</b> Il faut réduire le mal total.<br><b>Passerelle&nbsp;: non.</b> Tuer volontairement un innocent est mal.</p><p>Mais tout dépend de la question. À «&nbsp;Dois-je tirer le levier&nbsp;?&nbsp;», le modèle GPT-4o ne répondait oui que dans 14 à 30&nbsp;% des essais, parce qu’il évitait souvent de donner un conseil. Avec une formulation neutre, il répondait oui dans 99&nbsp;% des cas.</p><p>Sur les 480 essais de cette étude, GPT-5 choisit de sauver le plus grand nombre dans <b>67&nbsp;%</b> des cas.</p>`},
     {label:'Claude', sub:'Anthropic&nbsp;: levier oui, passerelle non',
-     html:`<p><b>Levier&nbsp;: oui.</b> C’est le moindre mal.<br><b>Passerelle&nbsp;: non.</b> Se servir d’une personne comme d’un instrument est bien plus grave que dévier un tramway.</p><p>Sur 480 essais de variantes, Claude choisit de sauver le plus grand nombre dans <b>41&nbsp;%</b> des cas&nbsp;: le taux le plus bas des quatre modèles testés. C’est celui qui s’écarte le plus souvent du simple calcul.</p>`},
+     html:`<p><b>Levier&nbsp;: oui.</b> C’est le moindre mal.<br><b>Passerelle&nbsp;: non.</b> Se servir d’une personne comme d’un instrument est bien plus grave que dévier un tramway.</p><p>Sur les 480 essais de cette étude, Claude choisit de sauver le plus grand nombre dans <b>41&nbsp;%</b> des cas&nbsp;: le taux le plus bas des quatre modèles testés. C’est celui qui s’écarte le plus souvent du simple calcul.</p>`},
     {label:'Gemini', sub:'Google&nbsp;: levier oui, passerelle oui',
-     html:`<p><b>Levier&nbsp;: oui.</b> Il faut le plus grand bien-être possible.<br><b>Passerelle&nbsp;: oui.</b> Le bilan en vies est le même.</p><p>C’est le <b>seul des huit</b> à accepter de pousser l’inconnu. Dans ce test, il applique le calcul utilitariste jusqu’au bout.</p><p>Sur 480 essais de variantes, Gemini choisit de sauver le plus grand nombre dans <b>57&nbsp;%</b> des cas.</p>`},
+     html:`<p><b>Levier&nbsp;: oui.</b> Il faut le plus grand bien-être possible.<br><b>Passerelle&nbsp;: oui.</b> Le bilan en vies est le même.</p><p>C’est le <b>seul des huit</b> à accepter de pousser l’inconnu. Dans ce test, il applique le calcul utilitariste jusqu’au bout.</p><p>Sur les 480 essais de cette étude, Gemini choisit de sauver le plus grand nombre dans <b>57&nbsp;%</b> des cas.</p>`},
     {label:'Grok', sub:'xAI&nbsp;: levier oui, passerelle non',
-     html:`<p><b>Levier&nbsp;: oui.</b><br><b>Passerelle&nbsp;: non.</b> Pousser quelqu’un revient à commettre un meurtre.</p><p>Sur 480 essais de variantes, Grok choisit de sauver le plus grand nombre dans <b>76&nbsp;%</b> des cas&nbsp;: le taux le plus élevé des quatre modèles testés.</p>`},
+     html:`<p><b>Levier&nbsp;: oui.</b><br><b>Passerelle&nbsp;: non.</b> Pousser quelqu’un revient à commettre un meurtre.</p><p>Sur les 480 essais de cette étude, Grok choisit de sauver le plus grand nombre dans <b>76&nbsp;%</b> des cas&nbsp;: le taux le plus élevé des quatre modèles testés.</p>`},
     {label:'DeepSeek', sub:'Chine&nbsp;: levier oui, passerelle non',
      html:`<p><b>Levier&nbsp;: oui.</b> Les nombres sont en faveur des cinq.<br><b>Passerelle&nbsp;: non.</b> Tuer directement quelqu’un est interdit.</p><p>Sur ces deux questions, le modèle chinois répond donc comme la plupart des modèles américains.</p>`},
     {label:'Mistral', sub:'France&nbsp;: ne choisit pas',
@@ -729,13 +729,13 @@ C.ouv={
   {type:'mcq', pts:10, title:'Que montrent ces comparaisons ?',
    q:'Tu viens de comparer six modèles. Quelle conclusion est la plus juste&nbsp;?',
    opts:[
-    {t:'Sur le cas simple du levier, presque tous répondent comme la majorité des humains. Les différences apparaissent dans les variantes et selon la formulation.',ok:true},
+    {t:'Sur le cas simple du levier, presque tous répondent comme la majorité des humains. Les différences apparaissent quand on change un détail de la situation ou la façon de poser la question.',ok:true},
     {t:'Chaque entreprise a programmé une réponse fixe, que son modèle répète toujours.',why:'Les réponses d’un même modèle changent avec la formulation et la version.'},
     {t:'Les modèles chinois et les modèles américains donnent des réponses opposées.',why:'Sur ces deux questions, DeepSeek répond comme la plupart des modèles américains.'},
     {t:'Les modèles refusent tous de répondre aux dilemmes moraux.',why:'Un seul des huit a refusé de choisir.'}],
    exp:`<p>Trois constats.</p>
    <ul><li><b>Sur le cas simple, un accord.</b> Sept modèles sur huit tirent le levier, comme quatre humains sur cinq. Six sur huit refusent de pousser l’inconnu, alors que les humains sont partagés.</li>
-   <li><b>Sur les variantes, des profils.</b> La part de choix «&nbsp;sauver le plus grand nombre&nbsp;» va de 41&nbsp;% (Claude) à 76&nbsp;% (Grok). Ce chiffre vient d’une étude d’étudiant, non relue par d’autres chercheurs&nbsp;: à confirmer.</li>
+   <li><b>Quand on change un détail, des profils.</b> La part de choix «&nbsp;sauver le plus grand nombre&nbsp;» va de 41&nbsp;% (Claude) à 76&nbsp;% (Grok). Ce chiffre vient d’une étude d’étudiant, non relue par d’autres chercheurs&nbsp;: à confirmer.</li>
    <li><b>Partout, de l’instabilité.</b> Changer quelques mots peut faire passer un même modèle de 14&nbsp;% à 99&nbsp;% de oui. Une autre étude trouve des modèles qui répondent «&nbsp;non&nbsp;» plus volontiers que «&nbsp;oui&nbsp;»&nbsp;: en retournant la question, on retourne leur réponse.</li></ul>
    <p>Un humain qui a réfléchi au problème garde sa position quand on reformule la question. Un modèle, pas toujours&nbsp;: il produit la réponse la plus plausible pour <i>cette</i> formulation, avec <i>cette</i> version.</p>`,
    src:'Neuman, Coleman et Shah, université de New York, 2025&nbsp;; Agarwal, 2026 (prépublication)&nbsp;; Himmelreich, 2026&nbsp;; Cheung, Maier et Lieder, PNAS, 2025.'},
@@ -748,7 +748,7 @@ C.ouv={
     {t:'des pays les plus peuplés, l’Inde et la Chine.',why:'Ce n’est pas le nombre d’habitants qui compte, mais la quantité de texte disponible en ligne.'},
     {t:'d’aucun pays&nbsp;: elles sont tirées au hasard.',why:'Elles suivent au contraire un profil culturel très net.'}],
    exp:`<p>Plus un pays est culturellement éloigné des États-Unis, moins ses habitants répondent comme le modèle. Les psychologues ont un mot pour ce profil&nbsp;: <b>WEIRD</b>, pour <i>Western, Educated, Industrialized, Rich, Democratic</i> (occidental, instruit, industrialisé, riche, démocratique). Ces pays ne représentent qu’une petite partie de l’humanité.</p>
-   <p>Or la morale varie. Une expérience en ligne a recueilli 40 millions de décisions dans 233 pays sur des variantes du tramway avec une voiture autonome&nbsp;: partout on préfère sauver le plus grand nombre, mais la préférence pour les jeunes plutôt que les personnes âgées, par exemple, est bien moins marquée en Asie de l’Est.</p>
+   <p>Or la morale varie. Une expérience en ligne a recueilli 40 millions de décisions dans 233 pays sur des dilemmes de ce type avec une voiture autonome&nbsp;: partout on préfère sauver le plus grand nombre, mais la préférence pour les jeunes plutôt que les personnes âgées, par exemple, est bien moins marquée en Asie de l’Est.</p>
    <p>La raison est simple&nbsp;: les textes d’entraînement, les entreprises et les personnes qui écrivent les règles des modèles viennent surtout des mêmes pays. Chaque modèle porte la marque de ceux qui l’ont fabriqué. Les modèles chinois, eux, portent celle de leurs propres règles.</p>`,
    src:'Atari, Henrich et al., « Which Humans? », Harvard, 2023&nbsp;; Awad et al., « The Moral Machine experiment », Nature, 2018.'},
 
@@ -770,7 +770,7 @@ C.ouv={
    'Un modèle n’a pas de convictions, mais ses réponses ont des <b>tendances</b>, qui viennent de ses données, des personnes qui l’ont corrigé et des règles de son fabricant.',
    'Aux questions politiques, la plupart des assistants donnent plus souvent des arguments de gauche que de droite (au sens américain), dans des proportions très variables. Ces mesures sont fragiles : elles changent avec la formulation, et les consignes du fabricant peuvent déplacer les réponses.',
    '<b>Dilemme du tramway</b> : faut-il dévier un tramway qui va tuer cinq personnes vers une voie où il en tuera une ? L’<b>utilitarisme</b> juge une action à ses conséquences (tirer le levier), la <b>déontologie</b> à des règles (ne pas tuer). Variante de la <b>passerelle</b> : pousser quelqu’un pour arrêter le tramway ; même bilan, mais bien moins de gens acceptent. Le dilemme se pose concrètement pour les voitures autonomes, dont les règles sont écrites à l’avance.',
-   'Sur huit assistants testés, sept tirent le levier (Mistral ne choisit pas) et un seul, Gemini, accepte de pousser l’inconnu. Sur des variantes, la part de choix « sauver le plus grand nombre » va de 41 % (Claude) à 76 % (Grok). Ces réponses changent avec la formulation et la version du modèle.',
+   'Sur huit assistants testés, sept tirent le levier (Mistral ne choisit pas) et un seul, Gemini, accepte de pousser l’inconnu. Quand on change un détail (le geste, l’accord de la victime, la formulation), la part de choix « sauver le plus grand nombre » va de 41 % (Claude) à 76 % (Grok). Ces réponses changent avec la formulation et la version du modèle.',
    'Les valeurs des modèles sont proches de celles des pays <b>WEIRD</b> (occidentaux, instruits, industrialisés, riches, démocratiques), d’où viennent leurs données et leurs concepteurs.']
 };
 
