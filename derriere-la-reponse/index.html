@@ -1101,13 +1101,13 @@ C.bia={
   {type:'multi', pts:10, title:'Réduire les biais',
    q:'Quelles pratiques réduisent réellement les biais d’une IA&nbsp;?',
    opts:[
-    {t:'Tester les résultats séparément pour chaque groupe de personnes',ok:true},
+    {t:'Vérifier les résultats séparément pour chaque groupe (par exemple : quelle part des femmes et quelle part des hommes l’IA retient-elle ?)',ok:true},
     {t:'Diversifier et rééquilibrer les données d’entraînement',ok:true},
     {t:'Garder un humain responsable des décisions importantes',ok:true},
     {t:'Dire avec quelles données le système a été entraîné',ok:true},
     {t:'Supprimer simplement la case « sexe » ou « origine »'},
     {t:'Ajouter beaucoup plus de données du même type'}],
-   exp:`<p>Supprimer une case ne suffit pas, à cause des variables proxy. Ajouter des données du même type renforce le déséquilibre.</p><p>Ce qui marche&nbsp;: mesurer groupe par groupe, corriger les données, rendre le système transparent et laisser la responsabilité à des humains. En Europe, la loi impose des contrôles de ce genre pour les usages à haut risque, comme le recrutement.</p>`},
+   exp:`<p>Supprimer une case ne suffit pas, à cause des variables proxy. Ajouter des données du même type renforce le déséquilibre.</p><p>Ce qui marche&nbsp;: compter séparément les résultats de chaque groupe (femmes et hommes, par exemple) pour repérer un écart, corriger les données, rendre le système transparent et laisser la responsabilité à des humains. En Europe, la loi impose des contrôles de ce genre pour les usages à haut risque, comme le recrutement.</p>`},
 
   {type:'mcq', pts:10, title:'Et toi, devant ton écran',
    q:'Tu prépares un exposé avec un chatbot. Quel réflexe te protège le mieux&nbsp;?',
@@ -1818,8 +1818,8 @@ R.hire=function(ctx){
      txt:'<b>Ce que l’IA a appris :</b> « dans le passé, les personnes embauchées étaient surtout des hommes, donc être un homme est un bon signe ». Hugo (compétences 6 sur 10) passe devant Léa (9 sur 10).'},
     {id:'B',label:'Les mêmes CV, en supprimant la case « sexe »',f:function(x){return x.c-(x.w?3:0);},
      txt:'<b>Ce que l’IA a appris :</b> elle ne voit plus la case « sexe », mais elle a remarqué que les mots « féminine » ou « femmes » étaient rares dans les CV retenus. Elle pénalise ces mots. Léa, la meilleure candidate, reste dehors.'},
-    {id:'C',label:'Des CV rééquilibrés, puis un test des résultats groupe par groupe',f:function(x){return x.c;},
-     txt:'<b>Ce que l’IA a appris :</b> avec autant d’exemples de femmes que d’hommes retenus, seul le niveau de compétence prédit l’embauche. Et comme l’équipe vérifie les résultats pour chaque groupe, elle verrait un nouvel écart.'}
+    {id:'C',label:'Des CV rééquilibrés, et tu compares ensuite la part de femmes et d’hommes invités',f:function(x){return x.c;},
+     txt:'<b>Ce que l’IA a appris :</b> tu lui as montré autant de femmes que d’hommes parmi les personnes embauchées. Être un homme n’est plus un « bon signe » : seul le niveau de compétence compte.<br><b>Ta vérification :</b> avant de mettre l’IA en service, tu regardes qui elle invite. Ici, deux femmes sur trois candidates et un homme sur trois candidats : aucun groupe n’est défavorisé. Si un jour elle se mettait à écarter les femmes, ce simple comptage le montrerait tout de suite.'}
   ];
   var tried={}, nt=0;
   var out=el('div',{'aria-live':'polite',html:'<p class="hint">Choisis un jeu de données pour entraîner l’IA, puis regarde qui elle invite en entretien.</p>'});
