@@ -255,7 +255,7 @@ C.env={
     {t:'Non, et il n’a aucun lien avec le réchauffement actuel.',why:'Le réchauffement actuel vient justement de son renforcement.'},
     {t:'Oui. Il est apparu avec les premières usines.',why:'L’effet de serre existe depuis bien avant l’humanité.'}],
    exp:`<p>L’effet de serre maintient une température qui permet la vie. Quand la concentration des GES augmente trop, la chaleur piégée augmente aussi&nbsp;: c’est le réchauffement climatique.</p>`,
-   src:'cours « Numérique et GES ».'},
+   src:'Arcep, « Gaz à effet de serre, empreinte carbone : quelle différence ? » ; GIEC, 6<sup>e</sup> rapport de synthèse (2023).'},
 
   {type:'mcq', pts:10, fixed:true, title:'Où en est-on ?',
    q:'D’après le rapport du GIEC de 2023, de combien la surface du globe s’est-elle déjà réchauffée depuis la fin du 18<sup>e</sup> siècle&nbsp;?',
@@ -273,7 +273,7 @@ C.env={
     {t:'Un steak de bœuf', v:'≈ 1,8 kg', n:1.8},
     {t:'Une heure de série en streaming', v:'≈ 0,055 kg', n:0.055}],
    exp:`<p>Les barres sont dessinées sur une échelle resserrée, sinon les dernières seraient invisibles&nbsp;: l’avion émet près de 4 000 fois plus que l’heure de streaming.</p><p>À retenir&nbsp;: pour un appareil numérique, <b>la fabrication pèse bien plus lourd que l’usage</b>. Fabriquer un smartphone émet environ 70 kg de CO₂eq&nbsp;; le recharger une fois, environ 0,002 kg.</p>`,
-   src:'activité 1 et corrigé du cours (myclimate, ADEME, Le Monde, WWF).'},
+   src:'calculateurs de myclimate (avion) et de l’ADEME (voiture), application fédérale « Émissions de CO₂ estimées des bâtiments », WWF Suisse, Le Monde (2023), Carbon Trust (2021).'},
 
   {type:'match', pts:10, title:'Les bonnes unités',
    q:'Associe chaque unité à ce qu’elle mesure.',
@@ -283,7 +283,7 @@ C.env={
     {a:'<b>Watt (W)</b>', b:'Une puissance : un micro-ondes, c’est environ 1 000 W'},
     {a:'<b>Wattheure (Wh)</b>', b:'Une énergie consommée : une batterie d’ordinateur portable, c’est environ 50 Wh'}],
    exp:`<p>1 W = 1 joule par seconde. 1 Wh = 3 600 J&nbsp;: c’est l’énergie d’un appareil de 1 W allumé pendant une heure. Ne confonds pas la puissance (W), qui dit à quelle vitesse on consomme, et l’énergie (Wh), qui dit combien on a consommé.</p>`,
-   src:'cours « Numérique et GES ».'},
+   src:'Système international d’unités (Bureau international des poids et mesures).'},
 
   {type:'mcq', pts:10, title:'Le poids du numérique',
    q:'Dans le monde, le numérique représente 3 à 4 % des émissions de gaz à effet de serre. C’est comparable à…',
@@ -293,7 +293,7 @@ C.env={
     {t:'l’ensemble de l’agriculture mondiale',why:'L’agriculture pèse nettement plus lourd.'},
     {t:'une seule grande ville',why:'C’est beaucoup plus que cela.'}],
    exp:`<p>3 à 4 % des émissions mondiales, soit l’équivalent de l’aviation civile. Et cette part augmente avec la multiplication des appareils, des vidéos et, désormais, de l’IA.</p>`,
-   src:'cours « Numérique et GES » (ARCEP, ADEME).'},
+   src:'ADEME et Arcep, étude de 2022 ; Arcep, 2020, pour la comparaison avec le transport aérien.'},
 
   {type:'calc', title:'Et une question posée à une IA ?',
    html:`<p>En 2025, deux entreprises ont publié leurs propres mesures pour une requête en texte&nbsp;:</p>
@@ -355,8 +355,8 @@ C.env={
     {t:'Faire le tri dans son cloud, ses mails et ses conversations', b:'y', why:'Réduire les données stockées réduit le travail des centres de données.'},
     {t:'Changer de smartphone chaque année pour un modèle « plus économe »', b:'n', why:'Fabriquer l’appareil émet environ 70 kg de CO₂eq. Aucune économie à l’usage ne compense une fabrication de plus.'},
     {t:'Débrancher son chargeur la nuit, sans rien changer d’autre', b:'n', why:'Une recharge complète, c’est environ 0,002 kg de CO₂eq. Le geste n’est pas mauvais, mais son effet est minuscule face à la fabrication.'}],
-   exp:`<p>Les trois leviers du cours&nbsp;: <b>faire durer le matériel</b>, <b>réduire la taille des données</b> échangées et stockées, et préférer <b>le filaire au Wi-Fi, le Wi-Fi à la 4G ou 5G</b>.</p>`,
-   src:'cours « Numérique et GES ».'}
+   exp:`<p>Les trois leviers recommandés par l’ADEME et l’Arcep&nbsp;: <b>faire durer le matériel</b>, <b>réduire la taille des données</b> échangées et stockées, et préférer <b>le filaire au Wi-Fi, le Wi-Fi à la 4G ou 5G</b>.</p>`,
+   src:'ADEME, guide « En route vers la sobriété numérique » (2022) ; Arcep, fiche pratique sur l’impact du numérique au quotidien.'}
   ],
   notes:[
    'L’effet de serre est naturel et indispensable ; le problème est l’excès de GES dû aux activités humaines. Réchauffement déjà atteint : +1,1 °C. Objectif suisse : zéro net en 2050.',
@@ -1224,9 +1224,10 @@ return {
   order:['env','eau','geo','ouv','tra','don','bia','fin'],
   chapters:C,
   sources:[
-   'Cours « Numérique et GES », activité 1 et corrigé (documents de l’enseignant·e) ; GIEC, 6<sup>e</sup> rapport de synthèse, 2023.',
+   'Climat et numérique : GIEC, 6<sup>e</sup> rapport de synthèse, 2023 ; ADEME et Arcep, étude sur l’empreinte environnementale du numérique, 2022 ; Arcep, 2020 ; ADEME, « En route vers la sobriété numérique », 2022 ; Association des entreprises électriques suisses, teneur en CO₂ du mix électrique, 2025.',
+   'Ordres de grandeur de l’activité de classement : calculateurs de myclimate et de l’ADEME ; « Émissions de CO₂ estimées des bâtiments » (Confédération) ; WWF Suisse ; Le Monde, 10 mars 2023 ; Carbon Trust, 2021.',
    'Agence internationale de l’énergie, « Energy and AI », avril 2025.',
-   'Google, « Measuring the environmental impact of AI inference », août 2025 ; OpenAI, juin 2025.',
+   'Google, « Measuring the environmental impact of AI inference », août 2025 ; Sam Altman (OpenAI), « The Gentle Singularity », juin 2025.',
    'Énergie par usage : MIT Technology Review, « We did the math on AI’s energy footprint », mai 2025 ; « Lights, Camera, Carbon » (arXiv 2607.04553), 2026 ; Strzelecki, « Generating Music, AI and Energy », 2025 ; Patterson et al., 2021 ; Epoch AI ; Horwitz, « Estimating the carbon footprint of computational fluid dynamics » (arXiv 2402.05985), 2024 ; NASA.',
    'Houston Advanced Research Center, rapport sur l’eau et les centres de données au Texas, janvier 2026 ; Université du Texas à Austin, Bureau of Economic Geology, mai 2026 ; Texas A&amp;M AgriLife, « Water Value in South Central Texas », 2019 ; Texas Farm Bureau, 2026 ; Texas Observer, février 2026 ; Inside Climate News, avril 2026.',
    'Parts de marché d’ASML, TSMC et Nvidia : Barron’s, MarketScreener, IDC cité par Reuters, 2025–2026.',
