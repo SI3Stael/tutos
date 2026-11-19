@@ -222,6 +222,12 @@ a{color:inherit}
 .grid4 .tag{display:block;margin-top:6px;font-weight:700;color:var(--c);font-size:.82rem}
 @media(max-width:620px){.grid4{font-size:.85rem;border-spacing:4px}.grid4 th,.grid4 td{padding:6px}}
 
+.fsmsg{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);z-index:50;max-width:min(560px,92vw);background:var(--card);border:2px solid var(--ink);border-radius:10px;padding:14px 16px;box-shadow:0 6px 24px rgba(0,0,0,.18);display:flex;gap:12px;align-items:center}
+.fsmsg p{margin:0;font-size:.95rem}
+:fullscreen{overflow-y:auto;background:var(--paper)}
+:-webkit-full-screen{overflow-y:auto;background:var(--paper)}
+@media (max-width:560px){#fsbtn{display:none}}
+
 </style>
 </head>
 <body>
@@ -1342,10 +1348,34 @@ function mount(nodes,color){
   nodes.forEach(function(n){ if(n) app.appendChild(n); });
   window.scrollTo(0,0);
 }
+/* ---- plein écran ---- */
+function fsEl(){ return document.fullscreenElement||document.webkitFullscreenElement||null; }
+function fsOk(){ return !!(document.fullscreenEnabled||document.webkitFullscreenEnabled); }
+function fsLabel(){ return fsEl()?'Quitter le plein écran':'Plein écran'; }
+function fsToggle(){
+  if(!fsOk()){
+    msgBox('Le plein écran est bloqué par la page qui contient le jeu. Dans Moodle, l’enseignant·e peut afficher le paquet SCORM « dans une nouvelle fenêtre ». Sinon, la touche F11 agrandit tout le navigateur.');
+    return;
+  }
+  var d=document, r=d.documentElement;
+  try{
+    if(fsEl()){ (d.exitFullscreen||d.webkitExitFullscreen).call(d); }
+    else { var pr=(r.requestFullscreen||r.webkitRequestFullscreen).call(r); if(pr&&pr.catch) pr.catch(function(){}); }
+  }catch(e){}
+}
+function fsSync(){ var b=document.getElementById('fsbtn'); if(b){ b.textContent=fsLabel(); b.setAttribute('aria-pressed',fsEl()?'true':'false'); } }
+document.addEventListener('fullscreenchange',fsSync);
+document.addEventListener('webkitfullscreenchange',fsSync);
+function msgBox(msg){
+  var old=document.getElementById('fsmsg'); if(old) old.remove();
+  var box=el('div',{id:'fsmsg',class:'fsmsg',role:'status'},[el('p',{text:msg}),el('button',{class:'btn small',onclick:function(){box.remove();},text:'Compris'})]);
+  document.body.appendChild(box);
+}
 function topBar(){
   return el('header',{class:'top'},[
     el('button',{class:'brand',onclick:hub,text:DATA.title}),
     el('span',{class:'pill',title:'Ton score global',text:'Score : '+pct()+' %'}),
+    el('button',{class:'btn small',id:'fsbtn','aria-pressed':fsEl()?'true':'false',title:'Afficher le jeu sur tout l’écran (Échap pour sortir)',onclick:fsToggle,text:fsLabel()}),
     el('button',{class:'btn small',onclick:carnet,text:'Mon carnet'})
   ]);
 }
